@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>欢迎加入 Hugo NexT 组织！</title><url>/post/external-link/</url><categories><category>示例文章</category></categories><tags><tag>Hugo</tag><tag>NexT</tag></tags><content type="html"> 欢迎来到 Hugo NexT 文档站点！ 它是从 Theme NexT 移植过来的为 Hugo 打造的高品质优雅主题，保持简单易用的特性和强大的功能。
-用户指南 设置 NexT 主题很容易。只需遵循文档，就可快速创建您的个人网站！
-反馈 访问 Awesome NexT 列表，与其他用户分享插件和教程。 加入我们的 Gitter 聊天。 在几秒钟内添加或改进翻译。 在 GitHub Issues 中报告一个 🐛。 在 GitHub 上申请一个新特性。 为最受欢迎的功能请求投票。</content></entry><entry><title>世界，你好！</title><url>/post/hello-world.html</url><categories><category>开始建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html"> “使用 weight 关键字置顶文章。”
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>浩雨未倾</title><url>/post/external-link/</url><categories/><tags/><content type="html"></content></entry><entry><title>世界，你好！</title><url>/post/hello-world.html</url><categories><category>开始建站</category></categories><tags><tag>Hugo</tag><tag>开始</tag></tags><content type="html"> “使用 weight 关键字置顶文章。”
 Hugo 是现今世界上最快的网站建设框架，也是最流行的开源静态站点生成器之一。 凭借其惊人的速度和灵活性，Hugo 让建设网站再次变得有趣起来。
-快速开始 发表新文章 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 $ hugo 更多信息： Hugo 建站 部署到服务器 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！</content></entry><entry><title>没有H1-6标题头和评论的文章</title><url>/post/no-header-title.html</url><categories><category>示例文章</category></categories><tags><tag>toc</tag><tag>标题</tag></tags><content type="html"> 刘慈欣2018克拉克奖获奖感言（部分内容节选）。
+快速开始 发表新文章 $ hugo new hello-world.md 更多信息： 内容格式 启动服务 $ hugo server 更多信息： Hugo 服务命令行 生成静态文件 $ hugo 更多信息： Hugo 建站 部署到服务器 $ hugo deploy 更多信息： Hugo 发布 祝你好运，相信你会喜欢上 Hugo 建站的旅程！</content></entry><entry><title>Typora + PicGo + Gitee 解放你对图片的管理</title><url>/post/typro+picgo+gitee/</url><categories/><tags/><content type="html"> 计算机环境准备 Typora PicGo nodejs Typora官网: https://typora.io/ PicGo官网: https://picgo.github.io/PicGo-Doc/zh/guide/ nodejs下载地址: http://nodejs.cn/download/ 设置 Gitee 作为 PicGo 的默认图床 在 PicGo 安装 gitee 插件 在插件设置搜索gitee，选择其中一个安装(两个都可以，只是配置内容有稍许不同)
+在 Gitee 创建图片仓库 注意==仓库必须公开并且使用Readme初始化==
+进行图床配置 若在图床设置中未找到 Gitee 图床，重启 PicGo 即可
+owner: Gitee 用户名 repo: Gitee 仓库名 path: Gitee 存放图片的文件夹路径 token: Gitee 私人令牌 message: commit 信息 生成私人令牌: 设置-&amp;gt; 私人令牌 -&amp;gt; 生成新令牌
+只勾选 projects 即可
+提交后复制 token 至 PicGo 即可
+可在上传区进行测试
+配置 Typora 上传服务 然后开始愉快地 Markdown 吧！</content></entry><entry><title>没有H1-6标题头和评论的文章</title><url>/post/no-header-title.html</url><categories><category>示例文章</category></categories><tags><tag>toc</tag><tag>标题</tag></tags><content type="html"> 刘慈欣2018克拉克奖获奖感言（部分内容节选）。
 用于测试在没有H1-6标题头时，文章的目录导航是否会直接关闭，并关闭评论功能。
 先生们、女士们，晚上好，
 很荣幸获得Clarke Award for Imagination in Service to Society Award。
