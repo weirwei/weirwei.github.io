@@ -1,11 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gorm on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/gorm/</link><description>Recent content in gorm on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/gorm/rss.xml" rel="self" type="application/rss+xml"/><item><title>【leetcode】3. 无重复字符的最长子串</title><link>http://blog.weirwei.cn/post/leetcode_longest-substring-without-repeating-characters/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode_longest-substring-without-repeating-characters/</guid><description>&lt;blockquote>
-&lt;p>
-&lt;a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" title="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/longest-substring-without-repeating-characters/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
-&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。&lt;/p></description></item><item><title>Gorm 的黑魔法</title><link>http://blog.weirwei.cn/post/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/gorm_black_magic/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gorm on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/gorm/</link><description>Recent content in gorm on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Sep 2023 15:10:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/gorm/rss.xml" rel="self" type="application/rss+xml"/><item><title>Gorm 的黑魔法</title><link>http://blog.weirwei.cn/post/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/gorm_black_magic/</guid><description>&lt;blockquote>
 &lt;p>小伙看到同事写的Gorm黑魔法，逐渐不淡定了。&lt;/p>
 &lt;/blockquote>
 &lt;p>开发过程中，看到同事的代码写了这么一段：&lt;/p>
