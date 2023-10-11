@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】3. 无重复字符的最长子串</title><url>/post/leetcode_longest-substring-without-repeating-characters/</url><categories><category>leetcode</category></categories><tags><tag>队列</tag><tag>滑动窗口</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/longest-substring-without-repeating-characters/ 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】206. 反转链表</title><url>/post/leetcode_reverse-linked-list/</url><categories><category>leetcode</category></categories><tags><tag>链表</tag><tag>滑动窗口</tag></tags><content type="html"> https://leetcode.cn/problems/reverse-linked-list 给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。
+示例 1：
+输入：head = [1,2,3,4,5] 输出：[5,4,3,2,1] 示例 2：
+输入：head = [1,2] 输出：[2,1] 示例 3：
+输入：head = [] 输出：[] 提示：
+链表中节点的数目范围是 [0, 5000] -5000 &amp;lt;= Node.val &amp;lt;= 5000
+进阶：链表可以选用迭代或递归方式完成反转。你能否用两种方法解决这道题？
+解题思路 方案一
+遍历入堆栈，再读一遍 方案二
+直接调转指向，用临时节点记录中间值 方案三
+递归回溯 这个方案没想到，利用递归从链表尾回溯到链表头，完成翻转 === 本着做题的目的，我的coding是方案二。其实实际开发中遇到类似的问题，性能内存不是瓶颈的情况下，我会毫不犹豫地选择方案一。可读性高，而且不容易出错。
+代码 func reverseList(head *ListNode) *ListNode { if head == nil || head.Next == nil { return head } var target, mid1, mid2 *ListNode mid1, mid2 = head, head.Next for mid2 != nil { mid2 = mid1.Next mid1.Next = target target = mid1 mid1 = mid2 } return target }</content></entry><entry><title>【leetcode】3. 无重复字符的最长子串</title><url>/post/leetcode_longest-substring-without-repeating-characters/</url><categories><category>leetcode</category></categories><tags><tag>队列</tag><tag>滑动窗口</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/longest-substring-without-repeating-characters/ 给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。
 示例 1:
 输入: s = &#34;abcabcbb&#34; 输出: 3 解释: 因为无重复字符的最长子串是 &#34;abc&#34;，所以其长度为 3。 示例 2:
 输入: s = &#34;bbbbb&#34; 输出: 1 解释: 因为无重复字符的最长子串是 &#34;b&#34;，所以其长度为 1。 示例 3:
