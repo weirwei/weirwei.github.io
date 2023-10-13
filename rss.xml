@@ -1,11 +1,25 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>浩雨未倾</title><link>http://blog.weirwei.cn/</link><description>Recent content on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 10 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/rss.xml" rel="self" type="application/rss+xml"/><item><title>【leetcode】206. 反转链表</title><link>http://blog.weirwei.cn/post/leetcode_reverse-linked-list/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode_reverse-linked-list/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>浩雨未倾</title><link>http://blog.weirwei.cn/</link><description>Recent content on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 12 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/rss.xml" rel="self" type="application/rss+xml"/><item><title>【leetcode】146. LRU 缓存</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_lru-cache/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_lru-cache/</guid><description>&lt;blockquote>
+&lt;p>
+&lt;a href="https://leetcode.cn/problems/lru-cache" title="https://leetcode.cn/problems/lru-cache" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+https://leetcode.cn/problems/lru-cache
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>请你设计并实现一个满足 LRU (最近最少使用) 缓存 约束的数据结构。&lt;/p>
+&lt;p>实现 &lt;code>LRUCache&lt;/code> 类：&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>LRUCache(int capacity)&lt;/code> 以 正整数 作为容量 &lt;code>capacity&lt;/code> 初始化 &lt;code>LRU&lt;/code> 缓存&lt;/li>
+&lt;li>&lt;code>int get(int key)&lt;/code> 如果关键字 &lt;code>key&lt;/code> 存在于缓存中，则返回关键字的值，否则返回 &lt;code>-1 &lt;/code>。&lt;/li>
+&lt;li>&lt;code>void put(int key, int value)&lt;/code> 如果关键字 &lt;code>key&lt;/code> 已经存在，则变更其数据值 &lt;code>value&lt;/code> ；如果不存在，则向缓存中插入该组 &lt;code>key-value&lt;/code> 。如果插入操作导致关键字数量超过 &lt;code>capacity&lt;/code> ，则应该 逐出 最久未使用的关键字。
+函数 &lt;code>get&lt;/code> 和 &lt;code>put&lt;/code> 必须以 &lt;code>O(1)&lt;/code> 的平均时间复杂度运行。&lt;/li>
+&lt;/ul></description></item><item><title>【leetcode】206. 反转链表</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_reverse-linked-list/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_reverse-linked-list/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-linked-list" title="https://leetcode.cn/problems/reverse-linked-list" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
 https://leetcode.cn/problems/reverse-linked-list
 &lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。&lt;/p></description></item><item><title>【leetcode】3. 无重复字符的最长子串</title><link>http://blog.weirwei.cn/post/leetcode_longest-substring-without-repeating-characters/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode_longest-substring-without-repeating-characters/</guid><description>&lt;blockquote>
+&lt;p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。&lt;/p></description></item><item><title>【leetcode】3. 无重复字符的最长子串</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_longest-substring-without-repeating-characters/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_longest-substring-without-repeating-characters/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" title="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
 https://leetcode.cn/problems/longest-substring-without-repeating-characters/
