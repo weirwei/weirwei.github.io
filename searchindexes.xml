@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>go 结构体包含接口成员进行反序列化</title><url>/post/go_struct_contains_interface/</url><categories><category>实战问题</category></categories><tags><tag>golang</tag><tag>json</tag></tags><content type="html"><![CDATA[   工作中遇到一个问题，结构体包含接口类型的成员时，在反序列化的时候会报错。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】215. 数组中的第K个最大元素</title><url>/post/leetcode/leetcode_kth-largest-element-in-an-array/</url><categories><category>leetcode</category></categories><tags><tag>桶排序</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/kth-largest-element-in-an-array/ 给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
+请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
+你必须设计并实现时间复杂度为 O(n) 的算法解决此问题。
+示例 1:
+输入: [3,2,1,5,6,4], k = 2 输出: 5 示例 2: 输入: [3,2,3,1,2,4,5,5,6], k = 4 输出: 4 提示：
+1 &lt;= k &lt;= nums.length &lt;= 10^5
+-10^4 &lt;= nums[i] &lt;= 10^4
+解题思路 先考虑一下隐藏条件： 元素可能会重复 首先想到的，因为 nums 是无序的，因此至少需要遍历一遍，题目要求 O(n) ，则表示需要在遍历的过程中排好序。自然就想到了桶排序。 代码 func findKthLargest(nums []int, k int) int { bucket := make([]int, 20001) for _, v := range nums { bucket[v+10000]++ } count := len(bucket) - 1 for { if bucket[count] &gt; 0 { k = k - bucket[count] } if k &lt;= 0 { return count - 10000 } count-- } } 后记 看一眼答案，居然是快排 T_T 。个人其实不喜欢用桶排序，因为受下标约束，不够泛用，并且它的思想很别扭，感觉就像使用redis的时候kv反着存。
+但是既然已经写了，并且漂亮地通过了，那么快排兄，下次一定！溜~
+  ]]></content></entry><entry><title>go 结构体包含接口成员进行反序列化</title><url>/post/go_struct_contains_interface/</url><categories><category>实战问题</category></categories><tags><tag>golang</tag><tag>json</tag></tags><content type="html"><![CDATA[   工作中遇到一个问题，结构体包含接口类型的成员时，在反序列化的时候会报错。
 // Task 接口类型 type Task interface { Exec() error } // TaskA Task接口的实现类A type TaskA struct { A string `json:&#34;a&#34;` } func (ta *TaskA) Exec() error { fmt.Println(&#34;TaskA Exec&#34;) return nil } // TaskB Task接口的实现类B type TaskB struct { B string `json:&#34;b&#34;` } func (tb *TaskB) Exec() error { fmt.Println(&#34;TaskB Exec&#34;) return nil } // MixedStruct 反序列化目标结构体 type MixedStruct struct { Id uint64 `json:&#34;id&#34;` Task Task `json:&#34;task&#34;` } 场景 这个结构体在反序列化的过程中会报错。
 需要给接口赋值具体的结构体才能正常反序列化。
 func TestUnmarshal(t *testing.T) { t.Run(&#34;带 Interface 的结构体反序列化&#34;, func(t *testing.T) { str := &#34;{\&#34;id\&#34;:1,\&#34;task\&#34;:{\&#34;a\&#34;:\&#34;a\&#34;}}&#34; var mixed MixedStruct err := jsoniter.UnmarshalFromString(str, &amp;mixed) assert.NotNil(t, err) t.Log(err) // json_jsoniter.MixedStruct.Task: decode non empty interface: can not unmarshal into nil, error found in #10 byte of ...|:1,&#34;task&#34;:{&#34;a&#34;:&#34;a&#34;}}|..., bigger context ...|{&#34;id&#34;:1,&#34;task&#34;:{&#34;a&#34;:&#34;a&#34;}}|... mixed.Task = &amp;TaskA{} err = jsoniter.UnmarshalFromString(str, &amp;mixed) assert.Nil(t, err) }) } 解决方案 方案一 直接干掉问题，不存接口，存JSON字符串。
