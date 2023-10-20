@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】215. 数组中的第K个最大元素</title><url>/post/leetcode/leetcode_kth-largest-element-in-an-array/</url><categories><category>leetcode</category></categories><tags><tag>桶排序</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/kth-largest-element-in-an-array/ 给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】25. K 个一组翻转链表</title><url>/post/leetcode/leetcode_reverse-nodes-in-k-group/</url><categories><category>leetcode</category></categories><tags><tag>链表</tag><tag>滑动窗口</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/reverse-nodes-in-k-group/ 给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。
+k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
+你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。
+示例 1： 输入：head = [1,2,3,4,5], k = 2 输出：[2,1,4,3,5] 示例 2： 输入：head = [1,2,3,4,5], k = 3 输出：[3,2,1,4,5] 提示： 链表中的节点数目为 n
+1 &lt;= k &lt;= n &lt;= 5000
+0 &lt;= Node.val &lt;= 1000
+进阶：你可以设计一个只用 O(1) 额外内存空间的算法解决此问题吗？
+解题思路 遍历链表，把它分成 len / k + 1 段，对每段进行翻转处理，最后合并
+代码 type ListNode struct { Val int Next *ListNode } func reverseKGroup(head *ListNode, k int) *ListNode { var counter int h := head var list []*ListNode // 遍历，每k个分一组 for head != nil { counter++ if counter == k { a := head head = head.Next a.Next = nil list = append(list, reverse(h)) h = head counter = 0 } else { head = head.Next } } // 不满k if counter != 0 { list = append(list, h) } // 防止下标越界 if len(list) == 0 { return nil } // 记录头节点 head = list[0] // 合并各个分组 for i := range list { if i == len(list)-1 { break } for list[i].Next != nil { list[i] = list[i].Next } list[i].Next = list[i+1] } return head } func reverse(head *ListNode) *ListNode { var prev *ListNode curr := head for curr != nil { next := curr.Next curr.Next = prev prev = curr curr = next } return prev } 不为几m内存而折腰，下一题！
+  ]]></content></entry><entry><title>【leetcode】215. 数组中的第K个最大元素</title><url>/post/leetcode/leetcode_kth-largest-element-in-an-array/</url><categories><category>leetcode</category></categories><tags><tag>桶排序</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/kth-largest-element-in-an-array/ 给定整数数组 nums 和整数 k，请返回数组中第 k 个最大的元素。
 请注意，你需要找的是数组排序后的第 k 个最大的元素，而不是第 k 个不同的元素。
 你必须设计并实现时间复杂度为 O(n) 的算法解决此问题。
 示例 1:
