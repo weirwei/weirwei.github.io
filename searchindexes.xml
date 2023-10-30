@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】25. K 个一组翻转链表</title><url>/post/leetcode/leetcode_reverse-nodes-in-k-group/</url><categories><category>leetcode</category></categories><tags><tag>链表</tag><tag>滑动窗口</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/reverse-nodes-in-k-group/ 给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>【leetcode】15. 三数之和</title><url>/post/leetcode/leetcode_3sum/</url><categories><category>leetcode</category></categories><tags><tag>桶排序</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/3sum/ 给你一个整数数组 nums ，判断是否存在三元组 [nums[i], nums[j], nums[k]] 满足 i != j、i != k 且 j != k ，同时还满足 nums[i] + nums[j] + nums[k] == 0 。请
+你返回所有和为 0 且不重复的三元组。
+注意：答案中不可以包含重复的三元组。
+示例 1：
+输入：nums = [-1,0,1,2,-1,-4] 输出：[[-1,-1,2],[-1,0,1]] 解释： nums[0] + nums[1] + nums[2] = (-1) + 0 + 1 = 0 。 nums[1] + nums[2] + nums[4] = 0 + 1 + (-1) = 0 。 nums[0] + nums[3] + nums[4] = (-1) + 2 + (-1) = 0 。 不同的三元组是 [-1,0,1] 和 [-1,-1,2] 。 注意，输出的顺序和三元组的顺序并不重要。 示例 2：
+输入：nums = [0,1,1] 输出：[] 解释：唯一可能的三元组和不为 0 。 示例 3：
+输入：nums = [0,0,0] 输出：[[0,0,0]] 解释：唯一可能的三元组和为 0 。 提示：
+3 &lt;= nums.length &lt;= 3000 -105 &lt;= nums[i] &lt;= 105
+解题思路 遍历，两两求和，得到一个新的数组，然后再遍历原数组，求得和为0的成员。这样做复杂度比较高，有O(n^2)，而且需要记下标，感觉不太好。 先排序，然后遍历第一个值，第二个和第三个值使用双指针。注意去重。 代码 func threeSum(nums []int) [][]int { // 特殊case判断 if len(nums) &lt; 3 { return nil } // 排序 sort.Ints(nums) var res [][]int h := 0 for h &lt; len(nums) &amp;&amp; nums[h] &lt;= 0 { // 跳过重复 if h &gt; 0 &amp;&amp; nums[h] == nums[h-1] { h++ continue } l := h + 1 r := len(nums) - 1 // 双指针 for l &lt; r { if nums[h]+nums[l]+nums[r] == 0 { res = append(res, []int{nums[h], nums[l], nums[r]}) // 去重 for l &lt; r &amp;&amp; nums[l] == nums[l+1] { l++ } for l &lt; r &amp;&amp; nums[r] == nums[r-1] { r-- } l++ r-- } else if nums[h]+nums[l]+nums[r] &lt; 0 { l++ } else { r-- } } h++ } return res }   ]]></content></entry><entry><title>【leetcode】25. K 个一组翻转链表</title><url>/post/leetcode/leetcode_reverse-nodes-in-k-group/</url><categories><category>leetcode</category></categories><tags><tag>链表</tag><tag>滑动窗口</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/reverse-nodes-in-k-group/ 给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。
 k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。
 你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。
 示例 1： 输入：head = [1,2,3,4,5], k = 2 输出：[2,1,4,3,5] 示例 2： 输入：head = [1,2,3,4,5], k = 3 输出：[3,2,1,4,5] 提示： 链表中的节点数目为 n
