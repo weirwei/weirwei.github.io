@@ -1,13 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>桶排序 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E6%A1%B6%E6%8E%92%E5%BA%8F/</link><description>Recent content in 桶排序 on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 30 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E6%A1%B6%E6%8E%92%E5%BA%8F/rss.xml" rel="self" type="application/rss+xml"/><item><title>【leetcode】15. 三数之和</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_3sum/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_3sum/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>桶排序 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E6%A1%B6%E6%8E%92%E5%BA%8F/</link><description>Recent content in 桶排序 on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E6%A1%B6%E6%8E%92%E5%BA%8F/rss.xml" rel="self" type="application/rss+xml"/><item><title>【leetcode】53. 最大子数组和</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_maximum-subarray/</link><pubDate>Tue, 31 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_maximum-subarray/</guid><description>&lt;blockquote>
 &lt;p>
-&lt;a href="https://leetcode.cn/problems/3sum/" title="https://leetcode.cn/problems/3sum/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/3sum/
+&lt;a href="https://leetcode.cn/problems/maximum-subarray/" title="https://leetcode.cn/problems/maximum-subarray/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+https://leetcode.cn/problems/maximum-subarray/
 &lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>给你一个整数数组 nums ，判断是否存在三元组 &lt;code>[nums[i], nums[j], nums[k]]&lt;/code> 满足 &lt;code>i != j、i != k 且 j != k&lt;/code> ，同时还满足 &lt;code>nums[i] + nums[j] + nums[k] == 0&lt;/code> 。请&lt;/p>
-&lt;p>你返回所有和为 0 且不重复的三元组。&lt;/p>
-&lt;p>注意：答案中不可以包含重复的三元组。&lt;/p></description></item><item><title>【leetcode】215. 数组中的第K个最大元素</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_kth-largest-element-in-an-array/</link><pubDate>Thu, 19 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_kth-largest-element-in-an-array/</guid><description>&lt;blockquote>
+&lt;p>给你一个整数数组 &lt;code>nums&lt;/code> ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。&lt;/p>
+&lt;p>子数组 是数组中的一个连续部分。&lt;/p></description></item><item><title>【leetcode】215. 数组中的第K个最大元素</title><link>http://blog.weirwei.cn/post/leetcode/leetcode_kth-largest-element-in-an-array/</link><pubDate>Thu, 19 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/post/leetcode/leetcode_kth-largest-element-in-an-array/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/kth-largest-element-in-an-array/" title="https://leetcode.cn/problems/kth-largest-element-in-an-array/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
 https://leetcode.cn/problems/kth-largest-element-in-an-array/
