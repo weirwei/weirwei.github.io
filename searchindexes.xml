@@ -1,4 +1,17 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>53. 最大子数组和</title><url>/leetcode/leetcode_maximum-subarray/</url><categories><category>leetcode</category></categories><tags><tag>桶排序</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/maximum-subarray/ 给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>409. 最长回文串</title><url>/leetcode/leetcode_longest-palindrome/</url><categories><category>leetcode</category></categories><tags><tag>双指针</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/longest-palindrome/ 给定一个包含大写字母和小写字母的字符串 s ，返回 通过这些字母构造成的 最长的回文串 。
+在构造过程中，请注意 区分大小写 。比如 &ldquo;Aa&rdquo; 不能当做一个回文字符串。
+示例 1:
+输入:s = &#34;abccccdd&#34; 输出:7 解释: 我们可以构造的最长的回文串是&#34;dccaccd&#34;, 它的长度是 7。 示例 2:
+输入:s = &#34;a&#34; 输出:1 示例 3：
+输入:s = &#34;aaaaaccc&#34; 输出:7 提示:
+1 &lt;= s.length &lt;= 2000 s 只由小写 和/或 大写英文字母组成
+解题思路 双数即可参与构成回文数，因此给各个成员计数，如果是单数，取len-1，双数，取len。 最中间的数可以是单个，因此，如果最终结果小于len(s)，说明有元素为单数，可以+1把多出来的放中间。 代码 func longestPalindrome(s string) int { m := make(map[rune]int) for _, c := range s { m[c] += 1 } var sum int for _, v := range m { sum += v / 2 * 2 } if sum &lt; len(s) { sum++ } return sum }   ]]></content></entry><entry><title>912. 排序数组</title><url>/leetcode/leetcode_sort-an-array/</url><categories><category>leetcode</category></categories><tags><tag>快排</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/sort-an-array/ 给你一个整数数组 nums，请你将该数组升序排列。
+示例 1：
+输入：nums = [5,2,3,1] 输出：[1,2,3,5] 示例 2：
+输入：nums = [5,1,1,2,0,0] 输出：[0,0,1,1,2,5] 提示：
+1 &lt;= nums.length &lt;= 5 * 104 -5 * 104 &lt;= nums[i] &lt;= 5 * 104
+解题思路 排序题，快排 代码 // 快速排序 func quickSort(nums []int) { // 递归终止条件 if len(nums) &lt; 2 { return } // 随机选择基准值 pivotIndex := rand.Intn(len(nums)) pivot := nums[pivotIndex] // 分区 left, right := 0, len(nums)-1 for left &lt;= right { for nums[left] &lt; pivot { left++ } for nums[right] &gt; pivot { right-- } if left &lt;= right { nums[left], nums[right] = nums[right], nums[left] left++ right-- } } // 递归 quickSort(nums[:right+1]) quickSort(nums[left:]) return } 快排太常见了，但是好久没碰，我实际码代码的时候遇到了不少问题，正好整理一下。
+快排的核心思想就是把无序的序列根据一个基准值分成2份无序的序列，宏观上，两份序列有序。再对这两份无序的序列做同样的处理。 有一些边界情况需要考虑： 有相同值，这个时候，为了确保相同值之间的值能参与排序，需要跳过相同的值或者交换相同的值； 为了防止死循环，在分成2份序列的时候，不能出现某个序列为空的情况。如 [1,6]，6为基准值，他可能会分成 [1,6] 和 []，然后陷入死循环； left 和 right 每一轮交换后，可能会有3种情况 基准值和另一个可以交换的值。这种情况，基准值会变化位置。这个时候，left 和 right 都可能指向基准值。 right 指向基准值左边的一个值，left 指向基准值 right 指向基准值，left 指向基准值右边的一个值 只有一个基准值。这个时候 left 和 right 在基准值两侧 没有基准值。基准值提前被交换掉了，right 指向一个比基准值小的值，left 指向一个比基准值大的值，且相邻 每轮交换后，left 和 right 终态一定是 left 在 right 右边 根据2、3和4，下一轮的分组应该取 [0:right] 和 [left:len-1]   ]]></content></entry><entry><title>53. 最大子数组和</title><url>/leetcode/leetcode_maximum-subarray/</url><categories><category>leetcode</category></categories><tags><tag>桶排序</tag></tags><content type="html"><![CDATA[   https://leetcode.cn/problems/maximum-subarray/ 给你一个整数数组 nums ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。
 子数组 是数组中的一个连续部分。
 示例 1：
 输入：nums = [-2,1,-3,4,-1,2,1,-5,4] 输出：6 解释：连续子数组 [4,-1,2,1] 的和最大，为 6 。 示例 2：
