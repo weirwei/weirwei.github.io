@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>gorm on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/gorm/</link><description>Recent content in gorm on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Sep 2023 15:10:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/gorm/rss.xml" rel="self" type="application/rss+xml"/><item><title>Gorm 的黑魔法</title><link>http://blog.weirwei.cn/practical/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/gorm_black_magic/</guid><description>&lt;blockquote>
+&lt;p>小伙看到同事写的Gorm黑魔法，逐渐不淡定了。&lt;/p>
+&lt;/blockquote>
+&lt;p>开发过程中，看到同事的代码写了这么一段：&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>db = db.&lt;span style="color:#50fa7b">Session&lt;/span>(&lt;span style="color:#ff79c6">&amp;amp;&lt;/span>gorm.Session{Context: db.Statement.Context}).&lt;span style="color:#50fa7b">FirstOrCreate&lt;/span>(&lt;span style="color:#ff79c6">&amp;amp;&lt;/span>entity)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">if&lt;/span> db.Error &lt;span style="color:#ff79c6">!=&lt;/span>&lt;span style="color:#ff79c6">nil&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> components.ErrorDbInsert.&lt;span style="color:#50fa7b">WrapPrintf&lt;/span>(db.Error, &lt;span style="color:#f1fa8c">&amp;#34;Insert error, entity:%s&amp;#34;&lt;/span>, utils.&lt;span style="color:#50fa7b">ToJson&lt;/span>(entity))
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">if&lt;/span> db.RowsAffected &lt;span style="color:#ff79c6">==&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> components.ErrorAlreadyExist
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item></channel></rss>
