@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>test on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/test/</link><description>Recent content in test on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Sep 2023 11:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/test/rss.xml" rel="self" type="application/rss+xml"/><item><title>go test 的内联问题</title><link>http://blog.weirwei.cn/practical/inlining/</link><pubDate>Wed, 27 Sep 2023 11:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/inlining/</guid><description>&lt;blockquote>
-&lt;p>使用&lt;code>monkey&lt;/code>对函数进行打桩单测的时候，发现打桩函数没有生效。&lt;/p>
-&lt;/blockquote>
-&lt;p>习惯直接使用IDE的可视化的&lt;code>run&lt;/code>和&lt;code>debug&lt;/code>功能进行跑单测，没有关注到具体执行的命令。&lt;/p></description></item></channel></rss>
