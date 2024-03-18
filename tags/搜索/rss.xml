@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>搜索 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E6%90%9C%E7%B4%A2/</link><description>Recent content in 搜索 on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 04 Dec 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E6%90%9C%E7%B4%A2/rss.xml" rel="self" type="application/rss+xml"/><item><title>200. 岛屿数量</title><link>http://blog.weirwei.cn/_leetcode/leetcode_number-of-islands/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/_leetcode/leetcode_number-of-islands/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/number-of-islands/" title="https://leetcode.cn/problems/number-of-islands/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://leetcode.cn/problems/number-of-islands/
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
+https://leetcode.cn/problems/number-of-islands/
+&lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个由 &amp;lsquo;1&amp;rsquo;（陆地）和 &amp;lsquo;0&amp;rsquo;（水）组成的的二维网格，请你计算网格中岛屿的数量。&lt;/p>

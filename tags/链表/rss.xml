@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>链表 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E9%93%BE%E8%A1%A8/</link><description>Recent content in 链表 on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 20 Nov 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E9%93%BE%E8%A1%A8/rss.xml" rel="self" type="application/rss+xml"/><item><title>21. 合并两个有序链表</title><link>http://blog.weirwei.cn/_leetcode/leetcode_merge-two-sorted-lists/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/_leetcode/leetcode_merge-two-sorted-lists/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/merge-two-sorted-lists/" title="https://leetcode.cn/problems/merge-two-sorted-lists/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://leetcode.cn/problems/merge-two-sorted-lists/
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
+https://leetcode.cn/problems/merge-two-sorted-lists/
+&lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。&lt;/p></description></item><item><title>25. K 个一组翻转链表</title><link>http://blog.weirwei.cn/_leetcode/leetcode_reverse-nodes-in-k-group/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/_leetcode/leetcode_reverse-nodes-in-k-group/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-nodes-in-k-group/" title="https://leetcode.cn/problems/reverse-nodes-in-k-group/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://leetcode.cn/problems/reverse-nodes-in-k-group/
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
+https://leetcode.cn/problems/reverse-nodes-in-k-group/
+&lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。&lt;/p>
@@ -21,10 +17,8 @@
 &lt;p>你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。&lt;/p></description></item><item><title>146. LRU 缓存</title><link>http://blog.weirwei.cn/_leetcode/leetcode_lru-cache/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/_leetcode/leetcode_lru-cache/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/lru-cache" title="https://leetcode.cn/problems/lru-cache" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://leetcode.cn/problems/lru-cache
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
+https://leetcode.cn/problems/lru-cache
+&lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>请你设计并实现一个满足 LRU (最近最少使用) 缓存 约束的数据结构。&lt;/p>
@@ -37,10 +31,8 @@
 &lt;/ul></description></item><item><title>206. 反转链表</title><link>http://blog.weirwei.cn/_leetcode/leetcode_reverse-linked-list/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/_leetcode/leetcode_reverse-linked-list/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-linked-list" title="https://leetcode.cn/problems/reverse-linked-list" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
- https://leetcode.cn/problems/reverse-linked-list
- 
- &lt;i class="fa fa-external-link-alt">&lt;/i>
- 
+https://leetcode.cn/problems/reverse-linked-list
+&lt;i class="fa fa-external-link-alt">&lt;/i>
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。&lt;/p></description></item></channel></rss>
