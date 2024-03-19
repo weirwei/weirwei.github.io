@@ -1,4 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leetcodes on 浩雨未倾</title><link>http://blog.weirwei.cn/leetcode/</link><description>Recent content in Leetcodes on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/leetcode/rss.xml" rel="self" type="application/rss+xml"/><item><title>5. 最长回文子串</title><link>http://blog.weirwei.cn/leetcode/leetcode_longest_palindrome/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_longest_palindrome/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leetcodes on 浩雨未倾</title><link>http://blog.weirwei.cn/leetcode/</link><description>Recent content in Leetcodes on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/leetcode/rss.xml" rel="self" type="application/rss+xml"/><item><title>141. 环形链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_circular_chain/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_circular_chain/</guid><description>&lt;blockquote>
+&lt;p>
+&lt;a href="https://leetcode.cn/problems/linked-list-cycle/" title="https://leetcode.cn/problems/linked-list-cycle/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+https://leetcode.cn/problems/linked-list-cycle/
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>给你一个链表的头节点 head ，判断链表中是否有环。&lt;/p>
+&lt;p>如果链表中有某个节点，可以通过连续跟踪 next 指针再次到达，则链表中存在环。 为了表示给定链表中的环，评测系统内部使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。注意：pos 不作为参数进行传递 。仅仅是为了标识链表的实际情况。&lt;/p>
+&lt;p>如果链表中存在环 ，则返回 true 。 否则，返回 false 。&lt;/p></description></item><item><title>5. 最长回文子串</title><link>http://blog.weirwei.cn/leetcode/leetcode_longest_palindrome/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_longest_palindrome/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/longest-palindromic-substring/" title="https://leetcode.cn/problems/longest-palindromic-substring/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
 https://leetcode.cn/problems/longest-palindromic-substring/
