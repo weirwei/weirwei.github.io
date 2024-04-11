@@ -1,4 +1,18 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>leetcode on 浩雨未倾</title><link>http://blog.weirwei.cn/categories/leetcode/</link><description>Recent content in leetcode on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/categories/leetcode/rss.xml" rel="self" type="application/rss+xml"/><item><title>46. 全排列</title><link>http://blog.weirwei.cn/leetcode/leetcode_permutations/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_permutations/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>leetcode on 浩雨未倾</title><link>http://blog.weirwei.cn/categories/leetcode/</link><description>Recent content in leetcode on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 11 Apr 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/categories/leetcode/rss.xml" rel="self" type="application/rss+xml"/><item><title>92. 反转链表 II</title><link>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list-ii/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list-ii/</guid><description>&lt;blockquote>
+&lt;p>
+&lt;a href="https://leetcode.cn/problems/reverse-linked-list-ii/description/" title="https://leetcode.cn/problems/reverse-linked-list-ii/description/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+https://leetcode.cn/problems/reverse-linked-list-ii/description/
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>给你单链表的头指针 head 和两个整数 left 和 right ，其中 left &amp;lt;= right 。请你反转从位置 left 到位置 right 的链表节点，返回 反转后的链表 。&lt;/p></description></item><item><title>103. 二叉树的锯齿形层序遍历</title><link>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</guid><description>&lt;blockquote>
+&lt;p>
+&lt;a href="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" title="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
+&lt;i class="fa fa-external-link-alt">&lt;/i>
+&lt;/a>&lt;/p>
+&lt;/blockquote>
+&lt;p>给你二叉树的根节点 root ，返回其节点值的 锯齿形层序遍历 。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。&lt;/p></description></item><item><title>46. 全排列</title><link>http://blog.weirwei.cn/leetcode/leetcode_permutations/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_permutations/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/permutations/" title="https://leetcode.cn/problems/permutations/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
 https://leetcode.cn/problems/permutations/
