@@ -1,36 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>浩雨未倾</title><link>http://blog.weirwei.cn/</link><description>Recent content on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 12 Apr 2024 21:45:25 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/rss.xml" rel="self" type="application/rss+xml"/><item><title>54. 螺旋矩阵</title><link>http://blog.weirwei.cn/leetcode/leetcode_spiral-matrix/</link><pubDate>Fri, 12 Apr 2024 21:45:25 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_spiral-matrix/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>浩雨未倾</title><link>http://blog.weirwei.cn/</link><description>Recent content on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 26 Jul 2024 15:35:20 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/rss.xml" rel="self" type="application/rss+xml"/><item><title>Golang 的 docker 部署流程</title><link>http://blog.weirwei.cn/practical/docker_deploy_golang/</link><pubDate>Fri, 26 Jul 2024 15:35:20 +0800</pubDate><guid>http://blog.weirwei.cn/practical/docker_deploy_golang/</guid><description>&lt;blockquote>
+&lt;p>想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。&lt;/p>
+&lt;/blockquote></description></item><item><title>grafana 监控搭建</title><link>http://blog.weirwei.cn/practical/grafana_deploy/</link><pubDate>Wed, 19 Jun 2024 15:29:01 +0800</pubDate><guid>http://blog.weirwei.cn/practical/grafana_deploy/</guid><description>&lt;blockquote>
+&lt;p>需要搭建业务监控，趁机学习一下 grafana 相关的知识。
+本文基于实际应用，辅以简单理论。
+参考资料：
+
+&lt;a href="https://prometheus.wang/" title="https://prometheus.wang/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://prometheus.wang/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>
+
+&lt;a href="https://www.au92.com/post/mac-install-prometheus-and-grafana/" title="https://www.au92.com/post/mac-install-prometheus-and-grafana/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://www.au92.com/post/mac-install-prometheus-and-grafana/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>54. 螺旋矩阵</title><link>http://blog.weirwei.cn/leetcode/leetcode_spiral-matrix/</link><pubDate>Fri, 12 Apr 2024 21:45:25 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_spiral-matrix/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/spiral-matrix/description/" title="https://leetcode.cn/problems/spiral-matrix/description/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/spiral-matrix/description/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/spiral-matrix/description/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个 m 行 n 列的矩阵 matrix ，请按照 顺时针螺旋顺序 ，返回矩阵中的所有元素。&lt;/p></description></item><item><title>92. 反转链表 II</title><link>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list-ii/</link><pubDate>Thu, 11 Apr 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list-ii/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-linked-list-ii/description/" title="https://leetcode.cn/problems/reverse-linked-list-ii/description/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/reverse-linked-list-ii/description/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/reverse-linked-list-ii/description/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你单链表的头指针 head 和两个整数 left 和 right ，其中 left &amp;lt;= right 。请你反转从位置 left 到位置 right 的链表节点，返回 反转后的链表 。&lt;/p></description></item><item><title>103. 二叉树的锯齿形层序遍历</title><link>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" title="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你二叉树的根节点 root ，返回其节点值的 锯齿形层序遍历 。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。&lt;/p></description></item><item><title>46. 全排列</title><link>http://blog.weirwei.cn/leetcode/leetcode_permutations/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_permutations/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/permutations/" title="https://leetcode.cn/problems/permutations/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/permutations/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/permutations/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个不含重复数字的数组 nums ，返回其 所有可能的全排列 。你可以 按任意顺序 返回答案。&lt;/p></description></item><item><title>88. 合并两个有序数组</title><link>http://blog.weirwei.cn/leetcode/leetcode_merge_sorted_array/</link><pubDate>Tue, 26 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_merge_sorted_array/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/merge-sorted-array/" title="https://leetcode.cn/problems/merge-sorted-array/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/merge-sorted-array/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/merge-sorted-array/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你两个按 非递减顺序 排列的整数数组 nums1 和 nums2，另有两个整数 m 和 n ，分别表示 nums1 和 nums2 中的元素数目。&lt;/p>
@@ -38,8 +68,10 @@ https://leetcode.cn/problems/merge-sorted-array/
 &lt;p>注意：最终，合并后数组不应由函数返回，而是存储在数组 nums1 中。为了应对这种情况，nums1 的初始长度为 m + n，其中前 m 个元素表示应合并的元素，后 n 个元素为 0 ，应忽略。nums2 的长度为 n 。&lt;/p></description></item><item><title>20. 有效的括号</title><link>http://blog.weirwei.cn/leetcode/leetcode_valid_match/</link><pubDate>Thu, 21 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_valid_match/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/valid-parentheses/" title="https://leetcode.cn/problems/valid-parentheses/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/valid-parentheses/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/valid-parentheses/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个只包括 &amp;lsquo;(&amp;rsquo;，&amp;rsquo;)&amp;rsquo;，&amp;rsquo;{&amp;rsquo;，&amp;rsquo;}&amp;rsquo;，&amp;rsquo;[&amp;rsquo;，&amp;rsquo;]&amp;rsquo; 的字符串 s ，判断字符串是否有效。&lt;/p>
@@ -49,16 +81,20 @@ https://leetcode.cn/problems/valid-parentheses/
 每个右括号都有一个对应的相同类型的左括号。&lt;/p></description></item><item><title>236. 二叉树的最近公共祖先</title><link>http://blog.weirwei.cn/leetcode/leetcode_recently_parent/</link><pubDate>Thu, 21 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_recently_parent/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/" title="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。&lt;/p>
 &lt;p>百度百科中最近公共祖先的定义为：“对于有根树 T 的两个节点 p、q，最近公共祖先表示为一个节点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&lt;/p></description></item><item><title>141. 环形链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_circular_chain/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_circular_chain/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/linked-list-cycle/" title="https://leetcode.cn/problems/linked-list-cycle/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/linked-list-cycle/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/linked-list-cycle/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个链表的头节点 head ，判断链表中是否有环。&lt;/p>
@@ -66,8 +102,10 @@ https://leetcode.cn/problems/linked-list-cycle/
 &lt;p>如果链表中存在环 ，则返回 true 。 否则，返回 false 。&lt;/p></description></item><item><title>5. 最长回文子串</title><link>http://blog.weirwei.cn/leetcode/leetcode_longest_palindrome/</link><pubDate>Mon, 18 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_longest_palindrome/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/longest-palindromic-substring/" title="https://leetcode.cn/problems/longest-palindromic-substring/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/longest-palindromic-substring/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/longest-palindromic-substring/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个字符串 s，找到 s 中最长的回文子串 。&lt;/p>
@@ -79,8 +117,10 @@ https://leetcode.cn/problems/longest-palindromic-substring/
 &lt;/blockquote></description></item><item><title>200. 岛屿数量</title><link>http://blog.weirwei.cn/leetcode/leetcode_number-of-islands/</link><pubDate>Mon, 04 Dec 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_number-of-islands/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/number-of-islands/" title="https://leetcode.cn/problems/number-of-islands/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/number-of-islands/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/number-of-islands/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个由 &amp;lsquo;1&amp;rsquo;（陆地）和 &amp;lsquo;0&amp;rsquo;（水）组成的的二维网格，请你计算网格中岛屿的数量。&lt;/p>
@@ -88,8 +128,10 @@ https://leetcode.cn/problems/number-of-islands/
 &lt;p>此外，你可以假设该网格的四条边均被水包围。&lt;/p></description></item><item><title>33. 搜索旋转排序数组</title><link>http://blog.weirwei.cn/leetcode/leetcode_search-in-rotated-sorted-array/</link><pubDate>Sun, 03 Dec 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_search-in-rotated-sorted-array/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/search-in-rotated-sorted-array/" title="https://leetcode.cn/problems/search-in-rotated-sorted-array/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/search-in-rotated-sorted-array/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/search-in-rotated-sorted-array/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>整数数组 nums 按升序排列，数组中的值 互不相同 。&lt;/p>
@@ -98,8 +140,10 @@ https://leetcode.cn/problems/search-in-rotated-sorted-array/
 &lt;p>你必须设计一个时间复杂度为 O(log n) 的算法解决此问题。&lt;/p></description></item><item><title>1. 两数之和</title><link>http://blog.weirwei.cn/leetcode/leetcode_two-sum/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_two-sum/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/two-sum/" title="https://leetcode.cn/problems/two-sum/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/two-sum/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/two-sum/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个整数数组 nums 和一个整数目标值 target，请你在该数组中找出 和为目标值 target 的那 两个 整数，并返回它们的数组下标。&lt;/p>
@@ -107,45 +151,57 @@ https://leetcode.cn/problems/two-sum/
 &lt;p>你可以按任意顺序返回答案。&lt;/p></description></item><item><title>102. 二叉树的层序遍历</title><link>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-level-order-traversal/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-level-order-traversal/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/binary-tree-level-order-traversal/" title="https://leetcode.cn/problems/binary-tree-level-order-traversal/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/binary-tree-level-order-traversal/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/binary-tree-level-order-traversal/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你二叉树的根节点 root ，返回其节点值的 层序遍历 。 （即逐层地，从左到右访问所有节点）。&lt;/p></description></item><item><title>21. 合并两个有序链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_merge-two-sorted-lists/</link><pubDate>Mon, 20 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_merge-two-sorted-lists/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/merge-two-sorted-lists/" title="https://leetcode.cn/problems/merge-two-sorted-lists/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/merge-two-sorted-lists/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/merge-two-sorted-lists/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>将两个升序链表合并为一个新的 升序 链表并返回。新链表是通过拼接给定的两个链表的所有节点组成的。&lt;/p></description></item><item><title>409. 最长回文串</title><link>http://blog.weirwei.cn/leetcode/leetcode_longest-palindrome/</link><pubDate>Thu, 16 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_longest-palindrome/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/longest-palindrome/" title="https://leetcode.cn/problems/longest-palindrome/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/longest-palindrome/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/longest-palindrome/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个包含大写字母和小写字母的字符串 s ，返回 通过这些字母构造成的 最长的回文串 。&lt;/p>
 &lt;p>在构造过程中，请注意 区分大小写 。比如 &amp;ldquo;Aa&amp;rdquo; 不能当做一个回文字符串。&lt;/p></description></item><item><title>912. 排序数组</title><link>http://blog.weirwei.cn/leetcode/leetcode_sort-an-array/</link><pubDate>Wed, 01 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_sort-an-array/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/sort-an-array/" title="https://leetcode.cn/problems/sort-an-array/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/sort-an-array/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/sort-an-array/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个整数数组 &lt;code>nums&lt;/code>，请你将该数组升序排列。&lt;/p></description></item><item><title>53. 最大子数组和</title><link>http://blog.weirwei.cn/leetcode/leetcode_maximum-subarray/</link><pubDate>Tue, 31 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_maximum-subarray/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/maximum-subarray/" title="https://leetcode.cn/problems/maximum-subarray/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/maximum-subarray/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/maximum-subarray/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个整数数组 &lt;code>nums&lt;/code> ，请你找出一个具有最大和的连续子数组（子数组最少包含一个元素），返回其最大和。&lt;/p>
 &lt;p>子数组 是数组中的一个连续部分。&lt;/p></description></item><item><title>15. 三数之和</title><link>http://blog.weirwei.cn/leetcode/leetcode_3sum/</link><pubDate>Mon, 30 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_3sum/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/3sum/" title="https://leetcode.cn/problems/3sum/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/3sum/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/3sum/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你一个整数数组 nums ，判断是否存在三元组 &lt;code>[nums[i], nums[j], nums[k]]&lt;/code> 满足 &lt;code>i != j、i != k 且 j != k&lt;/code> ，同时还满足 &lt;code>nums[i] + nums[j] + nums[k] == 0&lt;/code> 。请&lt;/p>
@@ -153,8 +209,10 @@ https://leetcode.cn/problems/3sum/
 &lt;p>注意：答案中不可以包含重复的三元组。&lt;/p></description></item><item><title>25. K 个一组翻转链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_reverse-nodes-in-k-group/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_reverse-nodes-in-k-group/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-nodes-in-k-group/" title="https://leetcode.cn/problems/reverse-nodes-in-k-group/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/reverse-nodes-in-k-group/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/reverse-nodes-in-k-group/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。&lt;/p>
@@ -162,8 +220,10 @@ https://leetcode.cn/problems/reverse-nodes-in-k-group/
 &lt;p>你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。&lt;/p></description></item><item><title>215. 数组中的第K个最大元素</title><link>http://blog.weirwei.cn/leetcode/leetcode_kth-largest-element-in-an-array/</link><pubDate>Thu, 19 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_kth-largest-element-in-an-array/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/kth-largest-element-in-an-array/" title="https://leetcode.cn/problems/kth-largest-element-in-an-array/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/kth-largest-element-in-an-array/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/kth-largest-element-in-an-array/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定整数数组 &lt;code>nums&lt;/code> 和整数 &lt;code>k&lt;/code>，请返回数组中第 &lt;code>k&lt;/code> 个最大的元素。&lt;/p>
@@ -204,8 +264,10 @@ https://leetcode.cn/problems/kth-largest-element-in-an-array/
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>146. LRU 缓存</title><link>http://blog.weirwei.cn/leetcode/leetcode_lru-cache/</link><pubDate>Thu, 12 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_lru-cache/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/lru-cache" title="https://leetcode.cn/problems/lru-cache" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/lru-cache
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/lru-cache
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>请你设计并实现一个满足 LRU (最近最少使用) 缓存 约束的数据结构。&lt;/p>
@@ -218,15 +280,19 @@ https://leetcode.cn/problems/lru-cache
 &lt;/ul></description></item><item><title>206. 反转链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-linked-list" title="https://leetcode.cn/problems/reverse-linked-list" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/reverse-linked-list
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/reverse-linked-list
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。&lt;/p></description></item><item><title>3. 无重复字符的最长子串</title><link>http://blog.weirwei.cn/leetcode/leetcode_longest-substring-without-repeating-characters/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_longest-substring-without-repeating-characters/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" title="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/longest-substring-without-repeating-characters/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/longest-substring-without-repeating-characters/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个字符串 s ，请你找出其中不含有重复字符的 最长子串 的长度。&lt;/p></description></item><item><title>MySQL where 范围查询和 order by 关键字无法同时命中索引</title><link>http://blog.weirwei.cn/practical/index_in_orderby/</link><pubDate>Wed, 27 Sep 2023 15:18:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/index_in_orderby/</guid><description>&lt;blockquote>

@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practicals on 浩雨未倾</title><link>http://blog.weirwei.cn/practical/</link><description>Recent content in Practicals on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 02 Jan 2024 12:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/practical/rss.xml" rel="self" type="application/rss+xml"/><item><title>Gemini 实战</title><link>http://blog.weirwei.cn/practical/get_start_gemini/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/get_start_gemini/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practicals on 浩雨未倾</title><link>http://blog.weirwei.cn/practical/</link><description>Recent content in Practicals on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 26 Jul 2024 15:35:20 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/practical/rss.xml" rel="self" type="application/rss+xml"/><item><title>Golang 的 docker 部署流程</title><link>http://blog.weirwei.cn/practical/docker_deploy_golang/</link><pubDate>Fri, 26 Jul 2024 15:35:20 +0800</pubDate><guid>http://blog.weirwei.cn/practical/docker_deploy_golang/</guid><description>&lt;blockquote>
+&lt;p>想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。&lt;/p>
+&lt;/blockquote></description></item><item><title>grafana 监控搭建</title><link>http://blog.weirwei.cn/practical/grafana_deploy/</link><pubDate>Wed, 19 Jun 2024 15:29:01 +0800</pubDate><guid>http://blog.weirwei.cn/practical/grafana_deploy/</guid><description>&lt;blockquote>
+&lt;p>需要搭建业务监控，趁机学习一下 grafana 相关的知识。
+本文基于实际应用，辅以简单理论。
+参考资料：
+
+&lt;a href="https://prometheus.wang/" title="https://prometheus.wang/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://prometheus.wang/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>
+
+&lt;a href="https://www.au92.com/post/mac-install-prometheus-and-grafana/" title="https://www.au92.com/post/mac-install-prometheus-and-grafana/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
+ https://www.au92.com/post/mac-install-prometheus-and-grafana/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
+&lt;/a>&lt;/p>
+&lt;/blockquote></description></item><item><title>Gemini 实战</title><link>http://blog.weirwei.cn/practical/get_start_gemini/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/get_start_gemini/</guid><description>&lt;blockquote>
 &lt;p>谷歌的 Gemini 已对外开放，虽然完全比不上他宣传的那么叼，但不妨碍我们尝试把玩。
 本文的目的是能够在本地调通 Gemini 的 api 接口&lt;/p>
 &lt;/blockquote></description></item><item><title>换机记录</title><link>http://blog.weirwei.cn/practical/change_machine/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/change_machine/</guid><description>&lt;blockquote>

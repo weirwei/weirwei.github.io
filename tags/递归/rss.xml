@@ -1,8 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>递归 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E9%80%92%E5%BD%92/</link><description>Recent content in 递归 on 浩雨未倾</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E9%80%92%E5%BD%92/rss.xml" rel="self" type="application/rss+xml"/><item><title>46. 全排列</title><link>http://blog.weirwei.cn/leetcode/leetcode_permutations/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_permutations/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>递归 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E9%80%92%E5%BD%92/</link><description>Recent content in 递归 on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E9%80%92%E5%BD%92/rss.xml" rel="self" type="application/rss+xml"/><item><title>46. 全排列</title><link>http://blog.weirwei.cn/leetcode/leetcode_permutations/</link><pubDate>Wed, 27 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_permutations/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/permutations/" title="https://leetcode.cn/problems/permutations/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
-https://leetcode.cn/problems/permutations/
-&lt;i class="fa fa-external-link-alt">&lt;/i>
+ https://leetcode.cn/problems/permutations/
+ 
+ &lt;i class="fa fa-external-link-alt">&lt;/i>
+ 
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个不含重复数字的数组 nums ，返回其 所有可能的全排列 。你可以 按任意顺序 返回答案。&lt;/p></description></item></channel></rss>
