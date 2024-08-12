@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>二叉树 on 浩雨未倾</title><link>http://weirwei.cn/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</link><description>Recent content in 二叉树 on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://weirwei.cn/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/rss.xml" rel="self" type="application/rss+xml"/><item><title>103. 二叉树的锯齿形层序遍历</title><link>http://weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0800</pubDate><guid>http://weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>二叉树 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/</link><description>Recent content in 二叉树 on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 10 Apr 2024 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/rss.xml" rel="self" type="application/rss+xml"/><item><title>103. 二叉树的锯齿形层序遍历</title><link>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</link><pubDate>Wed, 10 Apr 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-zigzag-level-order-traversal/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" title="https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://leetcode.cn/problems/binary-tree-zigzag-level-order-traversal/
@@ -7,7 +7,7 @@
  
 &lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>给你二叉树的根节点 root ，返回其节点值的 锯齿形层序遍历 。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。&lt;/p></description></item><item><title>236. 二叉树的最近公共祖先</title><link>http://weirwei.cn/leetcode/leetcode_recently_parent/</link><pubDate>Thu, 21 Mar 2024 00:00:00 +0800</pubDate><guid>http://weirwei.cn/leetcode/leetcode_recently_parent/</guid><description>&lt;blockquote>
+&lt;p>给你二叉树的根节点 root ，返回其节点值的 锯齿形层序遍历 。（即先从左往右，再从右往左进行下一层遍历，以此类推，层与层之间交替进行）。&lt;/p></description></item><item><title>236. 二叉树的最近公共祖先</title><link>http://blog.weirwei.cn/leetcode/leetcode_recently_parent/</link><pubDate>Thu, 21 Mar 2024 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_recently_parent/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/" title="https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/
@@ -17,7 +17,7 @@
 &lt;/a>&lt;/p>
 &lt;/blockquote>
 &lt;p>给定一个二叉树, 找到该树中两个指定节点的最近公共祖先。&lt;/p>
-&lt;p>百度百科中最近公共祖先的定义为：“对于有根树 T 的两个节点 p、q，最近公共祖先表示为一个节点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&lt;/p></description></item><item><title>102. 二叉树的层序遍历</title><link>http://weirwei.cn/leetcode/leetcode_binary-tree-level-order-traversal/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate><guid>http://weirwei.cn/leetcode/leetcode_binary-tree-level-order-traversal/</guid><description>&lt;blockquote>
+&lt;p>百度百科中最近公共祖先的定义为：“对于有根树 T 的两个节点 p、q，最近公共祖先表示为一个节点 x，满足 x 是 p、q 的祖先且 x 的深度尽可能大（一个节点也可以是它自己的祖先）。”&lt;/p></description></item><item><title>102. 二叉树的层序遍历</title><link>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-level-order-traversal/</link><pubDate>Tue, 21 Nov 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_binary-tree-level-order-traversal/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/binary-tree-level-order-traversal/" title="https://leetcode.cn/problems/binary-tree-level-order-traversal/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://leetcode.cn/problems/binary-tree-level-order-traversal/

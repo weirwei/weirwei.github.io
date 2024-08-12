@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on 浩雨未倾</title><link>http://weirwei.cn/tags/golang/</link><description>Recent content in Golang on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 26 Jul 2024 15:35:20 +0800</lastBuildDate><atom:link href="http://weirwei.cn/tags/golang/rss.xml" rel="self" type="application/rss+xml"/><item><title>Golang 的 docker 部署流程</title><link>http://weirwei.cn/practical/docker_deploy_golang/</link><pubDate>Fri, 26 Jul 2024 15:35:20 +0800</pubDate><guid>http://weirwei.cn/practical/docker_deploy_golang/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Golang on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/golang/</link><description>Recent content in Golang on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 26 Jul 2024 15:35:20 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/golang/rss.xml" rel="self" type="application/rss+xml"/><item><title>Golang 的 docker 部署流程</title><link>http://blog.weirwei.cn/practical/docker_deploy_golang/</link><pubDate>Fri, 26 Jul 2024 15:35:20 +0800</pubDate><guid>http://blog.weirwei.cn/practical/docker_deploy_golang/</guid><description>&lt;blockquote>
 &lt;p>想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。&lt;/p>
-&lt;/blockquote></description></item><item><title>go 结构体包含接口成员进行反序列化</title><link>http://weirwei.cn/practical/go_struct_contains_interface/</link><pubDate>Wed, 18 Oct 2023 18:45:00 +0800</pubDate><guid>http://weirwei.cn/practical/go_struct_contains_interface/</guid><description>&lt;blockquote>
+&lt;/blockquote></description></item><item><title>go 结构体包含接口成员进行反序列化</title><link>http://blog.weirwei.cn/practical/go_struct_contains_interface/</link><pubDate>Wed, 18 Oct 2023 18:45:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/go_struct_contains_interface/</guid><description>&lt;blockquote>
 &lt;p>工作中遇到一个问题，结构体包含接口类型的成员时，在反序列化的时候会报错。&lt;/p>
 &lt;/blockquote>
 &lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-golang" data-lang="golang">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">// Task 接口类型
@@ -33,7 +33,7 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Id &lt;span style="color:#8be9fd">uint64&lt;/span> &lt;span style="color:#f1fa8c">`json:&amp;#34;id&amp;#34;`&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Task Task &lt;span style="color:#f1fa8c">`json:&amp;#34;task&amp;#34;`&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Gorm 的黑魔法</title><link>http://weirwei.cn/practical/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>http://weirwei.cn/practical/gorm_black_magic/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>Gorm 的黑魔法</title><link>http://blog.weirwei.cn/practical/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/gorm_black_magic/</guid><description>&lt;blockquote>
 &lt;p>小伙看到同事写的Gorm黑魔法，逐渐不淡定了。&lt;/p>
 &lt;/blockquote>
 &lt;p>开发过程中，看到同事的代码写了这么一段：&lt;/p>
@@ -44,11 +44,11 @@
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">if&lt;/span> db.RowsAffected &lt;span style="color:#ff79c6">==&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span> {
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> components.ErrorAlreadyExist
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>go 的切片扩容</title><link>http://weirwei.cn/learning/slice_expand/</link><pubDate>Wed, 27 Sep 2023 11:49:00 +0800</pubDate><guid>http://weirwei.cn/learning/slice_expand/</guid><description>&lt;blockquote>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>go 的切片扩容</title><link>http://blog.weirwei.cn/learning/slice_expand/</link><pubDate>Wed, 27 Sep 2023 11:49:00 +0800</pubDate><guid>http://blog.weirwei.cn/learning/slice_expand/</guid><description>&lt;blockquote>
 &lt;p>在uber 的go语言编码规范中有这么一条，2.48s 和0.21s 的差距还是很惊人了，我很好奇，why？&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;img src="http://weirwei.cn/imgs/img-lazy-loading.gif" data-src="http://weirwei.cn/imgs/post/slice_expand/20211101012619128.png" alt="20211101012619128" />&lt;/p>
-&lt;p>切片在&lt;code>append&lt;/code>的时候可能会自动扩容，看一下相关源码。&lt;/p></description></item><item><title>go test 的内联问题</title><link>http://weirwei.cn/practical/inlining/</link><pubDate>Wed, 27 Sep 2023 11:00:00 +0800</pubDate><guid>http://weirwei.cn/practical/inlining/</guid><description>&lt;blockquote>
+&lt;p>&lt;img src="http://blog.weirwei.cn/imgs/img-lazy-loading.gif" data-src="http://blog.weirwei.cn/imgs/post/slice_expand/20211101012619128.png" alt="20211101012619128" />&lt;/p>
+&lt;p>切片在&lt;code>append&lt;/code>的时候可能会自动扩容，看一下相关源码。&lt;/p></description></item><item><title>go test 的内联问题</title><link>http://blog.weirwei.cn/practical/inlining/</link><pubDate>Wed, 27 Sep 2023 11:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/practical/inlining/</guid><description>&lt;blockquote>
 &lt;p>使用&lt;code>monkey&lt;/code>对函数进行打桩单测的时候，发现打桩函数没有生效。&lt;/p>
 &lt;/blockquote>
 &lt;p>习惯直接使用IDE的可视化的&lt;code>run&lt;/code>和&lt;code>debug&lt;/code>功能进行跑单测，没有关注到具体执行的命令。&lt;/p></description></item></channel></rss>
