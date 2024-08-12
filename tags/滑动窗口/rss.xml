@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>滑动窗口 on 浩雨未倾</title><link>http://blog.weirwei.cn/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link><description>Recent content in 滑动窗口 on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://blog.weirwei.cn/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/rss.xml" rel="self" type="application/rss+xml"/><item><title>25. K 个一组翻转链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_reverse-nodes-in-k-group/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_reverse-nodes-in-k-group/</guid><description>&lt;blockquote>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>滑动窗口 on 浩雨未倾</title><link>http://weirwei.cn/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/</link><description>Recent content in 滑动窗口 on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 20 Oct 2023 00:00:00 +0800</lastBuildDate><atom:link href="http://weirwei.cn/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/rss.xml" rel="self" type="application/rss+xml"/><item><title>25. K 个一组翻转链表</title><link>http://weirwei.cn/leetcode/leetcode_reverse-nodes-in-k-group/</link><pubDate>Fri, 20 Oct 2023 00:00:00 +0800</pubDate><guid>http://weirwei.cn/leetcode/leetcode_reverse-nodes-in-k-group/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-nodes-in-k-group/" title="https://leetcode.cn/problems/reverse-nodes-in-k-group/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://leetcode.cn/problems/reverse-nodes-in-k-group/
@@ -9,7 +9,7 @@
 &lt;/blockquote>
 &lt;p>给你链表的头节点 head ，每 k 个节点一组进行翻转，请你返回修改后的链表。&lt;/p>
 &lt;p>k 是一个正整数，它的值小于或等于链表的长度。如果节点总数不是 k 的整数倍，那么请将最后剩余的节点保持原有顺序。&lt;/p>
-&lt;p>你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。&lt;/p></description></item><item><title>206. 反转链表</title><link>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_reverse-linked-list/</guid><description>&lt;blockquote>
+&lt;p>你不能只是单纯的改变节点内部的值，而是需要实际进行节点交换。&lt;/p></description></item><item><title>206. 反转链表</title><link>http://weirwei.cn/leetcode/leetcode_reverse-linked-list/</link><pubDate>Wed, 11 Oct 2023 00:00:00 +0800</pubDate><guid>http://weirwei.cn/leetcode/leetcode_reverse-linked-list/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/reverse-linked-list" title="https://leetcode.cn/problems/reverse-linked-list" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://leetcode.cn/problems/reverse-linked-list
@@ -18,7 +18,7 @@
  
 &lt;/a>&lt;/p>
 &lt;/blockquote>
-&lt;p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。&lt;/p></description></item><item><title>3. 无重复字符的最长子串</title><link>http://blog.weirwei.cn/leetcode/leetcode_longest-substring-without-repeating-characters/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://blog.weirwei.cn/leetcode/leetcode_longest-substring-without-repeating-characters/</guid><description>&lt;blockquote>
+&lt;p>给你单链表的头节点 head ，请你反转链表，并返回反转后的链表。&lt;/p></description></item><item><title>3. 无重复字符的最长子串</title><link>http://weirwei.cn/leetcode/leetcode_longest-substring-without-repeating-characters/</link><pubDate>Tue, 10 Oct 2023 00:00:00 +0800</pubDate><guid>http://weirwei.cn/leetcode/leetcode_longest-substring-without-repeating-characters/</guid><description>&lt;blockquote>
 &lt;p>
 &lt;a href="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" title="https://leetcode.cn/problems/longest-substring-without-repeating-characters/" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl">
  https://leetcode.cn/problems/longest-substring-without-repeating-characters/
