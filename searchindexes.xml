@@ -1,4 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>Golang 的 docker 部署流程</title><url>/practical/docker_deploy_golang/</url><categories><category>实战问题</category></categories><tags><tag>docker</tag><tag>golang</tag></tags><content type="html"><![CDATA[   想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><search><entry><title>goland to vscode</title><url>/practical/goland_to_vscode/</url><categories><category>实战问题</category></categories><tags><tag>vscode</tag><tag>goland</tag><tag>jetbrains</tag><tag>IDE</tag></tags><content type="html"><![CDATA[   有时候开发的时候用不止用一种语言，goland 的优势就不是很大了，恰到周围有很多同事也在用 vscode 开发 go，就想迁移试试。
+插件 以下是我认为相对比较重要的插件
+IntelliJ IDEA Keybindings: jetbrains 式快捷键映射
+JetBrains IDE Keymap: jetbrains 式快捷键映射
+GitLens — Git supercharged: git 工具，下文详细说明
+Go: go 开发必装
+Code Spell Checker: 单词拼写检查
+Custom CSS and JS Loader: 自定义编辑器的样式
+Todo Tree: 增加一个快速查看Todo的侧边按钮
+background: 换背景图
+快捷键 装了两个插件。一个插件支持 双击shift 查文件，另一个支持 shift+esc 查看或关闭terminal，这两个快捷键是我常用的，所以这两个插件都保留了。
+还有一些插件无法覆盖的快捷键，我就手动加上了。
+command+shift+f: 搜索。这个命令插件覆盖了，但是会打开 vscode 侧边栏的搜索窗口，这个搜索窗口太小了，习惯用 jetbrains 搜索的我无法适应。所以把这个快捷键改成了打开搜索tab。
+{ &#34;key&#34;: &#34;shift+cmd+f&#34;, &#34;command&#34;: &#34;search.action.openNewEditor&#34; } shift+enter: 打开命令框
+{ &#34;key&#34;: &#34;ctrl ctrl&#34;, &#34;command&#34;: &#34;workbench.action.showCommands&#34; } Git git 主要是用到了 GitLens 的一些能力
+Commit Graph: 用来查看提交记录，执行一些 revert、undo 等操作；还可以切换分支。
+File History: 文件的改动历史
+Search &amp; Compare: 版本对比
+vscode 自带的 git 用来提交 commit ，虽然没有 goland 好用，但还凑活。
+（主要是选择部分文件进行提交的场景有一点麻烦，目前我采用的方式是在git窗口加入staged，然后命令行commit）
+debug 点击 run test 和 debug test 的时候没有打印日志。
+这个可以添加配置解决 settings.json
+{ &#34;go.testFlags&#34;: [&#34;-v&#34;] } debug 的时候查看 VARIABLES 有些比较大的 value 展示不全。
+这个可以添加配置解决 settings.json
+{ &#34;go.delveConfig&#34;: { &#34;maxStringLen&#34;: 2048, }, } 美化 最后再来说一下美化。
+background 插件可以换背景图。
+Custom CSS and JS Loader 插件对编辑进行了优化
+主要参考了这两个内容：
+GitHub - manoj-here/VS-Code_Tweaks : 优化了一些圆角，以及搜索框的居中和模糊背景效果
+VsCode 自定义个性样式一、安装 Custom CSS and JS Loader 插件 二、创建本地（放在自己的服 - 掘金 : 自定义选中按钮、光标的颜色
+  ]]></content></entry><entry><title>Golang 的 docker 部署流程</title><url>/practical/docker_deploy_golang/</url><categories><category>实战问题</category></categories><tags><tag>docker</tag><tag>golang</tag></tags><content type="html"><![CDATA[   想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。
 目录结构 . |-llmserver | |-conf | | |-yaml # 配置文件 | |-main.go | |-go.mod | |-go.sum | |-Dockerfile | |-Makefile | |-VERSION 步骤 编译go程序 在 dockerhub pull一个go的编译镜像 把代码拷贝到容器中 下载依赖 编译 构建docker镜像 在 dockerhub pull一个go的运行镜像 把编译好的可执行文件&amp;配置文件拷贝到容器中 运行可执行文件 运行docker容器 docker run -p 8080:8080 -d appname:1.0 Dockerfile # 使用官方的 Golang 镜像作为基础镜像 FROM golang:1.22-alpine as builder ARG APP_NAME ENV APP_NAME=$APP_NAME LABEL maintainer=&#34;weirwei &lt;nightnessss@163.com&gt;&#34; # 设置编译目录 WORKDIR $GOPATH/$APP_NAME COPY go.mod $GOPATH/${APP_NAME}/ COPY go.sum $GOPATH/${APP_NAME}/ # 下载依赖 ENV GOPROXY=&#39;https://goproxy.cn,https://goproxy.io,direct&#39; RUN go mod download # 编译 COPY . $GOPATH/${APP_NAME}/ RUN go build -o /usr/local/bin/${APP_NAME} main.go ###### 运行 ####### FROM alpine:3.20 ARG APP_NAME ENV APP_NAME=$APP_NAME # 设置运行目录 WORKDIR /usr/local/bin/ # 拷贝编译好的程序 COPY --from=builder /usr/local/bin/${APP_NAME} /usr/local/bin/ # 拷贝配置文件 COPY ./conf/yaml /usr/local/bin/conf/yaml # 运行程序 CMD [&#34;sh&#34;, &#34;-c&#34;, &#34;/usr/local/bin/$APP_NAME | tee /usr/local/bin/app.log&#34;] Makefile # 项目根目录创建个VERSION，记录镜像版本 VERSION ?= $(shell cat ./VERSION) docker-image-build: docker build -t llmserver:${VERSION} --build-arg APP_NAME=appname . docker-run: docker run -p 8080:8080 -d appname:${VERSION} 写完Makefile后，只需要如下操作就能部署好服务了：
 上传项目文件到 docker 机器； 进入项目文件； 运行 make docker-image-build 生成镜像； 运行 make docker-run 运行容器；   ]]></content></entry><entry><title>grafana 监控搭建</title><url>/practical/grafana_deploy/</url><categories><category>实战问题</category></categories><tags><tag>监控</tag><tag>grafana</tag><tag>prometheus</tag></tags><content type="html"><![CDATA[   需要搭建业务监控，趁机学习一下 grafana 相关的知识。 本文基于实际应用，辅以简单理论。 参考资料： https://prometheus.wang/ https://www.au92.com/post/mac-install-prometheus-and-grafana/ Prometheus 云原生监控系统
 优势 易于管理：核心只有一个二进制文件，无第三方依赖，只需要本地磁盘 客户端渗透到服务内部：Prometheus鼓励用户监控服务的内部状态，通过丰富的client库。 强大的数据模型 强大的查询语言PromQL 高效：百万监控指标，每秒处理十万数据点 可扩展 易于集成 可视化 开放性 安装 brew install prometheus
