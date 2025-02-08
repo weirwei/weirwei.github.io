@@ -1,0 +1,625 @@
+<!doctype html><html lang=zh-CN data-theme=dark><head><meta charset=UTF-8><meta name=viewport content="width=device-width"><meta name=theme-color content="#222" media="(prefers-color-scheme: dark)"><meta name=generator content="Hugo 0.140.1"><link rel="shortcut icon" type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/png sizes=16x16 href=/imgs/icons/favicon_16x16_next.png><link rel=icon type=image/png sizes=32x32 href=/imgs/icons/favicon_32_32_next.png><link rel=apple-touch-icon sizes=180x180 href=/imgs/icons/apple_touch_icon_next.png><meta itemprop=name content="_Drafts"><meta itemprop=description content="保持简单的易用性和强大的功能。"><meta name=description content="保持简单的易用性和强大的功能。"><meta itemprop=image content="http://weirwei.cn/imgs/hugo_next_avatar.png"><meta itemprop=keywords content="Hugo,NexT,主题,简单,强大"><meta property="og:type" content="website"><meta property="og:title" content="_Drafts"><meta property="og:description" content="保持简单的易用性和强大的功能。"><meta property="og:image" content="/imgs/hugo_next_avatar.png"><meta property="og:image:width" content="312"><meta property="og:image:height" content="312"><meta property="og:image:type" content="image/jpeg/png/svg/jpg"><meta property="og:url" content="http://weirwei.cn/_draft/"><meta property="og:site_name" content="浩雨未倾"><meta property="og:locale" content="zh-CN"><link type=text/css rel=stylesheet href=http://weirwei.cn/js/3rd/font-awesome/6.7.2/css/all.min.css><link type=text/css rel=stylesheet href=http://weirwei.cn/js/3rd/animate.css/3.1.1/animate.min.css><link type=text/css rel=stylesheet href=http://weirwei.cn/js/3rd/viewerjs/1.11.6/viewer.min.css><link rel=stylesheet href="/css/main.min.css?=1739010986"><style type=text/css>.post-footer hr:after{content:"~ 我可是有底线的哟 ~"}.flinks-list-footer hr:after{content:"~ 我可是有底线的哟 ~"}</style><link rel=stylesheet type=text/css href="/css/custom_style.css?=1739010986"><script type=text/javascript>(function(){localDB={set:function(e,t,n){if(n===0)return;const s=new Date,o=n*864e5,i={value:t,expiry:s.getTime()+o};localStorage.setItem(e,JSON.stringify(i))},get:function(e){const t=localStorage.getItem(e);if(!t)return void 0;const n=JSON.parse(t),s=new Date;return s.getTime()>n.expiry?(localStorage.removeItem(e),void 0):n.value}},theme={active:function(){const e=localDB.get("theme");if(e==null)return;theme.toggle(e),window.matchMedia("(prefers-color-scheme: dark)").addListener(function(e){theme.toggle(e.matches?"dark":"light")})},toggle:function(e){document.documentElement.setAttribute("data-theme",e),localDB.set("theme",e,2);const t=document.querySelector("iframe.giscus-frame");if(t){const n={setConfig:{theme:e}};t.contentWindow.postMessage({giscus:n},"https://giscus.app")}}},theme.active()})(window)</script><script type=text/javascript>document.addEventListener("DOMContentLoaded",()=>{var e=document.createElement("script");e.charset="UTF-8",e.src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",e.async=!1,e.defer=!0,document.head.appendChild(e),e.onload=function(){NexT.utils.fmtBusuanzi()}})</script><title>_draft - 浩雨未倾</title><noscript><link rel=stylesheet href=/css/noscript.css></noscript></head><body itemscope itemtype=http://schema.org/WebPage class=use-motion><div class=headband></div><main class=main><header class=header itemscope itemtype=http://schema.org/WPHeader><div class=header-inner><div class=site-brand-container><div class=site-nav-toggle><div class=toggle aria-label role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div></div><div class=site-meta><a href=/ class=brand rel=start><i class=logo-line></i><h1 class=site-title>浩雨未倾</h1><i class=logo-line></i></a><p class=site-subtitle itemprop=description>为 Hugo 打造的主题</p></div><div class=site-nav-right><div class="toggle popup-trigger"><i class="fa fa-search fa-fw fa-lg"></i></div></div></div><nav class=site-nav><ul class="main-menu menu"><li class="menu-item menu-item-home"><a href=/ class=hvr-icon-pulse rel=section><i class="fa fa-home hvr-icon"></i>首页</a></li><li class="menu-item menu-item-about"><a href=/about.html class=hvr-icon-pulse rel=section><i class="fa fa-user hvr-icon"></i>关于</a></li><li class="menu-item menu-item-flinks"><a href=/flinks.html class=hvr-icon-pulse rel=section><i class="fa fa-thumbs-up hvr-icon"></i>友情链接</a></li><li class="menu-item menu-item-example"><a href=/ class="menus-parent hvr-icon-pulse" rel=section><i class="fa fa-angles-down hvr-icon"></i>语法示例
+<span class=menu-item-shrink-icon><i class="fa fa-angle-right"></i></span></a><ul class=menu-children><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>语法高亮</a></li><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>数学公式</a></li><li class=menu-child-item><a href=/post/11-mermaid-charts class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>流程图</a></li></ul></li><li class="menu-item menu-item-archives"><a href=/archives/ class=hvr-icon-pulse rel=section><i class="fa fa-archive hvr-icon"></i>归档
+<span class=badge>0</span></a></li><li class="menu-item menu-item-commonweal"><a href=/404.html class=hvr-icon-pulse rel=section><i class="fa fa-heartbeat hvr-icon"></i>公益 404</a></li><li class="menu-item menu-item-search"><a role=button class="popup-trigger hvr-icon-pulse"><i class="fa fa-search fa-fw hvr-icon"></i>搜索</a></li></ul></nav><div class=search-pop-overlay><div class="popup search-popup"><div class=search-header><span class=search-icon><i class="fa fa-search"></i></span><div class=search-input-container><input autocomplete=off autocapitalize=off maxlength=80 placeholder=搜索... spellcheck=false type=search class=search-input></div><span class=popup-btn-close role=button><i class="fa fa-times-circle"></i></span></div><div class="search-result-container no-result"><div class=search-result-icon><i class="fa fa-spinner fa-pulse fa-5x"></i></div></div></div></div></div><div class="toggle sidebar-toggle" role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div><aside class=sidebar><div class="sidebar-inner sidebar-overview-active"><ul class=sidebar-nav><li class=sidebar-nav-toc>文章目录</li><li class=sidebar-nav-overview>站点概览</li></ul><div class=sidebar-panel-container><div class="post-toc-wrap sidebar-panel"><div class="post-toc animated"><nav id=TableOfContents></nav></div></div><div class="site-overview-wrap sidebar-panel"><div class="site-author site-overview-item animated" itemprop=author itemscope itemtype=http://schema.org/Person><img class=site-author-image itemprop=image alt="NexT 主题" src=/imgs/img-lazy-loading.gif data-src=/imgs/hugo_next_avatar.png><p class=site-author-name itemprop=name>NexT 主题</p><div class=site-description itemprop=description>保持简单的易用性和强大的功能。</div></div><div class="site-state-wrap site-overview-item animated"><nav class=site-state><div class="site-state-item site-state-posts"><a href=/archives/><span class=site-state-item-count>0</span>
+<span class=site-state-item-name>日志</span></a></div><div class="site-state-item site-state-categories"><a href=/categories/><span class=site-state-item-count>10</span>
+<span class=site-state-item-name>分类</span></a></div><div class="site-state-item site-state-tags"><a href=/tags/><span class=site-state-item-count>41</span>
+<span class=site-state-item-name>标签</span></a></div></nav></div><div class="links-of-social site-overview-item animated"><span class=links-of-social-item><a href=https://github.com/elkan1788 title="Github → https://github.com/elkan1788" rel=noopener class=hvr-icon-pulse target=_blank><i class="fab fa-github fa-fw hvr-icon"></i>
+Github
+</a></span><span class=links-of-social-item><a href=https://www.zhihu.com/people/lisenhui title="知乎 → https://www.zhihu.com/people/lisenhui" rel=noopener class=hvr-icon-pulse target=_blank><i class="fa fa-book fa-fw hvr-icon"></i>
+知乎</a></span></div><div class="cc-license animated" itemprop=license><a href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh class=cc-opacity rel=noopener target=_blank title=共享知识><img src=/imgs/img-lazy-loading.gif data-src=/imgs/cc/big/by_nc_sa.svg alt=共享知识></a></div><div class="links-of-blogroll site-overview-item animated"><div class=links-of-blogroll-title><i class="fa fa-globe fa-fw"></i>
+友情链接</div><ul class=links-of-blogroll-list><li class=links-of-blogroll-item><a href=https://github.com/weirwei title=https://github.com/weirwei target=_blank>weirwei</a></li><li class=links-of-blogroll-item><a href=http://blog.weirwei.cn title=http://blog.weirwei.cn target=_blank>浩雨未倾</a></li></ul></div><div class="mydefined animated" itemprop=custom><span>支持自定义CSS和Sidebar布局啦💄💄💄</span></div></div></div></div><div id=siteinfo-card-widget class=sidebar-card-widget><div class=item-headline><i class="fas fa-chart-line"></i>
+<span>网站资讯</span></div><div class=siteinfo><div class=siteinfo-item><div class=item-name><i class="fa-solid fa-calendar-check"></i>已运行：</div><div class=item-count id=runTimes data-publishdate></div></div><div class=siteinfo-item><div class=item-name><i class="fas fa fa-user"></i>总访客数：</div><div class=item-count id=busuanzi_value_site_uv><i class="fa fa-sync fa-spin"></i></div></div><div class=siteinfo-item><div class=item-name><i class="fas fa fa-eye"></i>页面浏览：</div><div class=item-count id=busuanzi_value_site_pv><i class="fa fa-sync fa-spin"></i></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-font"></i>总字数：</div><div class=item-count id=wordsCount data-count></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-mug-hot"></i>阅读约：</div><div class=item-count id=readTimes data-times></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-clock-rotate-left"></i>最后更新于：</div><div class=item-count id=last-push-date data-lastpushdate></div></div></div></div></aside><div class=sidebar-dimmer></div></header><div class=tool-buttons><div id=goto-i18n-translate class=button title=多语言翻译><i class="fas fa-globe"></i></div><div id=toggle-theme class=button title=深浅模式切换><i class="fas fa-adjust"></i></div><div class=back-to-top role=button title=返回顶部><i class="fa fa-arrow-up"></i>
+<span>0%</span></div></div><div class=reading-progress-bar></div><a role=button class="book-mark-link book-mark-link-fixed"></a><a href=https://github.com/weirwei rel="noopener external nofollow noreferrer" target=_blank title="Follow me on GitHub" class="exturl github-corner"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0 0 115 115h15l12 27L250 250V0z"/><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentcolor" style="transform-origin:130px 106px" class="octo-arm"/><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4l13.9-13.8C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8z" fill="currentcolor" class="octo-body"/></svg>
+</a><script type=text/javascript src=//sidecar.gitter.im/dist/sidecar.v1.js async></script><script type=text/javascript>((window.gitter={}).chat={}).options={room:"hugo-next/community"}</script><noscript><div class=noscript-warning>Theme NexT works best with JavaScript enabled</div></noscript><div class="main-inner index posts-expand"><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E4%B8%AD%E9%97%B4%E4%BB%B6/redis/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="数据结构
+
+
+string
+hash
+set
+zset
+list
+
+过期策略
+
+定期删除
+
+每100ms 就随机抽取一些设置了过期时间的key没过期了就删除
+惰性删除
+
+客户端访问的时候，对key的过期时间进行检查
+内存淘汰策略
+
+内存使用超过最大配置限额时出发"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E4%B8%AD%E9%97%B4%E4%BB%B6/redis/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h2 id=数据结构>数据结构
+<a class=header-anchor href=#%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84></a></h2><ul><li>string</li><li>hash</li><li>set</li><li>zset</li><li>list</li></ul><h2 id=过期策略>过期策略
+<a class=header-anchor href=#%e8%bf%87%e6%9c%9f%e7%ad%96%e7%95%a5></a></h2><h3 id=定期删除>定期删除
+<a class=header-anchor href=#%e5%ae%9a%e6%9c%9f%e5%88%a0%e9%99%a4></a></h3><p>每100ms 就随机抽取一些设置了过期时间的key没过期了就删除</p><h3 id=惰性删除>惰性删除
+<a class=header-anchor href=#%e6%83%b0%e6%80%a7%e5%88%a0%e9%99%a4></a></h3><p>客户端访问的时候，对key的过期时间进行检查</p><h2 id=内存淘汰策略>内存淘汰策略
+<a class=header-anchor href=#%e5%86%85%e5%ad%98%e6%b7%98%e6%b1%b0%e7%ad%96%e7%95%a5></a></h2><p>内存使用超过最大配置限额时出发</p></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E4%B8%AD%E9%97%B4%E4%BB%B6/redis/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E4%B8%AD%E9%97%B4%E4%BB%B6/rocketmq/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="专业术语
+
+
+消息（Message）。消息系统所传输信息的物理载体，生产和消费数据的最小单位，每条消息必须属于一个主题
+主题（Topic）。表示一类消息的集合，是进行消息订阅的基本单位。一个生产者可以生产多个topic，一个消费者只能消费一个topic。
+标签（Tag）。子主题，消费这可以根据tag实现对不同子主题的消费逻辑。
+队列（Queue）。存储消息的物理实体。一个Topic 可以包含多个Queue。一个Topic的Queue也被成为一个Topic中消息的分区（Partition）。一个Queue的消息只能被消费者组中的一个消费者消费。
+消息表示（Message/Key）。每个消息都有唯一的MessageId，且可以携带具有业务表示的Key，方便查询。生产者Send()的时候会自动生成一个。消息到Broker时也会自动生成一个。
+组（Group）。
+偏移量（offset）。消息队列中的下标。
+
+架构
+
+"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E4%B8%AD%E9%97%B4%E4%BB%B6/rocketmq/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h2 id=专业术语>专业术语
+<a class=header-anchor href=#%e4%b8%93%e4%b8%9a%e6%9c%af%e8%af%ad></a></h2><ul><li>消息（Message）。消息系统所传输信息的物理载体，生产和消费数据的最小单位，每条消息必须属于一个主题</li><li>主题（Topic）。表示一类消息的集合，是进行消息订阅的基本单位。一个生产者可以生产多个topic，一个消费者只能消费一个topic。</li><li>标签（Tag）。子主题，消费这可以根据tag实现对不同子主题的消费逻辑。</li><li>队列（Queue）。存储消息的物理实体。一个Topic 可以包含多个Queue。一个Topic的Queue也被成为一个Topic中消息的分区（Partition）。一个Queue的消息只能被消费者组中的一个消费者消费。</li><li>消息表示（Message/Key）。每个消息都有唯一的MessageId，且可以携带具有业务表示的Key，方便查询。生产者Send()的时候会自动生成一个。消息到Broker时也会自动生成一个。</li><li>组（Group）。</li><li>偏移量（offset）。消息队列中的下标。</li></ul><h2 id=架构>架构
+<a class=header-anchor href=#%e6%9e%b6%e6%9e%84></a></h2><p><img src=/imgs/img-lazy-loading.gif data-src=img.png alt=img.png></p></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E4%B8%AD%E9%97%B4%E4%BB%B6/rocketmq/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E4%BA%BA%E7%94%9F/tips/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="
+
+应该避免自己把精力分散在细节上。很少有人会注意到细节的东西，只要做到没有过错就可以了。
+把这部分精力留着，做出一些实际有用或者看起来有用的东西（这有点像所谓的“PPT”文化，我以前以为它是落后的，如今反之）。
+有用的东西或者看起来有用的东西，会让你得到重视，体验“价值”。
+细节打磨得很好，会得到“做得不错”的夸奖，做出“有用”的东西，会得到升职加薪。"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E4%BA%BA%E7%94%9F/tips/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><ol><li><p>应该避免自己把精力分散在细节上。很少有人会注意到细节的东西，只要做到没有过错就可以了。
+把这部分精力留着，做出一些实际有用或者看起来有用的东西（这有点像所谓的“PPT”文化，我以前以为它是落后的，如今反之）。
+有用的东西或者看起来有用的东西，会让你得到重视，体验“价值”。
+细节打磨得很好，会得到“做得不错”的夸奖，做出“有用”的东西，会得到升职加薪。</p></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E4%BA%BA%E7%94%9F/tips/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AD%98%E5%82%A8/leveldb/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AD%98%E5%82%A8/leveldb/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AD%98%E5%82%A8/leveldb/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AE%9E%E6%88%98/data_migration/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="
+    记一次上亿级别的数据迁移
+
+  
+前期准备
+
+需要考虑的几个点：
+
+迁移失败。迁移过程中发生报错该怎么处理？
+数据正确性。如何验证数据正确性。
+业务中断。迁移到一半，因不可抗力因素（服务重启等）中断。
+数据源切换。如何切换数据源，使用户无感知。
+
+解决："></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AE%9E%E6%88%98/data_migration/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><blockquote><p>记一次上亿级别的数据迁移</p></blockquote><h2 id=前期准备>前期准备
+<a class=header-anchor href=#%e5%89%8d%e6%9c%9f%e5%87%86%e5%a4%87></a></h2><p>需要考虑的几个点：</p><ul><li>迁移失败。迁移过程中发生报错该怎么处理？</li><li>数据正确性。如何验证数据正确性。</li><li>业务中断。迁移到一半，因不可抗力因素（服务重启等）中断。</li><li>数据源切换。如何切换数据源，使用户无感知。</li></ul><p>解决：</p></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AE%9E%E6%88%98/data_migration/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AE%9E%E6%88%98/elastic-search-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content='索引相关
+
+查索引结构
+
+
+
+
+1
+
+
+GET /data_collector_action_log/_mapping
+
+
+
+创建索引
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+
+
+PUT /data_collector_composition_submission
+{
+    "mappings": {
+        "dynamic": "false",
+        "properties": {
+          "content" : {
+            "type" : "text",
+            "analyzer" : "ik_max_word"
+          },
+          "create_time" : {
+            "type" : "date",
+            "format" : "yyyy-MM-dd HH:mm:ss"
+          },
+          "activity_code": {
+            "type" : "keyword"
+          },
+          "deleted" : {
+            "type" : "integer"
+          },
+          "grade_id" : {
+            "type" : "integer"
+          },
+          "resource_id" : {
+            "type" : "keyword"
+          },
+          "resource_type" : {
+            "type" : "integer"
+          },
+          "status" : {
+            "type" : "integer"
+          },
+          "uid" : {
+            "type" : "long"
+          },
+          "uname" : {
+            "type" : "text",
+            "analyzer" : "ik_max_word"
+          },
+          "update_time" : {
+            "type" : "date",
+            "format" : "yyyy-MM-dd HH:mm:ss"
+          }
+        }
+    },
+    "settings": {
+        "number_of_shards": "4",
+        "number_of_replicas": "1"
+    }
+}
+
+
+
+添加索引字段
+
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+
+
+PUT /zq_test/_mapping
+{
+    "properties": {
+        "hight": {
+            "type": "integer"
+        }
+    }
+}
+
+
+
+nested 类型添加字段
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+
+
+PUT /data_collector_action_log_alias/_mapping
+{
+    "properties": {
+      "payload": {
+        "type": "nested",
+        "properties": {
+          "rating":    { "type": "integer" }
+        }
+      }
+    }
+}
+
+
+
+查询相关
+
+条件查询
+
+nested 类型中的字段作为条件
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+
+
+GET /data_collector_action_log_alias/_search
+{
+    "from": 0,
+    "query": {
+        "nested": {
+            "path": "payload",
+            "query": {
+                "bool": {
+                    "must": [
+                        {
+                            "term": {
+                                "payload.rating": 4
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "size": 20,
+    "sort": [
+        {
+            "time": {
+                "order": "desc"
+            }
+        }
+    ]
+}
+
+'></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AE%9E%E6%88%98/elastic-search-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h1 id=索引相关>索引相关
+<a class=header-anchor href=#%e7%b4%a2%e5%bc%95%e7%9b%b8%e5%85%b3></a></h1><h2 id=查索引结构>查索引结构
+<a class=header-anchor href=#%e6%9f%a5%e7%b4%a2%e5%bc%95%e7%bb%93%e6%9e%84></a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-0-1><a class=lnlinks href=#hl-0-1>1</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>GET /data_collector_action_log/_mapping</span></span></code></pre></td></tr></table></div></div><h2 id=创建索引>创建索引
+<a class=header-anchor href=#%e5%88%9b%e5%bb%ba%e7%b4%a2%e5%bc%95></a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-1-1><a class=lnlinks href=#hl-1-1> 1</a>
+</span><span class=lnt id=hl-1-2><a class=lnlinks href=#hl-1-2> 2</a>
+</span><span class=lnt id=hl-1-3><a class=lnlinks href=#hl-1-3> 3</a>
+</span><span class=lnt id=hl-1-4><a class=lnlinks href=#hl-1-4> 4</a>
+</span><span class=lnt id=hl-1-5><a class=lnlinks href=#hl-1-5> 5</a>
+</span><span class=lnt id=hl-1-6><a class=lnlinks href=#hl-1-6> 6</a>
+</span><span class=lnt id=hl-1-7><a class=lnlinks href=#hl-1-7> 7</a>
+</span><span class=lnt id=hl-1-8><a class=lnlinks href=#hl-1-8> 8</a>
+</span><span class=lnt id=hl-1-9><a class=lnlinks href=#hl-1-9> 9</a>
+</span><span class=lnt id=hl-1-10><a class=lnlinks href=#hl-1-10>10</a>
+</span><span class=lnt id=hl-1-11><a class=lnlinks href=#hl-1-11>11</a>
+</span><span class=lnt id=hl-1-12><a class=lnlinks href=#hl-1-12>12</a>
+</span><span class=lnt id=hl-1-13><a class=lnlinks href=#hl-1-13>13</a>
+</span><span class=lnt id=hl-1-14><a class=lnlinks href=#hl-1-14>14</a>
+</span><span class=lnt id=hl-1-15><a class=lnlinks href=#hl-1-15>15</a>
+</span><span class=lnt id=hl-1-16><a class=lnlinks href=#hl-1-16>16</a>
+</span><span class=lnt id=hl-1-17><a class=lnlinks href=#hl-1-17>17</a>
+</span><span class=lnt id=hl-1-18><a class=lnlinks href=#hl-1-18>18</a>
+</span><span class=lnt id=hl-1-19><a class=lnlinks href=#hl-1-19>19</a>
+</span><span class=lnt id=hl-1-20><a class=lnlinks href=#hl-1-20>20</a>
+</span><span class=lnt id=hl-1-21><a class=lnlinks href=#hl-1-21>21</a>
+</span><span class=lnt id=hl-1-22><a class=lnlinks href=#hl-1-22>22</a>
+</span><span class=lnt id=hl-1-23><a class=lnlinks href=#hl-1-23>23</a>
+</span><span class=lnt id=hl-1-24><a class=lnlinks href=#hl-1-24>24</a>
+</span><span class=lnt id=hl-1-25><a class=lnlinks href=#hl-1-25>25</a>
+</span><span class=lnt id=hl-1-26><a class=lnlinks href=#hl-1-26>26</a>
+</span><span class=lnt id=hl-1-27><a class=lnlinks href=#hl-1-27>27</a>
+</span><span class=lnt id=hl-1-28><a class=lnlinks href=#hl-1-28>28</a>
+</span><span class=lnt id=hl-1-29><a class=lnlinks href=#hl-1-29>29</a>
+</span><span class=lnt id=hl-1-30><a class=lnlinks href=#hl-1-30>30</a>
+</span><span class=lnt id=hl-1-31><a class=lnlinks href=#hl-1-31>31</a>
+</span><span class=lnt id=hl-1-32><a class=lnlinks href=#hl-1-32>32</a>
+</span><span class=lnt id=hl-1-33><a class=lnlinks href=#hl-1-33>33</a>
+</span><span class=lnt id=hl-1-34><a class=lnlinks href=#hl-1-34>34</a>
+</span><span class=lnt id=hl-1-35><a class=lnlinks href=#hl-1-35>35</a>
+</span><span class=lnt id=hl-1-36><a class=lnlinks href=#hl-1-36>36</a>
+</span><span class=lnt id=hl-1-37><a class=lnlinks href=#hl-1-37>37</a>
+</span><span class=lnt id=hl-1-38><a class=lnlinks href=#hl-1-38>38</a>
+</span><span class=lnt id=hl-1-39><a class=lnlinks href=#hl-1-39>39</a>
+</span><span class=lnt id=hl-1-40><a class=lnlinks href=#hl-1-40>40</a>
+</span><span class=lnt id=hl-1-41><a class=lnlinks href=#hl-1-41>41</a>
+</span><span class=lnt id=hl-1-42><a class=lnlinks href=#hl-1-42>42</a>
+</span><span class=lnt id=hl-1-43><a class=lnlinks href=#hl-1-43>43</a>
+</span><span class=lnt id=hl-1-44><a class=lnlinks href=#hl-1-44>44</a>
+</span><span class=lnt id=hl-1-45><a class=lnlinks href=#hl-1-45>45</a>
+</span><span class=lnt id=hl-1-46><a class=lnlinks href=#hl-1-46>46</a>
+</span><span class=lnt id=hl-1-47><a class=lnlinks href=#hl-1-47>47</a>
+</span><span class=lnt id=hl-1-48><a class=lnlinks href=#hl-1-48>48</a>
+</span><span class=lnt id=hl-1-49><a class=lnlinks href=#hl-1-49>49</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>PUT /data_collector_composition_submission
+</span></span><span class=line><span class=cl>{
+</span></span><span class=line><span class=cl>    &#34;mappings&#34;: {
+</span></span><span class=line><span class=cl>        &#34;dynamic&#34;: &#34;false&#34;,
+</span></span><span class=line><span class=cl>        &#34;properties&#34;: {
+</span></span><span class=line><span class=cl>          &#34;content&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;text&#34;,
+</span></span><span class=line><span class=cl>            &#34;analyzer&#34; : &#34;ik_max_word&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;create_time&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;date&#34;,
+</span></span><span class=line><span class=cl>            &#34;format&#34; : &#34;yyyy-MM-dd HH:mm:ss&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;activity_code&#34;: {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;keyword&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;deleted&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;integer&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;grade_id&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;integer&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;resource_id&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;keyword&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;resource_type&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;integer&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;status&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;integer&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;uid&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;long&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;uname&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;text&#34;,
+</span></span><span class=line><span class=cl>            &#34;analyzer&#34; : &#34;ik_max_word&#34;
+</span></span><span class=line><span class=cl>          },
+</span></span><span class=line><span class=cl>          &#34;update_time&#34; : {
+</span></span><span class=line><span class=cl>            &#34;type&#34; : &#34;date&#34;,
+</span></span><span class=line><span class=cl>            &#34;format&#34; : &#34;yyyy-MM-dd HH:mm:ss&#34;
+</span></span><span class=line><span class=cl>          }
+</span></span><span class=line><span class=cl>        }
+</span></span><span class=line><span class=cl>    },
+</span></span><span class=line><span class=cl>    &#34;settings&#34;: {
+</span></span><span class=line><span class=cl>        &#34;number_of_shards&#34;: &#34;4&#34;,
+</span></span><span class=line><span class=cl>        &#34;number_of_replicas&#34;: &#34;1&#34;
+</span></span><span class=line><span class=cl>    }
+</span></span><span class=line><span class=cl>}</span></span></code></pre></td></tr></table></div></div><h2 id=添加索引字段>添加索引字段
+<a class=header-anchor href=#%e6%b7%bb%e5%8a%a0%e7%b4%a2%e5%bc%95%e5%ad%97%e6%ae%b5></a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-2-1><a class=lnlinks href=#hl-2-1>1</a>
+</span><span class=lnt id=hl-2-2><a class=lnlinks href=#hl-2-2>2</a>
+</span><span class=lnt id=hl-2-3><a class=lnlinks href=#hl-2-3>3</a>
+</span><span class=lnt id=hl-2-4><a class=lnlinks href=#hl-2-4>4</a>
+</span><span class=lnt id=hl-2-5><a class=lnlinks href=#hl-2-5>5</a>
+</span><span class=lnt id=hl-2-6><a class=lnlinks href=#hl-2-6>6</a>
+</span><span class=lnt id=hl-2-7><a class=lnlinks href=#hl-2-7>7</a>
+</span><span class=lnt id=hl-2-8><a class=lnlinks href=#hl-2-8>8</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-fallback data-lang=fallback><span class=line><span class=cl>PUT /zq_test/_mapping
+</span></span><span class=line><span class=cl>{
+</span></span><span class=line><span class=cl>    &#34;properties&#34;: {
+</span></span><span class=line><span class=cl>        &#34;hight&#34;: {
+</span></span><span class=line><span class=cl>            &#34;type&#34;: &#34;integer&#34;
+</span></span><span class=line><span class=cl>        }
+</span></span><span class=line><span class=cl>    }
+</span></span><span class=line><span class=cl>}</span></span></code></pre></td></tr></table></div></div><h2 id=nested-类型添加字段>nested 类型添加字段
+<a class=header-anchor href=#nested-%e7%b1%bb%e5%9e%8b%e6%b7%bb%e5%8a%a0%e5%ad%97%e6%ae%b5></a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-3-1><a class=lnlinks href=#hl-3-1> 1</a>
+</span><span class=lnt id=hl-3-2><a class=lnlinks href=#hl-3-2> 2</a>
+</span><span class=lnt id=hl-3-3><a class=lnlinks href=#hl-3-3> 3</a>
+</span><span class=lnt id=hl-3-4><a class=lnlinks href=#hl-3-4> 4</a>
+</span><span class=lnt id=hl-3-5><a class=lnlinks href=#hl-3-5> 5</a>
+</span><span class=lnt id=hl-3-6><a class=lnlinks href=#hl-3-6> 6</a>
+</span><span class=lnt id=hl-3-7><a class=lnlinks href=#hl-3-7> 7</a>
+</span><span class=lnt id=hl-3-8><a class=lnlinks href=#hl-3-8> 8</a>
+</span><span class=lnt id=hl-3-9><a class=lnlinks href=#hl-3-9> 9</a>
+</span><span class=lnt id=hl-3-10><a class=lnlinks href=#hl-3-10>10</a>
+</span><span class=lnt id=hl-3-11><a class=lnlinks href=#hl-3-11>11</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-gdscript3 data-lang=gdscript3><span class=line><span class=cl><span class=n>PUT</span> <span class=o>/</span><span class=n>data_collector_action_log_alias</span><span class=o>/</span><span class=n>_mapping</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;properties&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>      <span class=s2>&#34;payload&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;type&#34;</span><span class=p>:</span> <span class=s2>&#34;nested&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;properties&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>          <span class=s2>&#34;rating&#34;</span><span class=p>:</span>    <span class=p>{</span> <span class=s2>&#34;type&#34;</span><span class=p>:</span> <span class=s2>&#34;integer&#34;</span> <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>      <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>}</span>
+</span></span><span class=line><span class=cl><span class=p>}</span></span></span></code></pre></td></tr></table></div></div><h1 id=查询相关>查询相关
+<a class=header-anchor href=#%e6%9f%a5%e8%af%a2%e7%9b%b8%e5%85%b3></a></h1><h2 id=条件查询>条件查询
+<a class=header-anchor href=#%e6%9d%a1%e4%bb%b6%e6%9f%a5%e8%af%a2></a></h2><h3 id=nested-类型中的字段作为条件>nested 类型中的字段作为条件
+<a class=header-anchor href=#nested-%e7%b1%bb%e5%9e%8b%e4%b8%ad%e7%9a%84%e5%ad%97%e6%ae%b5%e4%bd%9c%e4%b8%ba%e6%9d%a1%e4%bb%b6></a></h3><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-4-1><a class=lnlinks href=#hl-4-1> 1</a>
+</span><span class=lnt id=hl-4-2><a class=lnlinks href=#hl-4-2> 2</a>
+</span><span class=lnt id=hl-4-3><a class=lnlinks href=#hl-4-3> 3</a>
+</span><span class=lnt id=hl-4-4><a class=lnlinks href=#hl-4-4> 4</a>
+</span><span class=lnt id=hl-4-5><a class=lnlinks href=#hl-4-5> 5</a>
+</span><span class=lnt id=hl-4-6><a class=lnlinks href=#hl-4-6> 6</a>
+</span><span class=lnt id=hl-4-7><a class=lnlinks href=#hl-4-7> 7</a>
+</span><span class=lnt id=hl-4-8><a class=lnlinks href=#hl-4-8> 8</a>
+</span><span class=lnt id=hl-4-9><a class=lnlinks href=#hl-4-9> 9</a>
+</span><span class=lnt id=hl-4-10><a class=lnlinks href=#hl-4-10>10</a>
+</span><span class=lnt id=hl-4-11><a class=lnlinks href=#hl-4-11>11</a>
+</span><span class=lnt id=hl-4-12><a class=lnlinks href=#hl-4-12>12</a>
+</span><span class=lnt id=hl-4-13><a class=lnlinks href=#hl-4-13>13</a>
+</span><span class=lnt id=hl-4-14><a class=lnlinks href=#hl-4-14>14</a>
+</span><span class=lnt id=hl-4-15><a class=lnlinks href=#hl-4-15>15</a>
+</span><span class=lnt id=hl-4-16><a class=lnlinks href=#hl-4-16>16</a>
+</span><span class=lnt id=hl-4-17><a class=lnlinks href=#hl-4-17>17</a>
+</span><span class=lnt id=hl-4-18><a class=lnlinks href=#hl-4-18>18</a>
+</span><span class=lnt id=hl-4-19><a class=lnlinks href=#hl-4-19>19</a>
+</span><span class=lnt id=hl-4-20><a class=lnlinks href=#hl-4-20>20</a>
+</span><span class=lnt id=hl-4-21><a class=lnlinks href=#hl-4-21>21</a>
+</span><span class=lnt id=hl-4-22><a class=lnlinks href=#hl-4-22>22</a>
+</span><span class=lnt id=hl-4-23><a class=lnlinks href=#hl-4-23>23</a>
+</span><span class=lnt id=hl-4-24><a class=lnlinks href=#hl-4-24>24</a>
+</span><span class=lnt id=hl-4-25><a class=lnlinks href=#hl-4-25>25</a>
+</span><span class=lnt id=hl-4-26><a class=lnlinks href=#hl-4-26>26</a>
+</span><span class=lnt id=hl-4-27><a class=lnlinks href=#hl-4-27>27</a>
+</span><span class=lnt id=hl-4-28><a class=lnlinks href=#hl-4-28>28</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-gdscript3 data-lang=gdscript3><span class=line><span class=cl><span class=n>GET</span> <span class=o>/</span><span class=n>data_collector_action_log_alias</span><span class=o>/</span><span class=n>_search</span>
+</span></span><span class=line><span class=cl><span class=p>{</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;from&#34;</span><span class=p>:</span> <span class=mi>0</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;query&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>        <span class=s2>&#34;nested&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=s2>&#34;path&#34;</span><span class=p>:</span> <span class=s2>&#34;payload&#34;</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>            <span class=s2>&#34;query&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=s2>&#34;bool&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                    <span class=s2>&#34;must&#34;</span><span class=p>:</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>                        <span class=p>{</span>
+</span></span><span class=line><span class=cl>                            <span class=s2>&#34;term&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                                <span class=s2>&#34;payload.rating&#34;</span><span class=p>:</span> <span class=mi>4</span>
+</span></span><span class=line><span class=cl>                            <span class=p>}</span>
+</span></span><span class=line><span class=cl>                        <span class=p>}</span>
+</span></span><span class=line><span class=cl>                    <span class=p>]</span>
+</span></span><span class=line><span class=cl>                <span class=p>}</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>},</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;size&#34;</span><span class=p>:</span> <span class=mi>20</span><span class=p>,</span>
+</span></span><span class=line><span class=cl>    <span class=s2>&#34;sort&#34;</span><span class=p>:</span> <span class=p>[</span>
+</span></span><span class=line><span class=cl>        <span class=p>{</span>
+</span></span><span class=line><span class=cl>            <span class=s2>&#34;time&#34;</span><span class=p>:</span> <span class=p>{</span>
+</span></span><span class=line><span class=cl>                <span class=s2>&#34;order&#34;</span><span class=p>:</span> <span class=s2>&#34;desc&#34;</span>
+</span></span><span class=line><span class=cl>            <span class=p>}</span>
+</span></span><span class=line><span class=cl>        <span class=p>}</span>
+</span></span><span class=line><span class=cl>    <span class=p>]</span>
+</span></span><span class=line><span class=cl><span class=p>}</span></span></span></code></pre></td></tr></table></div></div></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AE%9E%E6%88%98/elastic-search-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AE%9E%E6%88%98/golangci-lint%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="资料
+
+官网：https://golangci-lint.run/usage/configuration/
+默认禁用的设置推荐
+
+
+  
+      
+          linter name
+          描述
+      
+  
+  
+      
+          cyclop
+          检查函数和包的圈复杂读（圈复杂度的计算方法是函数内部所有独立路径的数量，每个if、for、case、&& 或 | |都会使复杂度加1）。
+      
+      
+          
+          
+      
+  
+"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AE%9E%E6%88%98/golangci-lint%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h2 id=资料>资料
+<a class=header-anchor href=#%e8%b5%84%e6%96%99></a></h2><p>官网：https://golangci-lint.run/usage/configuration/</p><h3 id=默认禁用的设置推荐>默认禁用的设置推荐
+<a class=header-anchor href=#%e9%bb%98%e8%ae%a4%e7%a6%81%e7%94%a8%e7%9a%84%e8%ae%be%e7%bd%ae%e6%8e%a8%e8%8d%90></a></h3><table><thead><tr><th>linter name</th><th>描述</th></tr></thead><tbody><tr><td>cyclop</td><td>检查函数和包的圈复杂读<br>（圈复杂度的计算方法是函数内部所有独立路径的数量，每个if、for、case、&& 或 | |都会使复杂度加1）。</td></tr><tr><td></td><td></td></tr></tbody></table></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AE%9E%E6%88%98/golangci-lint%E8%87%AA%E5%AE%9A%E4%B9%89%E9%85%8D%E7%BD%AE/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AE%9E%E6%88%98/mq-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AE%9E%E6%88%98/mq-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AE%9E%E6%88%98/mq-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AE%9E%E6%88%98/redis-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="redis 使用经验
+
+
+redis 的特性就是小而快。不要大量的写入zadd，因为zadd的时间复杂度是O(M*log(N))
+
+缓存使用经验
+
+
+缓存一批量较大的数据，不要用多少就缓存多少，预留buffer
+缓存一些查询成本比较高的数据，如：联表数据、复杂排序数据
+实时性比较高的数据可以现查，主要做好索引，保证查询效率
+考虑缓存的有效期，以及写缓存的策略
+
+写缓存，定时刷缓存，要注意，定时刷缓存的时间应小于缓存的有效期
+用户读触发写缓存，这里要做好防穿透
+
+
+
+实战经验
+
+投票排行榜
+
+背景："></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AE%9E%E6%88%98/redis-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h2 id=redis-使用经验>redis 使用经验
+<a class=header-anchor href=#redis-%e4%bd%bf%e7%94%a8%e7%bb%8f%e9%aa%8c></a></h2><ol><li>redis 的特性就是小而快。不要大量的写入zadd，因为zadd的时间复杂度是<code>O(M*log(N))</code></li></ol><h2 id=缓存使用经验>缓存使用经验
+<a class=header-anchor href=#%e7%bc%93%e5%ad%98%e4%bd%bf%e7%94%a8%e7%bb%8f%e9%aa%8c></a></h2><ol><li>缓存一批量较大的数据，不要用多少就缓存多少，预留buffer</li><li>缓存一些查询成本比较高的数据，如：联表数据、复杂排序数据</li><li>实时性比较高的数据可以现查，主要做好索引，保证查询效率</li><li>考虑缓存的有效期，以及写缓存的策略<ul><li>写缓存，定时刷缓存，要注意，定时刷缓存的时间应小于缓存的有效期</li><li>用户读触发写缓存，这里要做好防穿透</li></ul></li></ol><h2 id=实战经验>实战经验
+<a class=header-anchor href=#%e5%ae%9e%e6%88%98%e7%bb%8f%e9%aa%8c></a></h2><h3 id=投票排行榜>投票排行榜
+<a class=header-anchor href=#%e6%8a%95%e7%a5%a8%e6%8e%92%e8%a1%8c%e6%a6%9c></a></h3><p>背景：</p></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AE%9E%E6%88%98/redis-%E4%BD%BF%E7%94%A8%E7%AC%94%E8%AE%B0/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/%E5%AE%9E%E6%88%98/singleflight-%E7%9A%84%E9%94%81%E4%BC%98%E5%8C%96/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content="背景
+
+内部有一个公用的防穿透组件
+整体实现如下：
+
+检查是否已有结果（这个结果记在缓存里），如果有直接返回
+将requestId（每个场景的requestId一致）作为key 调用 singleflight.Group{}.Do
+在执行fn的时候，会使用分布式锁（自旋锁）锁住requestId，防止分布式场景下重复调用
+
+获取到锁之后会先查一遍缓存，是否有结果，如果有就直接返回
+查询数据源，并写入缓存
+
+
+
+这里会有一个问题，一个服务可能会有多个场景使用这个防穿组件，而这个组件的使用的 singleflight.Group 是一个全局变量"></span><header class=post-header><h2 class=post-title itemprop="name headline"><a href=/_draft/%E5%AE%9E%E6%88%98/singleflight-%E7%9A%84%E9%94%81%E4%BC%98%E5%8C%96/ itemprop=url class=post-title-link></a></h2><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h2 id=背景>背景
+<a class=header-anchor href=#%e8%83%8c%e6%99%af></a></h2><p>内部有一个公用的防穿透组件</p><p>整体实现如下：</p><ol><li>检查是否已有结果（这个结果记在缓存里），如果有直接返回</li><li>将requestId（每个场景的requestId一致）作为key 调用 <code>singleflight.Group{}.Do</code></li><li>在执行fn的时候，会使用分布式锁（自旋锁）锁住requestId，防止分布式场景下重复调用<ol><li>获取到锁之后会先查一遍缓存，是否有结果，如果有就直接返回</li><li>查询数据源，并写入缓存</li></ol></li></ol><p>这里会有一个问题，一个服务可能会有多个场景使用这个防穿组件，而这个组件的使用的 <code>singleflight.Group</code> 是一个全局变量</p></div><footer class=post-footer><div class=post-button><a class=btn href=/_draft/%E5%AE%9E%E6%88%98/singleflight-%E7%9A%84%E9%94%81%E4%BC%98%E5%8C%96/#more rel=contents>阅读全文 &#187;</a></div><div class=post-eof></div></footer></article></div><nav class=pagination><a class="extend prev" rel=prev href=/_draft/page/5/><i class="fa fa-angle-left"></i>
+</a><a class=page-number href=/_draft/>1</a>
+<a class=page-number href=/_draft/page/2/>2</a>
+<a class=page-number href=/_draft/page/3/>3</a>
+<a class=page-number href=/_draft/page/4/>4</a>
+<a class=page-number href=/_draft/page/5/>5</a>
+<span class="page-number current">6</span>
+<a class=page-number href=/_draft/page/7/>7</a>
+<a class=page-number href=/_draft/page/8/>8</a>
+<a class="extend next" rel=next href=/_draft/page/7/><i class="fa fa-angle-right"></i></a></nav></div></main><footer class=footer><div class=footer-inner><div id=i18n-translate class=i18n-translate><i class="fa fa-language"></i><div id=lang-select class=lang-select><div id=lang-selected class=selected-option><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=selected-language>简体中文</span>
+<i class="fa fa-chevron-down"></i></div><div id=lang-options class=lang-options><div class=lang-option lang-code=zh-cn lang-name=简体中文 lang-url=/_draft/><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=lang-name>简体中文</span></div></div></div></div><div class=copyright>&copy;
+<span itemprop=copyrightYear>2010 - 2025
+</span><span class=with-love><i class="fa fa-heart"></i>
+</span><span class=author itemprop=copyrightHolder>NexT 主题</span></div><div class=powered-by>由 <a href=https://gohugo.io title=0.140.1 target=_blank>Hugo</a> & <a href=https://github.com/hugo-next/hugo-theme-next title=4.7.2 target=_blank>Hugo NexT.Gemini</a> 强力驱动</div><div class=beian><a href=https://beian.miit.gov.cn target=_blank>京ICP备2025108128号-1</a>
+<img src=/imgs/gongan.png alt=京公网安备>
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=0" target=_blank>京公网安备 0 号</a></div><div class=custom-footer>Website source code <a href=https://github.com/hugo-next/hugo-theme-next/blob/develop/exampleSite/layouts/partials/custom_footer.html target=_blank>here</a></div></div></footer><script class=next-config data-name=page type=application/json>{"comments":false,"expired":false,"isHome":false,"isPage":false,"path":"_draft","permalink":"http://weirwei.cn/_draft/","title":"_Drafts","toc":true,"waline":{"commentcnt":{"alias":"@waline/client","alias_name":"waline","file":"dist/comment.js","name":"comment","version":"2.15.8"}}}</script><script type=text/javascript src=http://weirwei.cn/js/3rd/animejs/3.2.2/anime.min.js crossorigin=anonymous defer></script><script type=text/javascript src=http://weirwei.cn/js/3rd/viewerjs/1.11.6/viewer.min.js crossorigin=anonymous defer></script><script class=next-config data-name=main type=application/json>{"bookmark":{"color":"#222","enable":true,"save":"manual"},"copybtn":true,"darkmode":true,"giscus":{"cfg":{"category":"Comments","categoryid":null,"emit":false,"inputposition":"top","mapping":"title","reactions":false,"repo":"username/repo-name","repoid":null,"theme":"preferred_color_scheme"},"js":"https://giscus.app/client.js"},"hostname":"http://weirwei.cn/","i18n":{"ds_day":" 天前","ds_days":" 天 ","ds_hour":" 小时前","ds_hours":" 小时 ","ds_just":"刚刚","ds_min":" 分钟前","ds_mins":" 分钟","ds_month":" 个月前","ds_years":" 年 ","empty":"没有找到任何搜索结果：${query}","hits":"找到 ${hits} 个搜索结果","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","placeholder":"搜索..."},"isMultiLang":true,"lang":"zh-CN","lazyload":false,"localSearch":{"enable":true,"limit":1e3,"path":"/searchindexes.xml","preload":false,"topnperarticle":-1,"trigger":"auto","unescape":false},"motion":{"async":true,"enable":true,"transition":{"collheader":"slideInRight","postblock":"fadeIn","postbody":"fadeInDown","postheader":"fadeInDown","sidebar":"fadeInUp"}},"postmeta":{"comments":{"enable":true,"plugin":"waline"},"views":{"enable":true,"plugin":"busuanzi"}},"root":"/","scheme":"Gemini","share":{"addtoany":{"js":"https://static.addtoany.com/menu/page.js","locale":"zh-CN","num":8},"enable":true},"sidebar":{"display":"post","offset":12,"padding":18,"position":"left","width":256},"vendor":{"plugins":"local","router":{"name":"local","type":"modern","url":"http://weirwei.cn/js/3rd"}},"version":"4.7.2","waline":{"cfg":{"emoji":false,"imguploader":false,"placeholder":"请文明发言哟 ヾ(≧▽≦*)o","reaction":true,"reactiontext":["点赞","踩一下","得意","不屑","尴尬","睡觉"],"reactiontitle":"你认为这篇文章怎么样？","requiredmeta":["nick","mail"],"serverurl":null,"sofa":"快来发表你的意见吧 (≧∀≦)ゞ","wordlimit":200},"css":{"alias":"@waline/client","file":"dist/waline.css","name":"waline","version":"2.15.8"},"js":{"alias":"@waline/client","file":"dist/waline.js","name":"waline","version":"2.15.8"}}}</script><script type=text/javascript src="/js/main.min.js?=1739010985" defer></script></body></html>

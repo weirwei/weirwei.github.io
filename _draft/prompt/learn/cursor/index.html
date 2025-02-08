@@ -1,0 +1,1291 @@
+<!doctype html><html lang=zh-CN data-theme=dark><head><meta charset=UTF-8><meta name=viewport content="width=device-width"><meta name=theme-color content="#222" media="(prefers-color-scheme: dark)"><meta name=generator content="Hugo 0.140.1"><link rel="shortcut icon" type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/x-icon href=/imgs/icons/favicon.ico><link rel=icon type=image/png sizes=16x16 href=/imgs/icons/favicon_16x16_next.png><link rel=icon type=image/png sizes=32x32 href=/imgs/icons/favicon_32_32_next.png><link rel=apple-touch-icon sizes=180x180 href=/imgs/icons/apple_touch_icon_next.png><meta itemprop=name content><meta itemprop=description content="保持简单的易用性和强大的功能。"><meta name=description content="保持简单的易用性和强大的功能。"><meta itemprop=image content="http://weirwei.cn/imgs/hugo_next_avatar.png"><meta itemprop=keywords content="Hugo,NexT,主题,简单,强大"><meta property="og:type" content="article"><meta property="og:title" content="浩雨未倾"><meta property="og:description" content="保持简单的易用性和强大的功能。"><meta property="og:image" content="/imgs/hugo_next_avatar.png"><meta property="og:image:width" content="312"><meta property="og:image:height" content="312"><meta property="og:image:type" content="image/jpeg/png/svg/jpg"><meta property="og:url" content="http://weirwei.cn/_draft/prompt/learn/cursor/"><meta property="og:site_name" content="浩雨未倾"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="NexT 主题"><meta property="article:published_time" content="0001-01-01 00:00:00 +0000 UTC"><meta property="article:modified_time" content="0001-01-01 00:00:00 +0000 UTC"><link type=text/css rel=stylesheet href=http://weirwei.cn/js/3rd/font-awesome/6.7.2/css/all.min.css><link type=text/css rel=stylesheet href=http://weirwei.cn/js/3rd/animate.css/3.1.1/animate.min.css><link type=text/css rel=stylesheet href=http://weirwei.cn/js/3rd/viewerjs/1.11.6/viewer.min.css><link rel=stylesheet href="/css/main.min.css?=1739010985"><style type=text/css>.post-footer hr:after{content:"~ 我可是有底线的哟 ~"}.flinks-list-footer hr:after{content:"~ 我可是有底线的哟 ~"}</style><link rel=stylesheet type=text/css href="/css/custom_style.css?=1739010985"><script type=text/javascript>(function(){localDB={set:function(e,t,n){if(n===0)return;const s=new Date,o=n*864e5,i={value:t,expiry:s.getTime()+o};localStorage.setItem(e,JSON.stringify(i))},get:function(e){const t=localStorage.getItem(e);if(!t)return void 0;const n=JSON.parse(t),s=new Date;return s.getTime()>n.expiry?(localStorage.removeItem(e),void 0):n.value}},theme={active:function(){const e=localDB.get("theme");if(e==null)return;theme.toggle(e),window.matchMedia("(prefers-color-scheme: dark)").addListener(function(e){theme.toggle(e.matches?"dark":"light")})},toggle:function(e){document.documentElement.setAttribute("data-theme",e),localDB.set("theme",e,2);const t=document.querySelector("iframe.giscus-frame");if(t){const n={setConfig:{theme:e}};t.contentWindow.postMessage({giscus:n},"https://giscus.app")}}},theme.active()})(window)</script><script type=text/javascript>document.addEventListener("DOMContentLoaded",()=>{var e=document.createElement("script");e.charset="UTF-8",e.src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js",e.async=!1,e.defer=!0,document.head.appendChild(e),e.onload=function(){NexT.utils.fmtBusuanzi()}})</script><title>- 浩雨未倾</title><noscript><link rel=stylesheet href=/css/noscript.css></noscript></head><body itemscope itemtype=http://schema.org/WebPage class=use-motion><div class=headband></div><main class=main><header class=header itemscope itemtype=http://schema.org/WPHeader><div class=header-inner><div class=site-brand-container><div class=site-nav-toggle><div class=toggle aria-label role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div></div><div class=site-meta><a href=/ class=brand rel=start><i class=logo-line></i><h1 class=site-title>浩雨未倾</h1><i class=logo-line></i></a><p class=site-subtitle itemprop=description>为 Hugo 打造的主题</p></div><div class=site-nav-right><div class="toggle popup-trigger"><i class="fa fa-search fa-fw fa-lg"></i></div></div></div><nav class=site-nav><ul class="main-menu menu"><li class="menu-item menu-item-home"><a href=/ class=hvr-icon-pulse rel=section><i class="fa fa-home hvr-icon"></i>首页</a></li><li class="menu-item menu-item-about"><a href=/about.html class=hvr-icon-pulse rel=section><i class="fa fa-user hvr-icon"></i>关于</a></li><li class="menu-item menu-item-flinks"><a href=/flinks.html class=hvr-icon-pulse rel=section><i class="fa fa-thumbs-up hvr-icon"></i>友情链接</a></li><li class="menu-item menu-item-example"><a href=/ class="menus-parent hvr-icon-pulse" rel=section><i class="fa fa-angles-down hvr-icon"></i>语法示例
+<span class=menu-item-shrink-icon><i class="fa fa-angle-right"></i></span></a><ul class=menu-children><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>语法高亮</a></li><li class=menu-child-item><a href=/ class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>数学公式</a></li><li class=menu-child-item><a href=/post/11-mermaid-charts class=hvr-icon-pulse rel=section><i class="fa hvr-icon"></i>流程图</a></li></ul></li><li class="menu-item menu-item-archives"><a href=/archives/ class=hvr-icon-pulse rel=section><i class="fa fa-archive hvr-icon"></i>归档
+<span class=badge>0</span></a></li><li class="menu-item menu-item-commonweal"><a href=/404.html class=hvr-icon-pulse rel=section><i class="fa fa-heartbeat hvr-icon"></i>公益 404</a></li><li class="menu-item menu-item-search"><a role=button class="popup-trigger hvr-icon-pulse"><i class="fa fa-search fa-fw hvr-icon"></i>搜索</a></li></ul></nav><div class=search-pop-overlay><div class="popup search-popup"><div class=search-header><span class=search-icon><i class="fa fa-search"></i></span><div class=search-input-container><input autocomplete=off autocapitalize=off maxlength=80 placeholder=搜索... spellcheck=false type=search class=search-input></div><span class=popup-btn-close role=button><i class="fa fa-times-circle"></i></span></div><div class="search-result-container no-result"><div class=search-result-icon><i class="fa fa-spinner fa-pulse fa-5x"></i></div></div></div></div></div><div class="toggle sidebar-toggle" role=button><span class=toggle-line></span>
+<span class=toggle-line></span>
+<span class=toggle-line></span></div><aside class=sidebar><div class="sidebar-inner sidebar-nav-active sidebar-toc-active"><ul class=sidebar-nav><li class=sidebar-nav-toc>文章目录</li><li class=sidebar-nav-overview>站点概览</li></ul><div class=sidebar-panel-container><div class="post-toc-wrap sidebar-panel"><div class="post-toc animated"><nav id=TableOfContents><ul><li><a href=#prompt-system>prompt: system</a></li><li><a href=#prompt-user>prompt: user</a></li></ul></nav></div></div><div class="site-overview-wrap sidebar-panel"><div class="site-author site-overview-item animated" itemprop=author itemscope itemtype=http://schema.org/Person><img class=site-author-image itemprop=image alt="NexT 主题" src=/imgs/img-lazy-loading.gif data-src=/imgs/hugo_next_avatar.png><p class=site-author-name itemprop=name>NexT 主题</p><div class=site-description itemprop=description>保持简单的易用性和强大的功能。</div></div><div class="site-state-wrap site-overview-item animated"><nav class=site-state><div class="site-state-item site-state-posts"><a href=/archives/><span class=site-state-item-count>0</span>
+<span class=site-state-item-name>日志</span></a></div><div class="site-state-item site-state-categories"><a href=/categories/><span class=site-state-item-count>10</span>
+<span class=site-state-item-name>分类</span></a></div><div class="site-state-item site-state-tags"><a href=/tags/><span class=site-state-item-count>41</span>
+<span class=site-state-item-name>标签</span></a></div></nav></div><div class="links-of-social site-overview-item animated"><span class=links-of-social-item><a href=https://github.com/elkan1788 title="Github → https://github.com/elkan1788" rel=noopener class=hvr-icon-pulse target=_blank><i class="fab fa-github fa-fw hvr-icon"></i>
+Github
+</a></span><span class=links-of-social-item><a href=https://www.zhihu.com/people/lisenhui title="知乎 → https://www.zhihu.com/people/lisenhui" rel=noopener class=hvr-icon-pulse target=_blank><i class="fa fa-book fa-fw hvr-icon"></i>
+知乎</a></span></div><div class="cc-license animated" itemprop=license><a href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh class=cc-opacity rel=noopener target=_blank title=共享知识><img src=/imgs/img-lazy-loading.gif data-src=/imgs/cc/big/by_nc_sa.svg alt=共享知识></a></div><div class="links-of-blogroll site-overview-item animated"><div class=links-of-blogroll-title><i class="fa fa-globe fa-fw"></i>
+友情链接</div><ul class=links-of-blogroll-list><li class=links-of-blogroll-item><a href=https://github.com/weirwei title=https://github.com/weirwei target=_blank>weirwei</a></li><li class=links-of-blogroll-item><a href=http://blog.weirwei.cn title=http://blog.weirwei.cn target=_blank>浩雨未倾</a></li></ul></div><div class="mydefined animated" itemprop=custom><span>支持自定义CSS和Sidebar布局啦💄💄💄</span></div></div></div></div><div id=siteinfo-card-widget class=sidebar-card-widget><div class=item-headline><i class="fas fa-chart-line"></i>
+<span>网站资讯</span></div><div class=siteinfo><div class=siteinfo-item><div class=item-name><i class="fa-solid fa-calendar-check"></i>已运行：</div><div class=item-count id=runTimes data-publishdate></div></div><div class=siteinfo-item><div class=item-name><i class="fas fa fa-user"></i>总访客数：</div><div class=item-count id=busuanzi_value_site_uv><i class="fa fa-sync fa-spin"></i></div></div><div class=siteinfo-item><div class=item-name><i class="fas fa fa-eye"></i>页面浏览：</div><div class=item-count id=busuanzi_value_site_pv><i class="fa fa-sync fa-spin"></i></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-font"></i>总字数：</div><div class=item-count id=wordsCount data-count></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-mug-hot"></i>阅读约：</div><div class=item-count id=readTimes data-times></div></div><div class=siteinfo-item><div class=item-name><i class="fa fa-clock-rotate-left"></i>最后更新于：</div><div class=item-count id=last-push-date data-lastpushdate></div></div></div></div></aside><div class=sidebar-dimmer></div></header><div class=tool-buttons><div id=goto-i18n-translate class=button title=多语言翻译><i class="fas fa-globe"></i></div><div id=toggle-theme class=button title=深浅模式切换><i class="fas fa-adjust"></i></div><div class=back-to-top role=button title=返回顶部><i class="fa fa-arrow-up"></i>
+<span>0%</span></div></div><div class=reading-progress-bar></div><a role=button class="book-mark-link book-mark-link-fixed"></a><a href=https://github.com/weirwei rel="noopener external nofollow noreferrer" target=_blank title="Follow me on GitHub" class="exturl github-corner"><svg width="80" height="80" viewBox="0 0 250 250" aria-hidden="true"><path d="M0 0 115 115h15l12 27L250 250V0z"/><path d="M128.3 109C113.8 99.7 119 89.6 119 89.6 122 82.7 120.5 78.6 120.5 78.6 119.2 72 123.4 76.3 123.4 76.3 127.3 80.9 125.5 87.3 125.5 87.3 122.9 97.6 130.6 101.9 134.4 103.2" fill="currentcolor" style="transform-origin:130px 106px" class="octo-arm"/><path d="M115 115C114.9 115.1 118.7 116.5 119.8 115.4l13.9-13.8C136.9 99.2 139.9 98.4 142.2 98.6 133.8 88 127.5 74.4 143.8 58 148.5 53.4 154 51.2 159.7 51 160.3 49.4 163.2 43.6 171.4 40.1 171.4 40.1 176.1 42.5 178.8 56.2 183.1 58.6 187.2 61.8 190.9 65.4 194.5 69 197.7 73.2 200.1 77.6 213.8 80.2 216.3 84.9 216.3 84.9 212.7 93.1 206.9 96 205.4 96.6 205.1 102.4 203 107.8 198.3 112.5 181.9 128.9 168.3 122.5 157.7 114.1 157.9 116.9 156.7 120.9 152.7 124.9L141 136.5C139.8 137.7 141.6 141.9 141.8 141.8z" fill="currentcolor" class="octo-body"/></svg>
+</a><script type=text/javascript src=//sidecar.gitter.im/dist/sidecar.v1.js async></script><script type=text/javascript>((window.gitter={}).chat={}).options={room:"hugo-next/community"}</script><noscript><div class=noscript-warning>Theme NexT works best with JavaScript enabled</div></noscript><div class="main-inner post posts-expand"><div class=post-block><article itemscope itemtype=http://schema.org/Article class=post-content lang><link itemprop=mainEntityOfPage href=http://weirwei.cn/_draft/prompt/learn/cursor/><span hidden itemprop=author itemscope itemtype=http://schema.org/Person><meta itemprop=image content="/imgs/hugo_next_avatar.png"><meta itemprop=name content="NexT 主题"></span><span hidden itemprop=publisher itemscope itemtype=http://schema.org/Organization><meta itemprop=name content="NexT 主题"><meta itemprop=description content="保持简单的易用性和强大的功能。"></span><span hidden itemprop=post itemscope itemtype=http://schema.org/CreativeWork><meta itemprop=name content><meta itemprop=description content='prompt: system
+
+
+
+
+  1
+  2
+  3
+  4
+  5
+  6
+  7
+  8
+  9
+ 10
+ 11
+ 12
+ 13
+ 14
+ 15
+ 16
+ 17
+ 18
+ 19
+ 20
+ 21
+ 22
+ 23
+ 24
+ 25
+ 26
+ 27
+ 28
+ 29
+ 30
+ 31
+ 32
+ 33
+ 34
+ 35
+ 36
+ 37
+ 38
+ 39
+ 40
+ 41
+ 42
+ 43
+ 44
+ 45
+ 46
+ 47
+ 48
+ 49
+ 50
+ 51
+ 52
+ 53
+ 54
+ 55
+ 56
+ 57
+ 58
+ 59
+ 60
+ 61
+ 62
+ 63
+ 64
+ 65
+ 66
+ 67
+ 68
+ 69
+ 70
+ 71
+ 72
+ 73
+ 74
+ 75
+ 76
+ 77
+ 78
+ 79
+ 80
+ 81
+ 82
+ 83
+ 84
+ 85
+ 86
+ 87
+ 88
+ 89
+ 90
+ 91
+ 92
+ 93
+ 94
+ 95
+ 96
+ 97
+ 98
+ 99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181
+182
+183
+184
+185
+186
+187
+188
+189
+190
+191
+192
+193
+194
+195
+196
+197
+198
+199
+200
+201
+202
+203
+204
+205
+206
+207
+208
+209
+210
+211
+212
+213
+214
+215
+216
+217
+218
+219
+220
+221
+222
+223
+224
+225
+226
+227
+228
+229
+230
+231
+232
+233
+234
+235
+236
+237
+238
+239
+240
+241
+242
+243
+244
+245
+246
+247
+248
+249
+250
+251
+252
+253
+254
+255
+256
+257
+258
+259
+260
+261
+262
+263
+264
+265
+266
+267
+268
+269
+270
+271
+272
+273
+274
+275
+276
+277
+278
+279
+280
+281
+282
+
+
+
+First, I will give you some potentially helpful context about my code.
+Then, I will show you the selection and give you the instruction. The selection will be in `tools/login.sh`.
+
+
+-------
+
+## Potentially helpful context
+
+#### file_context_2
+
+api/logger/log_init.py from line 1:
+```
+import logging
+import os
+from logging.handlers import RotatingFileHandler
+import sys
+from datetime import datetime, timedelta, timezone
+from colorlog import ColoredFormatter
+
+
+class CustomColoredFormatter(ColoredFormatter):
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def converter(self, timestamp):
+        # 将时间戳转换为东八区时间
+        dt = datetime.fromtimestamp(timestamp, tz=timezone.utc)
+        return dt.astimezone(timezone(timedelta(hours=8)))
+
+    def formatTime(self, record, datefmt=None):
+        # 使用自定义的时间转换器
+        dt = self.converter(record.created)
+        if datefmt:
+            s = dt.strftime(datefmt)
+        else:
+            s = dt.isoformat()
+        return s
+        
+
+__formatter: CustomColoredFormatter = None
+
+def get_formatter() -> CustomColoredFormatter:
+    return __formatter
+
+def init(app):
+    global __formatter
+    __formatter = CustomColoredFormatter(
+        fmt=app.config.get(\"LOG_FORMAT\"),
+        datefmt=app.config.get(\"LOG_DATEFORMAT\"),
+        log_colors={
+            \"DEBUG\": \"cyan\",
+            \"INFO\": \"green\",
+            \"WARNING\": \"yellow\",
+            \"ERROR\": \"red\",
+            \"CRITICAL\": \"red,bg_white\",
+        },
+    )
+
+    _init_default_handlers(app)
+
+
+def _init_default_handlers(app):
+    log_file = app.config.get(\"LOG_FILE\")
+    if log_file:
+        log_dir = os.path.dirname(log_file)
+        os.makedirs(log_dir, exist_ok=True)
+        log_handler = RotatingFileHandler(
+            filename=log_file,
+            maxBytes=1024 * 1024 * 1024,
+            backupCount=5,
+        )
+    else:
+        log_handler = logging.StreamHandler(sys.stdout)
+
+    log_handler.setFormatter(get_formatter())
+
+    logging.basicConfig(
+        level=app.config.get(\"LOG_LEVEL\"),
+        handlers=[log_handler],
+        force=True,
+    )
+
+    log_tz = app.config.get(\"LOG_TZ\")
+    if log_tz:
+        from datetime import datetime
+
+        import pytz
+
+        timezone = pytz.timezone(log_tz)
+
+        def time_converter(seconds):
+            return datetime.utcfromtimestamp(seconds).astimezone(timezone).timetuple()
+
+        for handler in logging.root.handlers:
+            handler.formatter.converter = time_converter
+
+
+
+
+```
+
+#### file_context_1
+
+tools/psql from line 1:
+```
+#!/bin/bash
+
+spawn psql -U postgres -W -h 10.33.5.87 -p 8432 -d dify
+
+expect {
+   \"口令：\" { send \"difyai123456\
+\";} 
+}
+
+interact
+
+
+```
+
+#### file_context_0
+
+api/core/workflow/nodes/llm/llm_node.py from line 1:
+```
+import json
+import traceback
+import logging
+from collections.abc import Generator, Mapping, Sequence
+from copy import deepcopy
+from typing import TYPE_CHECKING, Any, Optional, cast
+
+from pydantic import BaseModel
+
+from core.app.entities.app_invoke_entities import ModelConfigWithCredentialsEntity
+from core.entities.model_entities import ModelStatus
+from core.entities.provider_entities import QuotaUnit
+from core.errors.error import ModelCurrentlyNotSupportError, ProviderTokenNotInitError, QuotaExceededError
+from core.memory.token_buffer_memory import TokenBufferMemory
+from core.model_manager import ModelInstance, ModelManager
+from core.model_runtime.entities.llm_entities import LLMResult, LLMUsage
+from core.model_runtime.entities.message_entities import (
+    ImagePromptMessageContent,
+    PromptMessage,
+    PromptMessageContentType,
+)
+from core.model_runtime.entities.model_entities import ModelType
+from core.model_runtime.model_providers.__base.large_language_model import LargeLanguageModel
+from core.model_runtime.utils.encoders import jsonable_encoder
+from core.prompt.advanced_prompt_transform import AdvancedPromptTransform
+from core.prompt.entities.advanced_prompt_entities import CompletionModelPromptTemplate, MemoryConfig
+from core.prompt.utils.prompt_message_util import PromptMessageUtil
+from core.workflow.entities.node_entities import NodeRunMetadataKey, NodeRunResult, NodeType
+from core.workflow.entities.variable_pool import VariablePool
+from core.workflow.enums import SystemVariableKey
+from core.workflow.graph_engine.entities.event import InNodeEvent
+from core.workflow.nodes.base_node import BaseNode
+from core.workflow.nodes.event import RunCompletedEvent, RunEvent, RunRetrieverResourceEvent, RunStreamChunkEvent
+from core.workflow.nodes.llm.entities import (
+    LLMNodeChatModelMessage,
+    LLMNodeCompletionModelPromptTemplate,
+    LLMNodeData,
+    ModelConfig,
+)
+from core.workflow.utils.variable_template_parser import VariableTemplateParser
+from extensions.ext_database import db
+from models.model import Conversation
+from models.provider import Provider, ProviderType
+from models.workflow import WorkflowNodeExecutionStatus
+
+if TYPE_CHECKING:
+    from core.file.file_obj import FileVar
+
+
+class ModelInvokeCompleted(BaseModel):
+    \"\"\"
+    Model invoke completed
+    \"\"\"
+
+    text: str
+    usage: LLMUsage
+    finish_reason: Optional[str] = None
+
+
+class LLMNode(BaseNode):
+    _node_data_cls = LLMNodeData
+    _node_type = NodeType.LLM
+
+    def _run(self) -> Generator[RunEvent | InNodeEvent, None, None]:
+        \"\"\"
+        Run node
+        :return:
+        \"\"\"
+        # 打印self.graph_runtime_state
+        logging.debug(f&#39;llm graph_runtime_state: {self.graph_runtime_state}&#39;)
+
+        node_data = cast(LLMNodeData, deepcopy(self.node_data))
+        variable_pool = self.graph_runtime_state.variable_pool
+
+        node_inputs = None
+        process_data = None
+
+        try:
+            # init messages template
+            node_data.prompt_template = self._transform_chat_messages(node_data.prompt_template)
+
+            # fetch variables and fetch values from variable pool
+            inputs = self._fetch_inputs(node_data, variable_pool)
+
+            # fetch jinja2 inputs
+            jinja_inputs = self._fetch_jinja_inputs(node_data, variable_pool)
+
+            # merge inputs
+            inputs.update(jinja_inputs)
+
+            node_inputs = {}
+
+            # fetch files
+            files = self._fetch_files(node_data, variable_pool)
+
+            if files:
+                node_inputs[\"#files#\"] = [file if isinstance(file, dict) else file.to_dict() for file in files]
+
+            # fetch context value
+            generator = self._fetch_context(node_data, variable_pool)
+            context = None
+            for event in generator:
+                if isinstance(event, RunRetrieverResourceEvent):
+                    context = event.context
+                    yield event
+
+            if context:
+                node_inputs[\"#context#\"] = context  # type: ignore
+
+            # fetch model config
+            model_instance, model_config = self._fetch_model_config(node_data.model)
+
+            # fetch memory
+            memory = self._fetch_memory(node_data.memory, variable_pool, model_instance)
+
+            # fetch prompt messages
+            prompt_messages, stop = self._fetch_prompt_messages(
+                node_data=node_data,
+                query=variable_pool.get_any([\"sys\", SystemVariableKey.QUERY.value]) if node_data.memory else None,
+                query_prompt_template=node_data.memory.query_prompt_template if node_data.memory else None,
+                inputs=inputs,
+                files=files,
+                context=context,
+                memory=memory,
+                model_config=model_config,
+            )
+
+            process_data = {
+                \"model_mode\": model_config.mode,
+                \"prompts\": PromptMessageUtil.prompt_messages_to_prompt_for_saving(
+                    model_mode=model_config.mode, prompt_messages=prompt_messages
+                ),
+                \"model_provider\": model_config.provider,
+                \"model_name\": model_config.model,
+            }
+
+            # handle invoke result
+            generator = self._invoke_llm(
+
+
+```
+
+
+
+This is my current file. The selection will be denoted by comments \"Start of Selection\" and \"End of Selection\":
+```tools/login.sh
+#!/bin/bash
+
+# 需要安装expect
+
+# Start of Selection
+DIR=\"$( cd -P \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"
+
+expect $DIR/$1
+# End of Selection
+
+
+```"
+
+
+
+prompt: user
+
+
+
+
+ 1
+ 2
+ 3
+ 4
+ 5
+ 6
+ 7
+ 8
+ 9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+
+
+Please rewrite this selection following these instructions:
+
+## Edit Prompt
+
+添加备注
+
+## Selection to Rewrite
+```tools/login.sh
+# Start of Selection
+DIR=\"$( cd -P \"$( dirname \"${BASH_SOURCE[0]}\" )\" && pwd )\"
+
+expect $DIR/$1
+# End of Selection
+```
+Please rewrite the selected code according to the instructions. Remember to only rewrite the code in the selection.
+
+
+
+Please format your output as:
+```
+# Start of Selection
+# INSERT_YOUR_REWRITE_HERE
+# End of Selection
+```
+
+Immediately start your response with ```
+
+'></span><header class=post-header><h1 class=post-title itemprop="name headline"><a href=https://github.com/user-name/repo-name/tree/branch-name/subdirectory-name/_draft/prompt/learn/cursor.md rel="noopener external nofollow noreferrer" target=_blank class="exturl post-edit-link" title=编辑><i class="fa fa-pen-nib"></i></a></h1><div class=post-meta-container><div class=post-meta-items><span class=post-meta-item><span class=post-meta-item-icon><i class="fas fa-solid fa-calendar"></i>
+</span><span class=post-meta-item-text title=发表于>发表于：
+</span><time title="创建时间：0001-01-01 00:00:00 +00:00" itemprop="dateCreated datePublished" datetime="0001-01-01 00:00:00 +0000 UTC">0001-01-01</time></span></div><div class=post-meta-items><span class=post-meta-item title=字数><span class=post-meta-item-icon><i class="fas fa-solid fa-file-word"></i>
+</span><span class=post-meta-item-text>字数：</span>
+<span>1099</span>
+</span><span class=post-meta-item title=阅读><span class=post-meta-item-icon><i class="fas fa-solid fa-clock"></i>
+</span><span class=post-meta-item-text>阅读：&ap;</span>
+<span>3分钟</span>
+</span><span class=post-meta-item title=浏览><span class=post-meta-item-icon><i class="fas fa-solid fa-eye"></i>
+</span><span class=post-meta-item-text>浏览：
+</span><span id=busuanzi_value_page_pv data-path=/_draft/prompt/learn/cursor/><i class="fa fa-sync fa-spin"></i></span></span></div></div></header><div class="post-body autonumber" itemprop=articleBody><h2 id=prompt-system>prompt: system
+<a class=header-anchor href=#prompt-system></a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-0-1><a class=lnlinks href=#hl-0-1>  1</a>
+</span><span class=lnt id=hl-0-2><a class=lnlinks href=#hl-0-2>  2</a>
+</span><span class=lnt id=hl-0-3><a class=lnlinks href=#hl-0-3>  3</a>
+</span><span class=lnt id=hl-0-4><a class=lnlinks href=#hl-0-4>  4</a>
+</span><span class=lnt id=hl-0-5><a class=lnlinks href=#hl-0-5>  5</a>
+</span><span class=lnt id=hl-0-6><a class=lnlinks href=#hl-0-6>  6</a>
+</span><span class=lnt id=hl-0-7><a class=lnlinks href=#hl-0-7>  7</a>
+</span><span class=lnt id=hl-0-8><a class=lnlinks href=#hl-0-8>  8</a>
+</span><span class=lnt id=hl-0-9><a class=lnlinks href=#hl-0-9>  9</a>
+</span><span class=lnt id=hl-0-10><a class=lnlinks href=#hl-0-10> 10</a>
+</span><span class=lnt id=hl-0-11><a class=lnlinks href=#hl-0-11> 11</a>
+</span><span class=lnt id=hl-0-12><a class=lnlinks href=#hl-0-12> 12</a>
+</span><span class=lnt id=hl-0-13><a class=lnlinks href=#hl-0-13> 13</a>
+</span><span class=lnt id=hl-0-14><a class=lnlinks href=#hl-0-14> 14</a>
+</span><span class=lnt id=hl-0-15><a class=lnlinks href=#hl-0-15> 15</a>
+</span><span class=lnt id=hl-0-16><a class=lnlinks href=#hl-0-16> 16</a>
+</span><span class=lnt id=hl-0-17><a class=lnlinks href=#hl-0-17> 17</a>
+</span><span class=lnt id=hl-0-18><a class=lnlinks href=#hl-0-18> 18</a>
+</span><span class=lnt id=hl-0-19><a class=lnlinks href=#hl-0-19> 19</a>
+</span><span class=lnt id=hl-0-20><a class=lnlinks href=#hl-0-20> 20</a>
+</span><span class=lnt id=hl-0-21><a class=lnlinks href=#hl-0-21> 21</a>
+</span><span class=lnt id=hl-0-22><a class=lnlinks href=#hl-0-22> 22</a>
+</span><span class=lnt id=hl-0-23><a class=lnlinks href=#hl-0-23> 23</a>
+</span><span class=lnt id=hl-0-24><a class=lnlinks href=#hl-0-24> 24</a>
+</span><span class=lnt id=hl-0-25><a class=lnlinks href=#hl-0-25> 25</a>
+</span><span class=lnt id=hl-0-26><a class=lnlinks href=#hl-0-26> 26</a>
+</span><span class=lnt id=hl-0-27><a class=lnlinks href=#hl-0-27> 27</a>
+</span><span class=lnt id=hl-0-28><a class=lnlinks href=#hl-0-28> 28</a>
+</span><span class=lnt id=hl-0-29><a class=lnlinks href=#hl-0-29> 29</a>
+</span><span class=lnt id=hl-0-30><a class=lnlinks href=#hl-0-30> 30</a>
+</span><span class=lnt id=hl-0-31><a class=lnlinks href=#hl-0-31> 31</a>
+</span><span class=lnt id=hl-0-32><a class=lnlinks href=#hl-0-32> 32</a>
+</span><span class=lnt id=hl-0-33><a class=lnlinks href=#hl-0-33> 33</a>
+</span><span class=lnt id=hl-0-34><a class=lnlinks href=#hl-0-34> 34</a>
+</span><span class=lnt id=hl-0-35><a class=lnlinks href=#hl-0-35> 35</a>
+</span><span class=lnt id=hl-0-36><a class=lnlinks href=#hl-0-36> 36</a>
+</span><span class=lnt id=hl-0-37><a class=lnlinks href=#hl-0-37> 37</a>
+</span><span class=lnt id=hl-0-38><a class=lnlinks href=#hl-0-38> 38</a>
+</span><span class=lnt id=hl-0-39><a class=lnlinks href=#hl-0-39> 39</a>
+</span><span class=lnt id=hl-0-40><a class=lnlinks href=#hl-0-40> 40</a>
+</span><span class=lnt id=hl-0-41><a class=lnlinks href=#hl-0-41> 41</a>
+</span><span class=lnt id=hl-0-42><a class=lnlinks href=#hl-0-42> 42</a>
+</span><span class=lnt id=hl-0-43><a class=lnlinks href=#hl-0-43> 43</a>
+</span><span class=lnt id=hl-0-44><a class=lnlinks href=#hl-0-44> 44</a>
+</span><span class=lnt id=hl-0-45><a class=lnlinks href=#hl-0-45> 45</a>
+</span><span class=lnt id=hl-0-46><a class=lnlinks href=#hl-0-46> 46</a>
+</span><span class=lnt id=hl-0-47><a class=lnlinks href=#hl-0-47> 47</a>
+</span><span class=lnt id=hl-0-48><a class=lnlinks href=#hl-0-48> 48</a>
+</span><span class=lnt id=hl-0-49><a class=lnlinks href=#hl-0-49> 49</a>
+</span><span class=lnt id=hl-0-50><a class=lnlinks href=#hl-0-50> 50</a>
+</span><span class=lnt id=hl-0-51><a class=lnlinks href=#hl-0-51> 51</a>
+</span><span class=lnt id=hl-0-52><a class=lnlinks href=#hl-0-52> 52</a>
+</span><span class=lnt id=hl-0-53><a class=lnlinks href=#hl-0-53> 53</a>
+</span><span class=lnt id=hl-0-54><a class=lnlinks href=#hl-0-54> 54</a>
+</span><span class=lnt id=hl-0-55><a class=lnlinks href=#hl-0-55> 55</a>
+</span><span class=lnt id=hl-0-56><a class=lnlinks href=#hl-0-56> 56</a>
+</span><span class=lnt id=hl-0-57><a class=lnlinks href=#hl-0-57> 57</a>
+</span><span class=lnt id=hl-0-58><a class=lnlinks href=#hl-0-58> 58</a>
+</span><span class=lnt id=hl-0-59><a class=lnlinks href=#hl-0-59> 59</a>
+</span><span class=lnt id=hl-0-60><a class=lnlinks href=#hl-0-60> 60</a>
+</span><span class=lnt id=hl-0-61><a class=lnlinks href=#hl-0-61> 61</a>
+</span><span class=lnt id=hl-0-62><a class=lnlinks href=#hl-0-62> 62</a>
+</span><span class=lnt id=hl-0-63><a class=lnlinks href=#hl-0-63> 63</a>
+</span><span class=lnt id=hl-0-64><a class=lnlinks href=#hl-0-64> 64</a>
+</span><span class=lnt id=hl-0-65><a class=lnlinks href=#hl-0-65> 65</a>
+</span><span class=lnt id=hl-0-66><a class=lnlinks href=#hl-0-66> 66</a>
+</span><span class=lnt id=hl-0-67><a class=lnlinks href=#hl-0-67> 67</a>
+</span><span class=lnt id=hl-0-68><a class=lnlinks href=#hl-0-68> 68</a>
+</span><span class=lnt id=hl-0-69><a class=lnlinks href=#hl-0-69> 69</a>
+</span><span class=lnt id=hl-0-70><a class=lnlinks href=#hl-0-70> 70</a>
+</span><span class=lnt id=hl-0-71><a class=lnlinks href=#hl-0-71> 71</a>
+</span><span class=lnt id=hl-0-72><a class=lnlinks href=#hl-0-72> 72</a>
+</span><span class=lnt id=hl-0-73><a class=lnlinks href=#hl-0-73> 73</a>
+</span><span class=lnt id=hl-0-74><a class=lnlinks href=#hl-0-74> 74</a>
+</span><span class=lnt id=hl-0-75><a class=lnlinks href=#hl-0-75> 75</a>
+</span><span class=lnt id=hl-0-76><a class=lnlinks href=#hl-0-76> 76</a>
+</span><span class=lnt id=hl-0-77><a class=lnlinks href=#hl-0-77> 77</a>
+</span><span class=lnt id=hl-0-78><a class=lnlinks href=#hl-0-78> 78</a>
+</span><span class=lnt id=hl-0-79><a class=lnlinks href=#hl-0-79> 79</a>
+</span><span class=lnt id=hl-0-80><a class=lnlinks href=#hl-0-80> 80</a>
+</span><span class=lnt id=hl-0-81><a class=lnlinks href=#hl-0-81> 81</a>
+</span><span class=lnt id=hl-0-82><a class=lnlinks href=#hl-0-82> 82</a>
+</span><span class=lnt id=hl-0-83><a class=lnlinks href=#hl-0-83> 83</a>
+</span><span class=lnt id=hl-0-84><a class=lnlinks href=#hl-0-84> 84</a>
+</span><span class=lnt id=hl-0-85><a class=lnlinks href=#hl-0-85> 85</a>
+</span><span class=lnt id=hl-0-86><a class=lnlinks href=#hl-0-86> 86</a>
+</span><span class=lnt id=hl-0-87><a class=lnlinks href=#hl-0-87> 87</a>
+</span><span class=lnt id=hl-0-88><a class=lnlinks href=#hl-0-88> 88</a>
+</span><span class=lnt id=hl-0-89><a class=lnlinks href=#hl-0-89> 89</a>
+</span><span class=lnt id=hl-0-90><a class=lnlinks href=#hl-0-90> 90</a>
+</span><span class=lnt id=hl-0-91><a class=lnlinks href=#hl-0-91> 91</a>
+</span><span class=lnt id=hl-0-92><a class=lnlinks href=#hl-0-92> 92</a>
+</span><span class=lnt id=hl-0-93><a class=lnlinks href=#hl-0-93> 93</a>
+</span><span class=lnt id=hl-0-94><a class=lnlinks href=#hl-0-94> 94</a>
+</span><span class=lnt id=hl-0-95><a class=lnlinks href=#hl-0-95> 95</a>
+</span><span class=lnt id=hl-0-96><a class=lnlinks href=#hl-0-96> 96</a>
+</span><span class=lnt id=hl-0-97><a class=lnlinks href=#hl-0-97> 97</a>
+</span><span class=lnt id=hl-0-98><a class=lnlinks href=#hl-0-98> 98</a>
+</span><span class=lnt id=hl-0-99><a class=lnlinks href=#hl-0-99> 99</a>
+</span><span class=lnt id=hl-0-100><a class=lnlinks href=#hl-0-100>100</a>
+</span><span class=lnt id=hl-0-101><a class=lnlinks href=#hl-0-101>101</a>
+</span><span class=lnt id=hl-0-102><a class=lnlinks href=#hl-0-102>102</a>
+</span><span class=lnt id=hl-0-103><a class=lnlinks href=#hl-0-103>103</a>
+</span><span class=lnt id=hl-0-104><a class=lnlinks href=#hl-0-104>104</a>
+</span><span class=lnt id=hl-0-105><a class=lnlinks href=#hl-0-105>105</a>
+</span><span class=lnt id=hl-0-106><a class=lnlinks href=#hl-0-106>106</a>
+</span><span class=lnt id=hl-0-107><a class=lnlinks href=#hl-0-107>107</a>
+</span><span class=lnt id=hl-0-108><a class=lnlinks href=#hl-0-108>108</a>
+</span><span class=lnt id=hl-0-109><a class=lnlinks href=#hl-0-109>109</a>
+</span><span class=lnt id=hl-0-110><a class=lnlinks href=#hl-0-110>110</a>
+</span><span class=lnt id=hl-0-111><a class=lnlinks href=#hl-0-111>111</a>
+</span><span class=lnt id=hl-0-112><a class=lnlinks href=#hl-0-112>112</a>
+</span><span class=lnt id=hl-0-113><a class=lnlinks href=#hl-0-113>113</a>
+</span><span class=lnt id=hl-0-114><a class=lnlinks href=#hl-0-114>114</a>
+</span><span class=lnt id=hl-0-115><a class=lnlinks href=#hl-0-115>115</a>
+</span><span class=lnt id=hl-0-116><a class=lnlinks href=#hl-0-116>116</a>
+</span><span class=lnt id=hl-0-117><a class=lnlinks href=#hl-0-117>117</a>
+</span><span class=lnt id=hl-0-118><a class=lnlinks href=#hl-0-118>118</a>
+</span><span class=lnt id=hl-0-119><a class=lnlinks href=#hl-0-119>119</a>
+</span><span class=lnt id=hl-0-120><a class=lnlinks href=#hl-0-120>120</a>
+</span><span class=lnt id=hl-0-121><a class=lnlinks href=#hl-0-121>121</a>
+</span><span class=lnt id=hl-0-122><a class=lnlinks href=#hl-0-122>122</a>
+</span><span class=lnt id=hl-0-123><a class=lnlinks href=#hl-0-123>123</a>
+</span><span class=lnt id=hl-0-124><a class=lnlinks href=#hl-0-124>124</a>
+</span><span class=lnt id=hl-0-125><a class=lnlinks href=#hl-0-125>125</a>
+</span><span class=lnt id=hl-0-126><a class=lnlinks href=#hl-0-126>126</a>
+</span><span class=lnt id=hl-0-127><a class=lnlinks href=#hl-0-127>127</a>
+</span><span class=lnt id=hl-0-128><a class=lnlinks href=#hl-0-128>128</a>
+</span><span class=lnt id=hl-0-129><a class=lnlinks href=#hl-0-129>129</a>
+</span><span class=lnt id=hl-0-130><a class=lnlinks href=#hl-0-130>130</a>
+</span><span class=lnt id=hl-0-131><a class=lnlinks href=#hl-0-131>131</a>
+</span><span class=lnt id=hl-0-132><a class=lnlinks href=#hl-0-132>132</a>
+</span><span class=lnt id=hl-0-133><a class=lnlinks href=#hl-0-133>133</a>
+</span><span class=lnt id=hl-0-134><a class=lnlinks href=#hl-0-134>134</a>
+</span><span class=lnt id=hl-0-135><a class=lnlinks href=#hl-0-135>135</a>
+</span><span class=lnt id=hl-0-136><a class=lnlinks href=#hl-0-136>136</a>
+</span><span class=lnt id=hl-0-137><a class=lnlinks href=#hl-0-137>137</a>
+</span><span class=lnt id=hl-0-138><a class=lnlinks href=#hl-0-138>138</a>
+</span><span class=lnt id=hl-0-139><a class=lnlinks href=#hl-0-139>139</a>
+</span><span class=lnt id=hl-0-140><a class=lnlinks href=#hl-0-140>140</a>
+</span><span class=lnt id=hl-0-141><a class=lnlinks href=#hl-0-141>141</a>
+</span><span class=lnt id=hl-0-142><a class=lnlinks href=#hl-0-142>142</a>
+</span><span class=lnt id=hl-0-143><a class=lnlinks href=#hl-0-143>143</a>
+</span><span class=lnt id=hl-0-144><a class=lnlinks href=#hl-0-144>144</a>
+</span><span class=lnt id=hl-0-145><a class=lnlinks href=#hl-0-145>145</a>
+</span><span class=lnt id=hl-0-146><a class=lnlinks href=#hl-0-146>146</a>
+</span><span class=lnt id=hl-0-147><a class=lnlinks href=#hl-0-147>147</a>
+</span><span class=lnt id=hl-0-148><a class=lnlinks href=#hl-0-148>148</a>
+</span><span class=lnt id=hl-0-149><a class=lnlinks href=#hl-0-149>149</a>
+</span><span class=lnt id=hl-0-150><a class=lnlinks href=#hl-0-150>150</a>
+</span><span class=lnt id=hl-0-151><a class=lnlinks href=#hl-0-151>151</a>
+</span><span class=lnt id=hl-0-152><a class=lnlinks href=#hl-0-152>152</a>
+</span><span class=lnt id=hl-0-153><a class=lnlinks href=#hl-0-153>153</a>
+</span><span class=lnt id=hl-0-154><a class=lnlinks href=#hl-0-154>154</a>
+</span><span class=lnt id=hl-0-155><a class=lnlinks href=#hl-0-155>155</a>
+</span><span class=lnt id=hl-0-156><a class=lnlinks href=#hl-0-156>156</a>
+</span><span class=lnt id=hl-0-157><a class=lnlinks href=#hl-0-157>157</a>
+</span><span class=lnt id=hl-0-158><a class=lnlinks href=#hl-0-158>158</a>
+</span><span class=lnt id=hl-0-159><a class=lnlinks href=#hl-0-159>159</a>
+</span><span class=lnt id=hl-0-160><a class=lnlinks href=#hl-0-160>160</a>
+</span><span class=lnt id=hl-0-161><a class=lnlinks href=#hl-0-161>161</a>
+</span><span class=lnt id=hl-0-162><a class=lnlinks href=#hl-0-162>162</a>
+</span><span class=lnt id=hl-0-163><a class=lnlinks href=#hl-0-163>163</a>
+</span><span class=lnt id=hl-0-164><a class=lnlinks href=#hl-0-164>164</a>
+</span><span class=lnt id=hl-0-165><a class=lnlinks href=#hl-0-165>165</a>
+</span><span class=lnt id=hl-0-166><a class=lnlinks href=#hl-0-166>166</a>
+</span><span class=lnt id=hl-0-167><a class=lnlinks href=#hl-0-167>167</a>
+</span><span class=lnt id=hl-0-168><a class=lnlinks href=#hl-0-168>168</a>
+</span><span class=lnt id=hl-0-169><a class=lnlinks href=#hl-0-169>169</a>
+</span><span class=lnt id=hl-0-170><a class=lnlinks href=#hl-0-170>170</a>
+</span><span class=lnt id=hl-0-171><a class=lnlinks href=#hl-0-171>171</a>
+</span><span class=lnt id=hl-0-172><a class=lnlinks href=#hl-0-172>172</a>
+</span><span class=lnt id=hl-0-173><a class=lnlinks href=#hl-0-173>173</a>
+</span><span class=lnt id=hl-0-174><a class=lnlinks href=#hl-0-174>174</a>
+</span><span class=lnt id=hl-0-175><a class=lnlinks href=#hl-0-175>175</a>
+</span><span class=lnt id=hl-0-176><a class=lnlinks href=#hl-0-176>176</a>
+</span><span class=lnt id=hl-0-177><a class=lnlinks href=#hl-0-177>177</a>
+</span><span class=lnt id=hl-0-178><a class=lnlinks href=#hl-0-178>178</a>
+</span><span class=lnt id=hl-0-179><a class=lnlinks href=#hl-0-179>179</a>
+</span><span class=lnt id=hl-0-180><a class=lnlinks href=#hl-0-180>180</a>
+</span><span class=lnt id=hl-0-181><a class=lnlinks href=#hl-0-181>181</a>
+</span><span class=lnt id=hl-0-182><a class=lnlinks href=#hl-0-182>182</a>
+</span><span class=lnt id=hl-0-183><a class=lnlinks href=#hl-0-183>183</a>
+</span><span class=lnt id=hl-0-184><a class=lnlinks href=#hl-0-184>184</a>
+</span><span class=lnt id=hl-0-185><a class=lnlinks href=#hl-0-185>185</a>
+</span><span class=lnt id=hl-0-186><a class=lnlinks href=#hl-0-186>186</a>
+</span><span class=lnt id=hl-0-187><a class=lnlinks href=#hl-0-187>187</a>
+</span><span class=lnt id=hl-0-188><a class=lnlinks href=#hl-0-188>188</a>
+</span><span class=lnt id=hl-0-189><a class=lnlinks href=#hl-0-189>189</a>
+</span><span class=lnt id=hl-0-190><a class=lnlinks href=#hl-0-190>190</a>
+</span><span class=lnt id=hl-0-191><a class=lnlinks href=#hl-0-191>191</a>
+</span><span class=lnt id=hl-0-192><a class=lnlinks href=#hl-0-192>192</a>
+</span><span class=lnt id=hl-0-193><a class=lnlinks href=#hl-0-193>193</a>
+</span><span class=lnt id=hl-0-194><a class=lnlinks href=#hl-0-194>194</a>
+</span><span class=lnt id=hl-0-195><a class=lnlinks href=#hl-0-195>195</a>
+</span><span class=lnt id=hl-0-196><a class=lnlinks href=#hl-0-196>196</a>
+</span><span class=lnt id=hl-0-197><a class=lnlinks href=#hl-0-197>197</a>
+</span><span class=lnt id=hl-0-198><a class=lnlinks href=#hl-0-198>198</a>
+</span><span class=lnt id=hl-0-199><a class=lnlinks href=#hl-0-199>199</a>
+</span><span class=lnt id=hl-0-200><a class=lnlinks href=#hl-0-200>200</a>
+</span><span class=lnt id=hl-0-201><a class=lnlinks href=#hl-0-201>201</a>
+</span><span class=lnt id=hl-0-202><a class=lnlinks href=#hl-0-202>202</a>
+</span><span class=lnt id=hl-0-203><a class=lnlinks href=#hl-0-203>203</a>
+</span><span class=lnt id=hl-0-204><a class=lnlinks href=#hl-0-204>204</a>
+</span><span class=lnt id=hl-0-205><a class=lnlinks href=#hl-0-205>205</a>
+</span><span class=lnt id=hl-0-206><a class=lnlinks href=#hl-0-206>206</a>
+</span><span class=lnt id=hl-0-207><a class=lnlinks href=#hl-0-207>207</a>
+</span><span class=lnt id=hl-0-208><a class=lnlinks href=#hl-0-208>208</a>
+</span><span class=lnt id=hl-0-209><a class=lnlinks href=#hl-0-209>209</a>
+</span><span class=lnt id=hl-0-210><a class=lnlinks href=#hl-0-210>210</a>
+</span><span class=lnt id=hl-0-211><a class=lnlinks href=#hl-0-211>211</a>
+</span><span class=lnt id=hl-0-212><a class=lnlinks href=#hl-0-212>212</a>
+</span><span class=lnt id=hl-0-213><a class=lnlinks href=#hl-0-213>213</a>
+</span><span class=lnt id=hl-0-214><a class=lnlinks href=#hl-0-214>214</a>
+</span><span class=lnt id=hl-0-215><a class=lnlinks href=#hl-0-215>215</a>
+</span><span class=lnt id=hl-0-216><a class=lnlinks href=#hl-0-216>216</a>
+</span><span class=lnt id=hl-0-217><a class=lnlinks href=#hl-0-217>217</a>
+</span><span class=lnt id=hl-0-218><a class=lnlinks href=#hl-0-218>218</a>
+</span><span class=lnt id=hl-0-219><a class=lnlinks href=#hl-0-219>219</a>
+</span><span class=lnt id=hl-0-220><a class=lnlinks href=#hl-0-220>220</a>
+</span><span class=lnt id=hl-0-221><a class=lnlinks href=#hl-0-221>221</a>
+</span><span class=lnt id=hl-0-222><a class=lnlinks href=#hl-0-222>222</a>
+</span><span class=lnt id=hl-0-223><a class=lnlinks href=#hl-0-223>223</a>
+</span><span class=lnt id=hl-0-224><a class=lnlinks href=#hl-0-224>224</a>
+</span><span class=lnt id=hl-0-225><a class=lnlinks href=#hl-0-225>225</a>
+</span><span class=lnt id=hl-0-226><a class=lnlinks href=#hl-0-226>226</a>
+</span><span class=lnt id=hl-0-227><a class=lnlinks href=#hl-0-227>227</a>
+</span><span class=lnt id=hl-0-228><a class=lnlinks href=#hl-0-228>228</a>
+</span><span class=lnt id=hl-0-229><a class=lnlinks href=#hl-0-229>229</a>
+</span><span class=lnt id=hl-0-230><a class=lnlinks href=#hl-0-230>230</a>
+</span><span class=lnt id=hl-0-231><a class=lnlinks href=#hl-0-231>231</a>
+</span><span class=lnt id=hl-0-232><a class=lnlinks href=#hl-0-232>232</a>
+</span><span class=lnt id=hl-0-233><a class=lnlinks href=#hl-0-233>233</a>
+</span><span class=lnt id=hl-0-234><a class=lnlinks href=#hl-0-234>234</a>
+</span><span class=lnt id=hl-0-235><a class=lnlinks href=#hl-0-235>235</a>
+</span><span class=lnt id=hl-0-236><a class=lnlinks href=#hl-0-236>236</a>
+</span><span class=lnt id=hl-0-237><a class=lnlinks href=#hl-0-237>237</a>
+</span><span class=lnt id=hl-0-238><a class=lnlinks href=#hl-0-238>238</a>
+</span><span class=lnt id=hl-0-239><a class=lnlinks href=#hl-0-239>239</a>
+</span><span class=lnt id=hl-0-240><a class=lnlinks href=#hl-0-240>240</a>
+</span><span class=lnt id=hl-0-241><a class=lnlinks href=#hl-0-241>241</a>
+</span><span class=lnt id=hl-0-242><a class=lnlinks href=#hl-0-242>242</a>
+</span><span class=lnt id=hl-0-243><a class=lnlinks href=#hl-0-243>243</a>
+</span><span class=lnt id=hl-0-244><a class=lnlinks href=#hl-0-244>244</a>
+</span><span class=lnt id=hl-0-245><a class=lnlinks href=#hl-0-245>245</a>
+</span><span class=lnt id=hl-0-246><a class=lnlinks href=#hl-0-246>246</a>
+</span><span class=lnt id=hl-0-247><a class=lnlinks href=#hl-0-247>247</a>
+</span><span class=lnt id=hl-0-248><a class=lnlinks href=#hl-0-248>248</a>
+</span><span class=lnt id=hl-0-249><a class=lnlinks href=#hl-0-249>249</a>
+</span><span class=lnt id=hl-0-250><a class=lnlinks href=#hl-0-250>250</a>
+</span><span class=lnt id=hl-0-251><a class=lnlinks href=#hl-0-251>251</a>
+</span><span class=lnt id=hl-0-252><a class=lnlinks href=#hl-0-252>252</a>
+</span><span class=lnt id=hl-0-253><a class=lnlinks href=#hl-0-253>253</a>
+</span><span class=lnt id=hl-0-254><a class=lnlinks href=#hl-0-254>254</a>
+</span><span class=lnt id=hl-0-255><a class=lnlinks href=#hl-0-255>255</a>
+</span><span class=lnt id=hl-0-256><a class=lnlinks href=#hl-0-256>256</a>
+</span><span class=lnt id=hl-0-257><a class=lnlinks href=#hl-0-257>257</a>
+</span><span class=lnt id=hl-0-258><a class=lnlinks href=#hl-0-258>258</a>
+</span><span class=lnt id=hl-0-259><a class=lnlinks href=#hl-0-259>259</a>
+</span><span class=lnt id=hl-0-260><a class=lnlinks href=#hl-0-260>260</a>
+</span><span class=lnt id=hl-0-261><a class=lnlinks href=#hl-0-261>261</a>
+</span><span class=lnt id=hl-0-262><a class=lnlinks href=#hl-0-262>262</a>
+</span><span class=lnt id=hl-0-263><a class=lnlinks href=#hl-0-263>263</a>
+</span><span class=lnt id=hl-0-264><a class=lnlinks href=#hl-0-264>264</a>
+</span><span class=lnt id=hl-0-265><a class=lnlinks href=#hl-0-265>265</a>
+</span><span class=lnt id=hl-0-266><a class=lnlinks href=#hl-0-266>266</a>
+</span><span class=lnt id=hl-0-267><a class=lnlinks href=#hl-0-267>267</a>
+</span><span class=lnt id=hl-0-268><a class=lnlinks href=#hl-0-268>268</a>
+</span><span class=lnt id=hl-0-269><a class=lnlinks href=#hl-0-269>269</a>
+</span><span class=lnt id=hl-0-270><a class=lnlinks href=#hl-0-270>270</a>
+</span><span class=lnt id=hl-0-271><a class=lnlinks href=#hl-0-271>271</a>
+</span><span class=lnt id=hl-0-272><a class=lnlinks href=#hl-0-272>272</a>
+</span><span class=lnt id=hl-0-273><a class=lnlinks href=#hl-0-273>273</a>
+</span><span class=lnt id=hl-0-274><a class=lnlinks href=#hl-0-274>274</a>
+</span><span class=lnt id=hl-0-275><a class=lnlinks href=#hl-0-275>275</a>
+</span><span class=lnt id=hl-0-276><a class=lnlinks href=#hl-0-276>276</a>
+</span><span class=lnt id=hl-0-277><a class=lnlinks href=#hl-0-277>277</a>
+</span><span class=lnt id=hl-0-278><a class=lnlinks href=#hl-0-278>278</a>
+</span><span class=lnt id=hl-0-279><a class=lnlinks href=#hl-0-279>279</a>
+</span><span class=lnt id=hl-0-280><a class=lnlinks href=#hl-0-280>280</a>
+</span><span class=lnt id=hl-0-281><a class=lnlinks href=#hl-0-281>281</a>
+</span><span class=lnt id=hl-0-282><a class=lnlinks href=#hl-0-282>282</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-bash data-lang=bash><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>First, I will give you some potentially helpful context about my code.
+</span></span><span class=line><span class=cl>Then, I will show you the selection and give you the instruction. The selection will be in <span class=sb>`</span>tools/login.sh<span class=sb>`</span>.
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>-------
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>## Potentially helpful context</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>#### file_context_2</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>api/logger/log_init.py from line 1:
+</span></span><span class=line><span class=cl><span class=sb>```</span>
+</span></span><span class=line><span class=cl>import logging
+</span></span><span class=line><span class=cl>import os
+</span></span><span class=line><span class=cl>from logging.handlers import RotatingFileHandler
+</span></span><span class=line><span class=cl>import sys
+</span></span><span class=line><span class=cl>from datetime import datetime, timedelta, timezone
+</span></span><span class=line><span class=cl>from colorlog import ColoredFormatter
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>class CustomColoredFormatter<span class=o>(</span>ColoredFormatter<span class=o>)</span>:
+</span></span><span class=line><span class=cl>    def __init__<span class=o>(</span>self, *args, **kwargs<span class=o>)</span>:
+</span></span><span class=line><span class=cl>        super<span class=o>()</span>.__init__<span class=o>(</span>*args, **kwargs<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    def converter<span class=o>(</span>self, timestamp<span class=o>)</span>:
+</span></span><span class=line><span class=cl>        <span class=c1># 将时间戳转换为东八区时间</span>
+</span></span><span class=line><span class=cl>        <span class=nv>dt</span> <span class=o>=</span> datetime.fromtimestamp<span class=o>(</span>timestamp, <span class=nv>tz</span><span class=o>=</span>timezone.utc<span class=o>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> dt.astimezone<span class=o>(</span>timezone<span class=o>(</span>timedelta<span class=o>(</span><span class=nv>hours</span><span class=o>=</span>8<span class=o>)))</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    def formatTime<span class=o>(</span>self, record, <span class=nv>datefmt</span><span class=o>=</span>None<span class=o>)</span>:
+</span></span><span class=line><span class=cl>        <span class=c1># 使用自定义的时间转换器</span>
+</span></span><span class=line><span class=cl>        <span class=nv>dt</span> <span class=o>=</span> self.converter<span class=o>(</span>record.created<span class=o>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>if</span> datefmt:
+</span></span><span class=line><span class=cl>            <span class=nv>s</span> <span class=o>=</span> dt.strftime<span class=o>(</span>datefmt<span class=o>)</span>
+</span></span><span class=line><span class=cl>        <span class=k>else</span>:
+</span></span><span class=line><span class=cl>            <span class=nv>s</span> <span class=o>=</span> dt.isoformat<span class=o>()</span>
+</span></span><span class=line><span class=cl>        <span class=k>return</span> s
+</span></span><span class=line><span class=cl>        
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>__formatter: <span class=nv>CustomColoredFormatter</span> <span class=o>=</span> None
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>def get_formatter<span class=o>()</span> -&gt; CustomColoredFormatter:
+</span></span><span class=line><span class=cl>    <span class=k>return</span> __formatter
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>def init<span class=o>(</span>app<span class=o>)</span>:
+</span></span><span class=line><span class=cl>    global __formatter
+</span></span><span class=line><span class=cl>    <span class=nv>__formatter</span> <span class=o>=</span> CustomColoredFormatter<span class=o>(</span>
+</span></span><span class=line><span class=cl>        <span class=nv>fmt</span><span class=o>=</span>app.config.get<span class=o>(</span><span class=se>\&#34;</span>LOG_FORMAT<span class=se>\&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>        <span class=nv>datefmt</span><span class=o>=</span>app.config.get<span class=o>(</span><span class=se>\&#34;</span>LOG_DATEFORMAT<span class=se>\&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>        <span class=nv>log_colors</span><span class=o>={</span>
+</span></span><span class=line><span class=cl>            <span class=se>\&#34;</span>DEBUG<span class=se>\&#34;</span>: <span class=se>\&#34;</span>cyan<span class=se>\&#34;</span>,
+</span></span><span class=line><span class=cl>            <span class=se>\&#34;</span>INFO<span class=se>\&#34;</span>: <span class=se>\&#34;</span>green<span class=se>\&#34;</span>,
+</span></span><span class=line><span class=cl>            <span class=se>\&#34;</span>WARNING<span class=se>\&#34;</span>: <span class=se>\&#34;</span>yellow<span class=se>\&#34;</span>,
+</span></span><span class=line><span class=cl>            <span class=se>\&#34;</span>ERROR<span class=se>\&#34;</span>: <span class=se>\&#34;</span>red<span class=se>\&#34;</span>,
+</span></span><span class=line><span class=cl>            <span class=se>\&#34;</span>CRITICAL<span class=se>\&#34;</span>: <span class=se>\&#34;</span>red,bg_white<span class=se>\&#34;</span>,
+</span></span><span class=line><span class=cl>        <span class=o>}</span>,
+</span></span><span class=line><span class=cl>    <span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    _init_default_handlers<span class=o>(</span>app<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>def _init_default_handlers<span class=o>(</span>app<span class=o>)</span>:
+</span></span><span class=line><span class=cl>    <span class=nv>log_file</span> <span class=o>=</span> app.config.get<span class=o>(</span><span class=se>\&#34;</span>LOG_FILE<span class=se>\&#34;</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> log_file:
+</span></span><span class=line><span class=cl>        <span class=nv>log_dir</span> <span class=o>=</span> os.path.dirname<span class=o>(</span>log_file<span class=o>)</span>
+</span></span><span class=line><span class=cl>        os.makedirs<span class=o>(</span>log_dir, <span class=nv>exist_ok</span><span class=o>=</span>True<span class=o>)</span>
+</span></span><span class=line><span class=cl>        <span class=nv>log_handler</span> <span class=o>=</span> RotatingFileHandler<span class=o>(</span>
+</span></span><span class=line><span class=cl>            <span class=nv>filename</span><span class=o>=</span>log_file,
+</span></span><span class=line><span class=cl>            <span class=nv>maxBytes</span><span class=o>=</span><span class=m>1024</span> * <span class=m>1024</span> * 1024,
+</span></span><span class=line><span class=cl>            <span class=nv>backupCount</span><span class=o>=</span>5,
+</span></span><span class=line><span class=cl>        <span class=o>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>else</span>:
+</span></span><span class=line><span class=cl>        <span class=nv>log_handler</span> <span class=o>=</span> logging.StreamHandler<span class=o>(</span>sys.stdout<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    log_handler.setFormatter<span class=o>(</span>get_formatter<span class=o>())</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    logging.basicConfig<span class=o>(</span>
+</span></span><span class=line><span class=cl>        <span class=nv>level</span><span class=o>=</span>app.config.get<span class=o>(</span><span class=se>\&#34;</span>LOG_LEVEL<span class=se>\&#34;</span><span class=o>)</span>,
+</span></span><span class=line><span class=cl>        <span class=nv>handlers</span><span class=o>=[</span>log_handler<span class=o>]</span>,
+</span></span><span class=line><span class=cl>        <span class=nv>force</span><span class=o>=</span>True,
+</span></span><span class=line><span class=cl>    <span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    <span class=nv>log_tz</span> <span class=o>=</span> app.config.get<span class=o>(</span><span class=se>\&#34;</span>LOG_TZ<span class=se>\&#34;</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>    <span class=k>if</span> log_tz:
+</span></span><span class=line><span class=cl>        from datetime import datetime
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        import pytz
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=nv>timezone</span> <span class=o>=</span> pytz.timezone<span class=o>(</span>log_tz<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        def time_converter<span class=o>(</span>seconds<span class=o>)</span>:
+</span></span><span class=line><span class=cl>            <span class=k>return</span> datetime.utcfromtimestamp<span class=o>(</span>seconds<span class=o>)</span>.astimezone<span class=o>(</span>timezone<span class=o>)</span>.timetuple<span class=o>()</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=k>for</span> handler in logging.root.handlers:
+</span></span><span class=line><span class=cl>            handler.formatter.converter <span class=o>=</span> time_converter
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=sb>```</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>#### file_context_1</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>tools/psql from line 1:
+</span></span><span class=line><span class=cl><span class=sb>```</span>
+</span></span><span class=line><span class=cl><span class=c1>#!/bin/bash</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>spawn psql -U postgres -W -h 10.33.5.87 -p <span class=m>8432</span> -d dify
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>expect <span class=o>{</span>
+</span></span><span class=line><span class=cl>   <span class=se>\&#34;</span>口令：<span class=se>\&#34;</span> <span class=o>{</span> send <span class=se>\&#34;</span>difyai123456<span class=se>\
+</span></span></span><span class=line><span class=cl><span class=se>\&#34;</span><span class=p>;</span><span class=o>}</span> 
+</span></span><span class=line><span class=cl><span class=o>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>interact
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=sb>```</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>#### file_context_0</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>api/core/workflow/nodes/llm/llm_node.py from line 1:
+</span></span><span class=line><span class=cl><span class=sb>```</span>
+</span></span><span class=line><span class=cl>import json
+</span></span><span class=line><span class=cl>import traceback
+</span></span><span class=line><span class=cl>import logging
+</span></span><span class=line><span class=cl>from collections.abc import Generator, Mapping, Sequence
+</span></span><span class=line><span class=cl>from copy import deepcopy
+</span></span><span class=line><span class=cl>from typing import TYPE_CHECKING, Any, Optional, cast
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>from pydantic import BaseModel
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>from core.app.entities.app_invoke_entities import ModelConfigWithCredentialsEntity
+</span></span><span class=line><span class=cl>from core.entities.model_entities import ModelStatus
+</span></span><span class=line><span class=cl>from core.entities.provider_entities import QuotaUnit
+</span></span><span class=line><span class=cl>from core.errors.error import ModelCurrentlyNotSupportError, ProviderTokenNotInitError, QuotaExceededError
+</span></span><span class=line><span class=cl>from core.memory.token_buffer_memory import TokenBufferMemory
+</span></span><span class=line><span class=cl>from core.model_manager import ModelInstance, ModelManager
+</span></span><span class=line><span class=cl>from core.model_runtime.entities.llm_entities import LLMResult, LLMUsage
+</span></span><span class=line><span class=cl>from core.model_runtime.entities.message_entities import <span class=o>(</span>
+</span></span><span class=line><span class=cl>    ImagePromptMessageContent,
+</span></span><span class=line><span class=cl>    PromptMessage,
+</span></span><span class=line><span class=cl>    PromptMessageContentType,
+</span></span><span class=line><span class=cl><span class=o>)</span>
+</span></span><span class=line><span class=cl>from core.model_runtime.entities.model_entities import ModelType
+</span></span><span class=line><span class=cl>from core.model_runtime.model_providers.__base.large_language_model import LargeLanguageModel
+</span></span><span class=line><span class=cl>from core.model_runtime.utils.encoders import jsonable_encoder
+</span></span><span class=line><span class=cl>from core.prompt.advanced_prompt_transform import AdvancedPromptTransform
+</span></span><span class=line><span class=cl>from core.prompt.entities.advanced_prompt_entities import CompletionModelPromptTemplate, MemoryConfig
+</span></span><span class=line><span class=cl>from core.prompt.utils.prompt_message_util import PromptMessageUtil
+</span></span><span class=line><span class=cl>from core.workflow.entities.node_entities import NodeRunMetadataKey, NodeRunResult, NodeType
+</span></span><span class=line><span class=cl>from core.workflow.entities.variable_pool import VariablePool
+</span></span><span class=line><span class=cl>from core.workflow.enums import SystemVariableKey
+</span></span><span class=line><span class=cl>from core.workflow.graph_engine.entities.event import InNodeEvent
+</span></span><span class=line><span class=cl>from core.workflow.nodes.base_node import BaseNode
+</span></span><span class=line><span class=cl>from core.workflow.nodes.event import RunCompletedEvent, RunEvent, RunRetrieverResourceEvent, RunStreamChunkEvent
+</span></span><span class=line><span class=cl>from core.workflow.nodes.llm.entities import <span class=o>(</span>
+</span></span><span class=line><span class=cl>    LLMNodeChatModelMessage,
+</span></span><span class=line><span class=cl>    LLMNodeCompletionModelPromptTemplate,
+</span></span><span class=line><span class=cl>    LLMNodeData,
+</span></span><span class=line><span class=cl>    ModelConfig,
+</span></span><span class=line><span class=cl><span class=o>)</span>
+</span></span><span class=line><span class=cl>from core.workflow.utils.variable_template_parser import VariableTemplateParser
+</span></span><span class=line><span class=cl>from extensions.ext_database import db
+</span></span><span class=line><span class=cl>from models.model import Conversation
+</span></span><span class=line><span class=cl>from models.provider import Provider, ProviderType
+</span></span><span class=line><span class=cl>from models.workflow import WorkflowNodeExecutionStatus
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=k>if</span> TYPE_CHECKING:
+</span></span><span class=line><span class=cl>    from core.file.file_obj import FileVar
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>class ModelInvokeCompleted<span class=o>(</span>BaseModel<span class=o>)</span>:
+</span></span><span class=line><span class=cl>    <span class=se>\&#34;\&#34;\&#34;</span>
+</span></span><span class=line><span class=cl>    Model invoke completed
+</span></span><span class=line><span class=cl>    <span class=se>\&#34;\&#34;\&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    text: str
+</span></span><span class=line><span class=cl>    usage: LLMUsage
+</span></span><span class=line><span class=cl>    finish_reason: Optional<span class=o>[</span>str<span class=o>]</span> <span class=o>=</span> None
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>class LLMNode<span class=o>(</span>BaseNode<span class=o>)</span>:
+</span></span><span class=line><span class=cl>    <span class=nv>_node_data_cls</span> <span class=o>=</span> LLMNodeData
+</span></span><span class=line><span class=cl>    <span class=nv>_node_type</span> <span class=o>=</span> NodeType.LLM
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>    def _run<span class=o>(</span>self<span class=o>)</span> -&gt; Generator<span class=o>[</span>RunEvent <span class=p>|</span> InNodeEvent, None, None<span class=o>]</span>:
+</span></span><span class=line><span class=cl>        <span class=se>\&#34;\&#34;\&#34;</span>
+</span></span><span class=line><span class=cl>        Run node
+</span></span><span class=line><span class=cl>        :return:
+</span></span><span class=line><span class=cl>        <span class=se>\&#34;\&#34;\&#34;</span>
+</span></span><span class=line><span class=cl>        <span class=c1># 打印self.graph_runtime_state</span>
+</span></span><span class=line><span class=cl>        logging.debug<span class=o>(</span>f<span class=s1>&#39;llm graph_runtime_state: {self.graph_runtime_state}&#39;</span><span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=nv>node_data</span> <span class=o>=</span> cast<span class=o>(</span>LLMNodeData, deepcopy<span class=o>(</span>self.node_data<span class=o>))</span>
+</span></span><span class=line><span class=cl>        <span class=nv>variable_pool</span> <span class=o>=</span> self.graph_runtime_state.variable_pool
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        <span class=nv>node_inputs</span> <span class=o>=</span> None
+</span></span><span class=line><span class=cl>        <span class=nv>process_data</span> <span class=o>=</span> None
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>        try:
+</span></span><span class=line><span class=cl>            <span class=c1># init messages template</span>
+</span></span><span class=line><span class=cl>            node_data.prompt_template <span class=o>=</span> self._transform_chat_messages<span class=o>(</span>node_data.prompt_template<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch variables and fetch values from variable pool</span>
+</span></span><span class=line><span class=cl>            <span class=nv>inputs</span> <span class=o>=</span> self._fetch_inputs<span class=o>(</span>node_data, variable_pool<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch jinja2 inputs</span>
+</span></span><span class=line><span class=cl>            <span class=nv>jinja_inputs</span> <span class=o>=</span> self._fetch_jinja_inputs<span class=o>(</span>node_data, variable_pool<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># merge inputs</span>
+</span></span><span class=line><span class=cl>            inputs.update<span class=o>(</span>jinja_inputs<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=nv>node_inputs</span> <span class=o>=</span> <span class=o>{}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch files</span>
+</span></span><span class=line><span class=cl>            <span class=nv>files</span> <span class=o>=</span> self._fetch_files<span class=o>(</span>node_data, variable_pool<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> files:
+</span></span><span class=line><span class=cl>                node_inputs<span class=o>[</span><span class=se>\&#34;</span><span class=c1>#files#\&#34;] = [file if isinstance(file, dict) else file.to_dict() for file in files]</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch context value</span>
+</span></span><span class=line><span class=cl>            <span class=nv>generator</span> <span class=o>=</span> self._fetch_context<span class=o>(</span>node_data, variable_pool<span class=o>)</span>
+</span></span><span class=line><span class=cl>            <span class=nv>context</span> <span class=o>=</span> None
+</span></span><span class=line><span class=cl>            <span class=k>for</span> event in generator:
+</span></span><span class=line><span class=cl>                <span class=k>if</span> isinstance<span class=o>(</span>event, RunRetrieverResourceEvent<span class=o>)</span>:
+</span></span><span class=line><span class=cl>                    <span class=nv>context</span> <span class=o>=</span> event.context
+</span></span><span class=line><span class=cl>                    yield event
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=k>if</span> context:
+</span></span><span class=line><span class=cl>                node_inputs<span class=o>[</span><span class=se>\&#34;</span><span class=c1>#context#\&#34;] = context  # type: ignore</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch model config</span>
+</span></span><span class=line><span class=cl>            model_instance, <span class=nv>model_config</span> <span class=o>=</span> self._fetch_model_config<span class=o>(</span>node_data.model<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch memory</span>
+</span></span><span class=line><span class=cl>            <span class=nv>memory</span> <span class=o>=</span> self._fetch_memory<span class=o>(</span>node_data.memory, variable_pool, model_instance<span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># fetch prompt messages</span>
+</span></span><span class=line><span class=cl>            prompt_messages, <span class=nv>stop</span> <span class=o>=</span> self._fetch_prompt_messages<span class=o>(</span>
+</span></span><span class=line><span class=cl>                <span class=nv>node_data</span><span class=o>=</span>node_data,
+</span></span><span class=line><span class=cl>                <span class=nv>query</span><span class=o>=</span>variable_pool.get_any<span class=o>([</span><span class=se>\&#34;</span>sys<span class=se>\&#34;</span>, SystemVariableKey.QUERY.value<span class=o>])</span> <span class=k>if</span> node_data.memory <span class=k>else</span> None,
+</span></span><span class=line><span class=cl>                <span class=nv>query_prompt_template</span><span class=o>=</span>node_data.memory.query_prompt_template <span class=k>if</span> node_data.memory <span class=k>else</span> None,
+</span></span><span class=line><span class=cl>                <span class=nv>inputs</span><span class=o>=</span>inputs,
+</span></span><span class=line><span class=cl>                <span class=nv>files</span><span class=o>=</span>files,
+</span></span><span class=line><span class=cl>                <span class=nv>context</span><span class=o>=</span>context,
+</span></span><span class=line><span class=cl>                <span class=nv>memory</span><span class=o>=</span>memory,
+</span></span><span class=line><span class=cl>                <span class=nv>model_config</span><span class=o>=</span>model_config,
+</span></span><span class=line><span class=cl>            <span class=o>)</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=nv>process_data</span> <span class=o>=</span> <span class=o>{</span>
+</span></span><span class=line><span class=cl>                <span class=se>\&#34;</span>model_mode<span class=se>\&#34;</span>: model_config.mode,
+</span></span><span class=line><span class=cl>                <span class=se>\&#34;</span>prompts<span class=se>\&#34;</span>: PromptMessageUtil.prompt_messages_to_prompt_for_saving<span class=o>(</span>
+</span></span><span class=line><span class=cl>                    <span class=nv>model_mode</span><span class=o>=</span>model_config.mode, <span class=nv>prompt_messages</span><span class=o>=</span>prompt_messages
+</span></span><span class=line><span class=cl>                <span class=o>)</span>,
+</span></span><span class=line><span class=cl>                <span class=se>\&#34;</span>model_provider<span class=se>\&#34;</span>: model_config.provider,
+</span></span><span class=line><span class=cl>                <span class=se>\&#34;</span>model_name<span class=se>\&#34;</span>: model_config.model,
+</span></span><span class=line><span class=cl>            <span class=o>}</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>            <span class=c1># handle invoke result</span>
+</span></span><span class=line><span class=cl>            <span class=nv>generator</span> <span class=o>=</span> self._invoke_llm<span class=o>(</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=sb>```</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>This is my current file. The selection will be denoted by comments <span class=se>\&#34;</span>Start of Selection<span class=se>\&#34;</span> and <span class=se>\&#34;</span>End of Selection<span class=se>\&#34;</span>:
+</span></span><span class=line><span class=cl><span class=sb>```</span>tools/login.sh
+</span></span><span class=line><span class=cl><span class=c1>#!/bin/bash</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># 需要安装expect</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1># Start of Selection</span>
+</span></span><span class=line><span class=cl><span class=nv>DIR</span><span class=o>=</span><span class=se>\&#34;</span><span class=k>$(</span> <span class=nb>cd</span> -P <span class=se>\&#34;</span><span class=k>$(</span> dirname <span class=se>\&#34;</span><span class=si>${</span><span class=nv>BASH_SOURCE</span><span class=p>[0]</span><span class=si>}</span><span class=se>\&#34;</span> <span class=k>)</span><span class=se>\&#34;</span> <span class=o>&amp;&amp;</span> <span class=nb>pwd</span> <span class=k>)</span><span class=se>\&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>expect <span class=nv>$DIR</span>/<span class=nv>$1</span>
+</span></span><span class=line><span class=cl><span class=c1># End of Selection</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=sb>```</span><span class=s2>&#34;</span></span></span></code></pre></td></tr></table></div></div><h2 id=prompt-user>prompt: user
+<a class=header-anchor href=#prompt-user></a></h2><div class=highlight><div class=chroma><table class=lntable><tr><td class=lntd><pre tabindex=0 class=chroma><code><span class=lnt id=hl-1-1><a class=lnlinks href=#hl-1-1> 1</a>
+</span><span class=lnt id=hl-1-2><a class=lnlinks href=#hl-1-2> 2</a>
+</span><span class=lnt id=hl-1-3><a class=lnlinks href=#hl-1-3> 3</a>
+</span><span class=lnt id=hl-1-4><a class=lnlinks href=#hl-1-4> 4</a>
+</span><span class=lnt id=hl-1-5><a class=lnlinks href=#hl-1-5> 5</a>
+</span><span class=lnt id=hl-1-6><a class=lnlinks href=#hl-1-6> 6</a>
+</span><span class=lnt id=hl-1-7><a class=lnlinks href=#hl-1-7> 7</a>
+</span><span class=lnt id=hl-1-8><a class=lnlinks href=#hl-1-8> 8</a>
+</span><span class=lnt id=hl-1-9><a class=lnlinks href=#hl-1-9> 9</a>
+</span><span class=lnt id=hl-1-10><a class=lnlinks href=#hl-1-10>10</a>
+</span><span class=lnt id=hl-1-11><a class=lnlinks href=#hl-1-11>11</a>
+</span><span class=lnt id=hl-1-12><a class=lnlinks href=#hl-1-12>12</a>
+</span><span class=lnt id=hl-1-13><a class=lnlinks href=#hl-1-13>13</a>
+</span><span class=lnt id=hl-1-14><a class=lnlinks href=#hl-1-14>14</a>
+</span><span class=lnt id=hl-1-15><a class=lnlinks href=#hl-1-15>15</a>
+</span><span class=lnt id=hl-1-16><a class=lnlinks href=#hl-1-16>16</a>
+</span><span class=lnt id=hl-1-17><a class=lnlinks href=#hl-1-17>17</a>
+</span><span class=lnt id=hl-1-18><a class=lnlinks href=#hl-1-18>18</a>
+</span><span class=lnt id=hl-1-19><a class=lnlinks href=#hl-1-19>19</a>
+</span><span class=lnt id=hl-1-20><a class=lnlinks href=#hl-1-20>20</a>
+</span><span class=lnt id=hl-1-21><a class=lnlinks href=#hl-1-21>21</a>
+</span><span class=lnt id=hl-1-22><a class=lnlinks href=#hl-1-22>22</a>
+</span><span class=lnt id=hl-1-23><a class=lnlinks href=#hl-1-23>23</a>
+</span><span class=lnt id=hl-1-24><a class=lnlinks href=#hl-1-24>24</a>
+</span><span class=lnt id=hl-1-25><a class=lnlinks href=#hl-1-25>25</a>
+</span><span class=lnt id=hl-1-26><a class=lnlinks href=#hl-1-26>26</a>
+</span></code></pre></td><td class=lntd><pre tabindex=0 class=chroma><code class=language-gdscript3 data-lang=gdscript3><span class=line><span class=cl><span class=n>Please</span> <span class=n>rewrite</span> <span class=n>this</span> <span class=n>selection</span> <span class=n>following</span> <span class=n>these</span> <span class=n>instructions</span><span class=p>:</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>## Edit Prompt</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=err>添加备注</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=c1>## Selection to Rewrite</span>
+</span></span><span class=line><span class=cl><span class=err>```</span><span class=n>tools</span><span class=o>/</span><span class=n>login</span><span class=o>.</span><span class=n>sh</span>
+</span></span><span class=line><span class=cl><span class=c1># Start of Selection</span>
+</span></span><span class=line><span class=cl><span class=n>DIR</span><span class=o>=</span>\<span class=s2>&#34;$( cd -P </span><span class=se>\&#34;</span><span class=s2>$( dirname </span><span class=se>\&#34;</span><span class=s2>${BASH_SOURCE[0]}</span><span class=se>\&#34;</span><span class=s2> )</span><span class=se>\&#34;</span><span class=s2> &amp;&amp; pwd )</span><span class=se>\&#34;</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>expect</span> <span class=o>$</span><span class=n>DIR</span><span class=o>/$</span><span class=mi>1</span>
+</span></span><span class=line><span class=cl><span class=c1># End of Selection</span>
+</span></span><span class=line><span class=cl><span class=err>```</span>
+</span></span><span class=line><span class=cl><span class=n>Please</span> <span class=n>rewrite</span> <span class=n>the</span> <span class=n>selected</span> <span class=n>code</span> <span class=n>according</span> <span class=n>to</span> <span class=n>the</span> <span class=n>instructions</span><span class=o>.</span> <span class=n>Remember</span> <span class=n>to</span> <span class=n>only</span> <span class=n>rewrite</span> <span class=n>the</span> <span class=n>code</span> <span class=ow>in</span> <span class=n>the</span> <span class=n>selection</span><span class=o>.</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>Please</span> <span class=n>format</span> <span class=n>your</span> <span class=n>output</span> <span class=n>as</span><span class=p>:</span>
+</span></span><span class=line><span class=cl><span class=err>```</span>
+</span></span><span class=line><span class=cl><span class=c1># Start of Selection</span>
+</span></span><span class=line><span class=cl><span class=c1># INSERT_YOUR_REWRITE_HERE</span>
+</span></span><span class=line><span class=cl><span class=c1># End of Selection</span>
+</span></span><span class=line><span class=cl><span class=err>```</span>
+</span></span><span class=line><span class=cl>
+</span></span><span class=line><span class=cl><span class=n>Immediately</span> <span class=n>start</span> <span class=n>your</span> <span class=n>response</span> <span class=n>with</span> <span class=err>```</span></span></span></code></pre></td></tr></table></div></div><a id=more></a></div><footer class=post-footer><div class=post-share-tools><div class=post-share-loading><i class="fa-solid fa-ellipsis fa-spin"></i></div><div class="a2a_kit a2a_kit_size_32 a2a_default_style"><a class=a2a_dd href=https://www.addtoany.com/share></a><a class=a2a_button_wechat></a><a class=a2a_button_qzone></a><a class=a2a_button_sina_weibo></a><a class=a2a_button_douban></a><a class=a2a_button_facebook></a><a class=a2a_button_x></a><a class=a2a_button_email></a><a class=a2a_button_printfriendly></a></div></div><hr><div class=reward-container><div><i class="fa-solid fa-mug-hot"></i>请我喝杯咖啡吧 ヾ(^▽^*)))</div><button>
+赞赏</button><div class=post-reward><div class=post-reward-item><img src=/imgs/img-lazy-loading.gif data-src=/imgs/ali-pay.png alt="NexT 主题 - 支付宝">
+<span>支付宝</span></div><div class=post-reward-item><img src=/imgs/img-lazy-loading.gif data-src=/imgs/wechat-pay.png alt="NexT 主题 - 微信">
+<span>微信</span></div></div></div><div class=post-copyright><img src=/imgs/cc/cc.svg width=75 height=75 align=right alt=共享知识><ul><li class=post-copyright-title><strong>文章标题：</strong></li><li class=post-copyright-author><strong>本文作者： </strong>NexT 主题</li><li class=post-copyright-link><strong>本文链接：</strong>
+<a id=post-cr-link href=http://weirwei.cn/_draft/prompt/learn/cursor/ title>http://weirwei.cn/_draft/prompt/learn/cursor/</a></li><li class=post-copyright-license><strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <i class="fab fa-fw fa-creative-commons"></i><a target=_blank href=https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh>BY-NC-SA</a> 许可协议。转载请注明出处！</li></ul></div><div class=followme><span>欢迎关注我的其它发布渠道</span><div class=social-list><div class=social-item><a target=_blank class=social-link href=/images/wechat_channel.jpg><span class=icon><i class="fab fa-weixin"></i>
+</span><span class=label>WeChat</span></a></div><div class=social-item><a target=_blank class=social-link href=/atom.xml><span class=icon><i class="fa fa-rss"></i>
+</span><span class=label>RSS</span></a></div></div></div><div class=post-nav><div class="post-nav-next post-nav-item"><a href=/_draft/prompt/learn/bolt.new/ rel=next title><i class="fa fa-chevron-left"></i></a></div><div class="post-nav-prev post-nav-item"><a href=/_draft/prompt/learn/gpt-code-review/ rel=prev title><i class="fa fa-chevron-right"></i></a></div></div></footer></article></div></div></main><footer class=footer><div class=footer-inner><div id=i18n-translate class=i18n-translate><i class="fa fa-language"></i><div id=lang-select class=lang-select><div id=lang-selected class=selected-option><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=selected-language>简体中文</span>
+<i class="fa fa-chevron-down"></i></div><div id=lang-options class=lang-options><div class=lang-option lang-code=zh-cn lang-name=简体中文 lang-url=/_draft/prompt/learn/cursor/><span class="flag-icon flag-icon-zh-cn"></span>
+<span class=lang-name>简体中文</span></div></div></div></div><div class=copyright>&copy;
+<span itemprop=copyrightYear>2010 - 2025
+</span><span class=with-love><i class="fa fa-heart"></i>
+</span><span class=author itemprop=copyrightHolder>NexT 主题</span></div><div class=powered-by>由 <a href=https://gohugo.io title=0.140.1 target=_blank>Hugo</a> & <a href=https://github.com/hugo-next/hugo-theme-next title=4.7.2 target=_blank>Hugo NexT.Gemini</a> 强力驱动</div><div class=beian><a href=https://beian.miit.gov.cn target=_blank>京ICP备2025108128号-1</a>
+<img src=/imgs/gongan.png alt=京公网安备>
+<a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=0" target=_blank>京公网安备 0 号</a></div><div class=custom-footer>Website source code <a href=https://github.com/hugo-next/hugo-theme-next/blob/develop/exampleSite/layouts/partials/custom_footer.html target=_blank>here</a></div></div></footer><script class=next-config data-name=page type=application/json>{"clipboard":{"js":{"file":"dist/clipboard.min.js","name":"clipboard","version":"2.0.11"}},"comments":false,"expired":false,"isHome":false,"isPage":true,"path":"cursor","permalink":"http://weirwei.cn/_draft/prompt/learn/cursor/","title":"","toc":true,"waline":{"commentcnt":{"alias":"@waline/client","alias_name":"waline","file":"dist/comment.js","name":"comment","version":"2.15.8"}}}</script><script type=text/javascript src=http://weirwei.cn/js/3rd/animejs/3.2.2/anime.min.js crossorigin=anonymous defer></script><script type=text/javascript src=http://weirwei.cn/js/3rd/viewerjs/1.11.6/viewer.min.js crossorigin=anonymous defer></script><script class=next-config data-name=main type=application/json>{"bookmark":{"color":"#222","enable":true,"save":"manual"},"copybtn":true,"darkmode":true,"giscus":{"cfg":{"category":"Comments","categoryid":null,"emit":false,"inputposition":"top","mapping":"title","reactions":false,"repo":"username/repo-name","repoid":null,"theme":"preferred_color_scheme"},"js":"https://giscus.app/client.js"},"hostname":"http://weirwei.cn/","i18n":{"ds_day":" 天前","ds_days":" 天 ","ds_hour":" 小时前","ds_hours":" 小时 ","ds_just":"刚刚","ds_min":" 分钟前","ds_mins":" 分钟","ds_month":" 个月前","ds_years":" 年 ","empty":"没有找到任何搜索结果：${query}","hits":"找到 ${hits} 个搜索结果","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","placeholder":"搜索..."},"isMultiLang":true,"lang":"zh-CN","lazyload":false,"localSearch":{"enable":true,"limit":1e3,"path":"/searchindexes.xml","preload":false,"topnperarticle":-1,"trigger":"auto","unescape":false},"motion":{"async":true,"enable":true,"transition":{"collheader":"slideInRight","postblock":"fadeIn","postbody":"fadeInDown","postheader":"fadeInDown","sidebar":"fadeInUp"}},"postmeta":{"comments":{"enable":true,"plugin":"waline"},"views":{"enable":true,"plugin":"busuanzi"}},"root":"/","scheme":"Gemini","share":{"addtoany":{"js":"https://static.addtoany.com/menu/page.js","locale":"zh-CN","num":8},"enable":true},"sidebar":{"display":"post","offset":12,"padding":18,"position":"left","width":256},"vendor":{"plugins":"local","router":{"name":"local","type":"modern","url":"http://weirwei.cn/js/3rd"}},"version":"4.7.2","waline":{"cfg":{"emoji":false,"imguploader":false,"placeholder":"请文明发言哟 ヾ(≧▽≦*)o","reaction":true,"reactiontext":["点赞","踩一下","得意","不屑","尴尬","睡觉"],"reactiontitle":"你认为这篇文章怎么样？","requiredmeta":["nick","mail"],"serverurl":null,"sofa":"快来发表你的意见吧 (≧∀≦)ゞ","wordlimit":200},"css":{"alias":"@waline/client","file":"dist/waline.css","name":"waline","version":"2.15.8"},"js":{"alias":"@waline/client","file":"dist/waline.js","name":"waline","version":"2.15.8"}}}</script><script type=text/javascript src="/js/main.min.js?=1739010985" defer></script><script type=text/javascript src="/js/clipboard.min.js?=1739010985" defer></script></body></html>

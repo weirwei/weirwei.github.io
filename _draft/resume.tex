@@ -1,0 +1,129 @@
+\documentclass{resume}
+\usepackage{zh_CN-Adobefonts_external}
+\usepackage{linespacing_fix}
+\usepackage{cite}
+\begin{document}
+\pagenumbering{gobble}
+
+
+
+%***"%"后面的所有内容是注释而非代码，不会输出到最后的PDF中
+%***使用本模板，只需要参照输出的PDF，在本文档的相应位置做简单替换即可
+%***修改之后，输出更新后的PDF，只需要点击Overleaf中的“Recompile”按钮即可
+%**********************************姓名********************************************
+\name{魏煜昊}
+%**********************************联系信息****************************************
+%第一个括号里写手机号，第二个写邮箱
+\otherInfo{年龄：25岁}{}{}{}
+\otherInfo{手机：13136204665}{邮箱：weirwei@qq.com}{}{}
+\otherInfo{个人网站：https://bolg.weirwei.com}{}{}{}
+%**********************************其他信息****************************************
+%在大括号内填写其他信息，最多填写4个，但是如果选择不填信息，
+%那么大括号必须空着不写，而不能删除大括号。
+%\otherInfo后面的四个大括号里的所有信息都会在一行输出
+%如果想要写两行，那就用两次这个指令（\otherInfo{}{}{}{}）即可
+
+%*********************************照片**********************************************
+%照片需要放到images文件夹下，名字必须是you.jpg，如果不需要照片可以不添加此行命令
+%0.15的意思是，照片的宽度是页面宽度的0.15倍，调整大小，避免遮挡文字
+\yourphoto{0.15}
+%**********************************正文**********************************************
+
+
+%***大标题，下面有横线做分割
+%***一般的标题有：教育背景，实习（项目）经历，工作经历，自我评价，求职意向，等等
+
+%***********一行子标题**************
+%***第一个大括号里的内容向左对齐，第二个大括号里的内容向右对齐
+%***\textbf{}括号里的字是粗体，\textit{}括号里的字是斜体
+
+\section{工作及教育经历}
+
+\datedsubsection{\textbf{作业帮} - 后端工程师}{2021.07 - 至今}
+\datedsubsection{\textbf{腾讯} - 后端工程师}{2020.07 - 2020.09}
+\datedsubsection{\textbf{陕西科技大学} - 计算机科学与技术专业 - 本科}{2017.09 - 2021.06}
+
+\section{项目经历}
+
+
+\datedsubsection{\textbf{基于AIGC的写作APP}}{2023.04 - 至今}
+\textbf{简述}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 将公司的作文资源和大模型结构，根据用户意图生产优质文章。并构建一个以写作和AI为主题的助手应用。
+  \item 包含写作、社区、聊天助手、作文库等功能。
+\end{enumerate}
+
+\textbf{经历}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 参与项目初版构建，是项目的主要负责人之一。
+  \item 设计并开发AI写作功能。本产品的核心功能。完成和大模型的对接，使用 event-stream 的方式进行内容输出，编写了 event-stream 收发数据的基础组件。
+  \item 设计并开发写作聊天助手功能。拓展产品功能，增加亮点。实现自有模板和大模型的多场景配合，使聊天功能更具可玩性。同时完成了多个大模型的容灾切换，保证功能的稳定。
+  \item 参与项目合规建设。对接公司合规中台，对产品的用户输入入口和大模型的输出出口进行合规校验。包括实时机审逻辑和异步回调逻辑，回调单接口qps高达1400。该功能是产品存活的前提。
+  \item 完成上亿级别数据分表及迁移的方案设计，缓解数据库读写压力，提高服务承载量。
+  \item 参与社区功能的设计和开发。低成本完成了建议的首页推荐功能，适应产品的高速迭代。
+  \item 该产品从0开始已经历8个月，本人全程参与，目前已达 70W DAU。
+\end{enumerate}
+
+\textbf{技术栈}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 组件：MySQL、stored（公司自研，和redis一致）、cos、es、rocketMQ
+  \item 语言和框架：golang、gin
+\end{enumerate}
+
+
+\datedsubsection{\textbf{一站式课后服务数字化高效管理平台}}{2021.12 - 2023.04}
+\textbf{简述}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 提供多个场景的复杂后台服务。涉及学校教务端、第三方机构端、政府教育局端。
+  \item 实现了学校的课程管理，涉及：学校、学期、老师、学生、课程、教室、课表等全方位管理。
+  \item 实现了智能排课服务，利用遗传算法进行排课，支持一键生成课表。
+  \item 提供家长小程序端便于家长购买课程和教材教具。
+\end{enumerate}
+
+\textbf{经历}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 负责智能排课服务的设计和开发，利用遗传算法进行排课，支持一键生成课表，简化了用户繁琐的排课步骤。
+  \item 参与智能排课服务的性能优化。将排课耗时优化到分钟级别，并优化了内存，提高系统承载量。
+  \item 负责小程序商品列表的性能优化，数据库查询优化，提升了1//3的qps。
+  \item 负责售卖系统的开发和迭代，熟悉下单、履约、退款等场景。
+  \item 负责排课方案的重构。梳理排课模型之间的关系，重构数据模型。
+\end{enumerate}
+
+\textbf{技术栈}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 组件：MySQL、stored（公司自研，和redis一致）、cos、tidb、rocketMQ
+  \item 语言和框架：golang、gin
+\end{enumerate}
+
+\datedsubsection{\textbf{少儿益智游戏项目}}{2021.07 - 2021.12}
+\textbf{简述}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 学龄儿童学习识字闯关游戏。
+\end{enumerate}
+
+\textbf{经历}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 负责需求承接以及所有服务端系统的设计、开发、重构。
+  \item 负责售卖系统的设计和开发，实现VIP功能，对接售卖中台。
+\end{enumerate}
+
+\textbf{技术栈}：
+\begin{enumerate}[parsep=0.5ex]
+  \item 组件：MySQL、stored（公司自研，和redis一致）、cos、rocketMQ
+  \item 语言和框架：golang、gin
+\end{enumerate}
+
+\section{专业技能}
+
+\begin{itemize}[parsep=0.5ex]
+  \item 熟练使用go语言进行程序设计和开发，能够使用pprof 对go程序进行性能分析
+  \item 掌握基础数据结构和算法的基本原理
+  \item 熟悉MySQL，能够快速根据需求完成高性能数据库设计
+  \item 熟悉redis 的基础数据结构及其使用场景
+  \item 了解rocketMQ的使用和基本原理
+  \item 了解leveldb 的基础结构
+  \item 有 es 的使用经验
+\end{itemize}
+
+
+\end{document}
