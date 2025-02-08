@@ -1,9 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practicals on 浩雨未倾</title><link>http://weirwei.cn/practical/</link><description>Recent content in Practicals on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 30 Oct 2024 17:12:59 +0800</lastBuildDate><atom:link href="http://weirwei.cn/practical/rss.xml" rel="self" type="application/rss+xml"/><item><title>goland to vscode</title><link>http://weirwei.cn/practical/goland_to_vscode/</link><pubDate>Wed, 16 Oct 2024 20:57:26 +0800</pubDate><guid>http://weirwei.cn/practical/goland_to_vscode/</guid><description>&lt;blockquote>
-&lt;p>有时候开发的时候用不止用一种语言，goland 的优势就不是很大了，恰到周围有很多同事也在用 vscode 开发 go，就想迁移试试。&lt;/p>
-&lt;/blockquote></description></item><item><title>Golang 的 docker 部署流程</title><link>http://weirwei.cn/practical/docker_deploy_golang/</link><pubDate>Fri, 26 Jul 2024 15:35:20 +0800</pubDate><guid>http://weirwei.cn/practical/docker_deploy_golang/</guid><description>&lt;blockquote>
-&lt;p>想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。&lt;/p>
-&lt;/blockquote></description></item><item><title>grafana 监控搭建</title><link>http://weirwei.cn/practical/grafana_deploy/</link><pubDate>Wed, 19 Jun 2024 15:29:01 +0800</pubDate><guid>http://weirwei.cn/practical/grafana_deploy/</guid><description>&lt;blockquote>
-&lt;p>需要搭建业务监控，趁机学习一下 grafana 相关的知识。
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Practicals on 浩雨未倾</title><link>https://weirwei.cn/practical/</link><description>Recent content in Practicals on 浩雨未倾</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 30 Oct 2024 17:12:59 +0800</lastBuildDate><atom:link href="https://weirwei.cn/practical/rss.xml" rel="self" type="application/rss+xml"/><item><title>goland to vscode</title><link>https://weirwei.cn/practical/goland_to_vscode/</link><pubDate>Wed, 16 Oct 2024 20:57:26 +0800</pubDate><guid>https://weirwei.cn/practical/goland_to_vscode/</guid><description>&lt;blockquote>
+ &lt;p>有时候开发的时候用不止用一种语言，goland 的优势就不是很大了，恰到周围有很多同事也在用 vscode 开发 go，就想迁移试试。&lt;/p>
+
+ &lt;/blockquote></description></item><item><title>Golang 的 docker 部署流程</title><link>https://weirwei.cn/practical/docker_deploy_golang/</link><pubDate>Fri, 26 Jul 2024 15:35:20 +0800</pubDate><guid>https://weirwei.cn/practical/docker_deploy_golang/</guid><description>&lt;blockquote>
+ &lt;p>想自己搞个项目玩玩，记录一下 golang 在 docker 的部署流程。&lt;/p>
+
+ &lt;/blockquote></description></item><item><title>grafana 监控搭建</title><link>https://weirwei.cn/practical/grafana_deploy/</link><pubDate>Wed, 19 Jun 2024 15:29:01 +0800</pubDate><guid>https://weirwei.cn/practical/grafana_deploy/</guid><description>&lt;blockquote>
+ &lt;p>需要搭建业务监控，趁机学习一下 grafana 相关的知识。
 本文基于实际应用，辅以简单理论。
 参考资料：
 
@@ -20,59 +22,115 @@
  &lt;i class="fa fa-external-link-alt">&lt;/i>
  
 &lt;/a>&lt;/p>
-&lt;/blockquote></description></item><item><title>Gemini 实战</title><link>http://weirwei.cn/practical/get_start_gemini/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>http://weirwei.cn/practical/get_start_gemini/</guid><description>&lt;blockquote>
-&lt;p>谷歌的 Gemini 已对外开放，虽然完全比不上他宣传的那么叼，但不妨碍我们尝试把玩。
+
+ &lt;/blockquote></description></item><item><title>Gemini 实战</title><link>https://weirwei.cn/practical/get_start_gemini/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>https://weirwei.cn/practical/get_start_gemini/</guid><description>&lt;blockquote>
+ &lt;p>谷歌的 Gemini 已对外开放，虽然完全比不上他宣传的那么叼，但不妨碍我们尝试把玩。
 本文的目的是能够在本地调通 Gemini 的 api 接口&lt;/p>
-&lt;/blockquote></description></item><item><title>换机记录</title><link>http://weirwei.cn/practical/change_machine/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>http://weirwei.cn/practical/change_machine/</guid><description>&lt;blockquote>
-&lt;p>要换主力机，记录一下换机过程。因为想对自己的电脑掌控度高一点，因此选择重新配置，没有使用苹果的数据导入功能。&lt;/p>
-&lt;/blockquote></description></item><item><title>go 结构体包含接口成员进行反序列化</title><link>http://weirwei.cn/practical/go_struct_contains_interface/</link><pubDate>Wed, 18 Oct 2023 18:45:00 +0800</pubDate><guid>http://weirwei.cn/practical/go_struct_contains_interface/</guid><description>&lt;blockquote>
-&lt;p>工作中遇到一个问题，结构体包含接口类型的成员时，在反序列化的时候会报错。&lt;/p>
-&lt;/blockquote>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-golang" data-lang="golang">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">// Task 接口类型
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">type&lt;/span> Task &lt;span style="color:#8be9fd;font-style:italic">interface&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#50fa7b">Exec&lt;/span>() &lt;span style="color:#8be9fd">error&lt;/span>
+
+ &lt;/blockquote></description></item><item><title>换机记录</title><link>https://weirwei.cn/practical/change_machine/</link><pubDate>Tue, 02 Jan 2024 12:00:00 +0800</pubDate><guid>https://weirwei.cn/practical/change_machine/</guid><description>&lt;blockquote>
+ &lt;p>要换主力机，记录一下换机过程。因为想对自己的电脑掌控度高一点，因此选择重新配置，没有使用苹果的数据导入功能。&lt;/p>
+
+ &lt;/blockquote></description></item><item><title>go 结构体包含接口成员进行反序列化</title><link>https://weirwei.cn/practical/go_struct_contains_interface/</link><pubDate>Wed, 18 Oct 2023 18:45:00 +0800</pubDate><guid>https://weirwei.cn/practical/go_struct_contains_interface/</guid><description>&lt;blockquote>
+ &lt;p>工作中遇到一个问题，结构体包含接口类型的成员时，在反序列化的时候会报错。&lt;/p>
+
+ &lt;/blockquote>
+
+&lt;div class="highlight">&lt;div style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 7
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 8
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59"> 9
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">10
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">11
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">12
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">13
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">14
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">15
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">16
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">17
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">18
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">19
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">20
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">21
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">22
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">23
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">24
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">25
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">26
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">27
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">28
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">29
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">30
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-golang" data-lang="golang">&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// Task 接口类型
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>&lt;span style="color:#fe8019">type&lt;/span> Task &lt;span style="color:#fe8019">interface&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fabd2f">Exec&lt;/span>() &lt;span style="color:#fabd2f">error&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">// TaskA Task接口的实现类A
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">type&lt;/span> TaskA &lt;span style="color:#8be9fd;font-style:italic">struct&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> A &lt;span style="color:#8be9fd">string&lt;/span> &lt;span style="color:#f1fa8c">`json:&amp;#34;a&amp;#34;`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// TaskA Task接口的实现类A
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>&lt;span style="color:#fe8019">type&lt;/span> TaskA &lt;span style="color:#fe8019">struct&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> A &lt;span style="color:#fabd2f">string&lt;/span> &lt;span style="color:#b8bb26">`json:&amp;#34;a&amp;#34;`&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> (ta &lt;span style="color:#ff79c6">*&lt;/span>TaskA) &lt;span style="color:#50fa7b">Exec&lt;/span>() &lt;span style="color:#8be9fd">error&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> fmt.&lt;span style="color:#50fa7b">Println&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;TaskA Exec&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#ff79c6">nil&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">func&lt;/span> (ta &lt;span style="color:#fe8019">*&lt;/span>TaskA) &lt;span style="color:#fabd2f">Exec&lt;/span>() &lt;span style="color:#fabd2f">error&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> fmt.&lt;span style="color:#fabd2f">Println&lt;/span>(&lt;span style="color:#b8bb26">&amp;#34;TaskA Exec&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">return&lt;/span> &lt;span style="color:#fe8019">nil&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">// TaskB Task接口的实现类B
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">type&lt;/span> TaskB &lt;span style="color:#8be9fd;font-style:italic">struct&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> B &lt;span style="color:#8be9fd">string&lt;/span> &lt;span style="color:#f1fa8c">`json:&amp;#34;b&amp;#34;`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// TaskB Task接口的实现类B
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>&lt;span style="color:#fe8019">type&lt;/span> TaskB &lt;span style="color:#fe8019">struct&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> B &lt;span style="color:#fabd2f">string&lt;/span> &lt;span style="color:#b8bb26">`json:&amp;#34;b&amp;#34;`&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#8be9fd;font-style:italic">func&lt;/span> (tb &lt;span style="color:#ff79c6">*&lt;/span>TaskB) &lt;span style="color:#50fa7b">Exec&lt;/span>() &lt;span style="color:#8be9fd">error&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> fmt.&lt;span style="color:#50fa7b">Println&lt;/span>(&lt;span style="color:#f1fa8c">&amp;#34;TaskB Exec&amp;#34;&lt;/span>)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> &lt;span style="color:#ff79c6">nil&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">func&lt;/span> (tb &lt;span style="color:#fe8019">*&lt;/span>TaskB) &lt;span style="color:#fabd2f">Exec&lt;/span>() &lt;span style="color:#fabd2f">error&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> fmt.&lt;span style="color:#fabd2f">Println&lt;/span>(&lt;span style="color:#b8bb26">&amp;#34;TaskB Exec&amp;#34;&lt;/span>)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">return&lt;/span> &lt;span style="color:#fe8019">nil&lt;/span>
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">// MixedStruct 反序列化目标结构体
-&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#6272a4">&lt;/span>&lt;span style="color:#8be9fd;font-style:italic">type&lt;/span> MixedStruct &lt;span style="color:#8be9fd;font-style:italic">struct&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Id &lt;span style="color:#8be9fd">uint64&lt;/span> &lt;span style="color:#f1fa8c">`json:&amp;#34;id&amp;#34;`&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Task Task &lt;span style="color:#f1fa8c">`json:&amp;#34;task&amp;#34;`&lt;/span>
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>MySQL where 范围查询和 order by 关键字无法同时命中索引</title><link>http://weirwei.cn/practical/index_in_orderby/</link><pubDate>Wed, 27 Sep 2023 15:18:00 +0800</pubDate><guid>http://weirwei.cn/practical/index_in_orderby/</guid><description>&lt;blockquote>
-&lt;p>开发中，使用 in 和 order by 的时候，发现无法同时命中索引。&lt;/p>
-&lt;/blockquote>
-&lt;p>使用 &lt;code>IN&lt;/code> 运算符来过滤行时，&lt;code>MySQL&lt;/code> 会先使用索引来定位表中的行，并将这些行的所有数据读入内存中。随后，&lt;code>MySQL&lt;/code> 会根据查询语句中的 &lt;code>ORDER BY&lt;/code> 子句对这些数据进行排序。&lt;/p></description></item><item><title>Gorm 的黑魔法</title><link>http://weirwei.cn/practical/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>http://weirwei.cn/practical/gorm_black_magic/</guid><description>&lt;blockquote>
-&lt;p>小伙看到同事写的Gorm黑魔法，逐渐不淡定了。&lt;/p>
-&lt;/blockquote>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">// MixedStruct 反序列化目标结构体
+&lt;/span>&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#928374;font-style:italic">&lt;/span>&lt;span style="color:#fe8019">type&lt;/span> MixedStruct &lt;span style="color:#fe8019">struct&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Id &lt;span style="color:#fabd2f">uint64&lt;/span> &lt;span style="color:#b8bb26">`json:&amp;#34;id&amp;#34;`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> Task Task &lt;span style="color:#b8bb26">`json:&amp;#34;task&amp;#34;`&lt;/span>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>MySQL where 范围查询和 order by 关键字无法同时命中索引</title><link>https://weirwei.cn/practical/index_in_orderby/</link><pubDate>Wed, 27 Sep 2023 15:18:00 +0800</pubDate><guid>https://weirwei.cn/practical/index_in_orderby/</guid><description>&lt;blockquote>
+ &lt;p>开发中，使用 in 和 order by 的时候，发现无法同时命中索引。&lt;/p>
+
+ &lt;/blockquote>
+&lt;p>使用 &lt;code>IN&lt;/code> 运算符来过滤行时，&lt;code>MySQL&lt;/code> 会先使用索引来定位表中的行，并将这些行的所有数据读入内存中。随后，&lt;code>MySQL&lt;/code> 会根据查询语句中的 &lt;code>ORDER BY&lt;/code> 子句对这些数据进行排序。&lt;/p></description></item><item><title>Gorm 的黑魔法</title><link>https://weirwei.cn/practical/gorm_black_magic/</link><pubDate>Wed, 27 Sep 2023 15:10:00 +0800</pubDate><guid>https://weirwei.cn/practical/gorm_black_magic/</guid><description>&lt;blockquote>
+ &lt;p>小伙看到同事写的Gorm黑魔法，逐渐不淡定了。&lt;/p>
+
+ &lt;/blockquote>
 &lt;p>开发过程中，看到同事的代码写了这么一段：&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#282a36;-moz-tab-size:2;-o-tab-size:2;tab-size:2;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>db = db.&lt;span style="color:#50fa7b">Session&lt;/span>(&lt;span style="color:#ff79c6">&amp;amp;&lt;/span>gorm.Session{Context: db.Statement.Context}).&lt;span style="color:#50fa7b">FirstOrCreate&lt;/span>(&lt;span style="color:#ff79c6">&amp;amp;&lt;/span>entity)
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">if&lt;/span> db.Error &lt;span style="color:#ff79c6">!=&lt;/span>&lt;span style="color:#ff79c6">nil&lt;/span>{
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> components.ErrorDbInsert.&lt;span style="color:#50fa7b">WrapPrintf&lt;/span>(db.Error, &lt;span style="color:#f1fa8c">&amp;#34;Insert error, entity:%s&amp;#34;&lt;/span>, utils.&lt;span style="color:#50fa7b">ToJson&lt;/span>(entity))
+
+&lt;div class="highlight">&lt;div style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">
+&lt;table style="border-spacing:0;padding:0;margin:0;border:0;">&lt;tr>&lt;td style="vertical-align:top;padding:0;margin:0;border:0;">
+&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">1
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">2
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">3
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">4
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">5
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">6
+&lt;/span>&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#756d59">7
+&lt;/span>&lt;/code>&lt;/pre>&lt;/td>
+&lt;td style="vertical-align:top;padding:0;margin:0;border:0;;width:100%">
+&lt;pre tabindex="0" style="color:#ebdbb2;background-color:#282828;-moz-tab-size:4;-o-tab-size:4;tab-size:4;">&lt;code class="language-go" data-lang="go">&lt;span style="display:flex;">&lt;span>db = db.&lt;span style="color:#fabd2f">Session&lt;/span>(&lt;span style="color:#fe8019">&amp;amp;&lt;/span>gorm.Session{Context: db.Statement.Context}).&lt;span style="color:#fabd2f">FirstOrCreate&lt;/span>(&lt;span style="color:#fe8019">&amp;amp;&lt;/span>entity)
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">if&lt;/span> db.Error &lt;span style="color:#fe8019">!=&lt;/span>&lt;span style="color:#fe8019">nil&lt;/span>{
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">return&lt;/span> components.ErrorDbInsert.&lt;span style="color:#fabd2f">WrapPrintf&lt;/span>(db.Error, &lt;span style="color:#b8bb26">&amp;#34;Insert error, entity:%s&amp;#34;&lt;/span>, utils.&lt;span style="color:#fabd2f">ToJson&lt;/span>(entity))
 &lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#ff79c6">if&lt;/span> db.RowsAffected &lt;span style="color:#ff79c6">==&lt;/span> &lt;span style="color:#bd93f9">0&lt;/span> {
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#ff79c6">return&lt;/span> components.ErrorAlreadyExist
-&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title>go test 的内联问题</title><link>http://weirwei.cn/practical/inlining/</link><pubDate>Wed, 27 Sep 2023 11:00:00 +0800</pubDate><guid>http://weirwei.cn/practical/inlining/</guid><description>&lt;blockquote>
-&lt;p>使用&lt;code>monkey&lt;/code>对函数进行打桩单测的时候，发现打桩函数没有生效。&lt;/p>
-&lt;/blockquote>
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>&lt;span style="color:#fe8019">if&lt;/span> db.RowsAffected &lt;span style="color:#fe8019">==&lt;/span> &lt;span style="color:#d3869b">0&lt;/span> {
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span> &lt;span style="color:#fe8019">return&lt;/span> components.ErrorAlreadyExist
+&lt;/span>&lt;/span>&lt;span style="display:flex;">&lt;span>}&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;/div>
+&lt;/div></description></item><item><title>go test 的内联问题</title><link>https://weirwei.cn/practical/inlining/</link><pubDate>Wed, 27 Sep 2023 11:00:00 +0800</pubDate><guid>https://weirwei.cn/practical/inlining/</guid><description>&lt;blockquote>
+ &lt;p>使用&lt;code>monkey&lt;/code>对函数进行打桩单测的时候，发现打桩函数没有生效。&lt;/p>
+
+ &lt;/blockquote>
 &lt;p>习惯直接使用IDE的可视化的&lt;code>run&lt;/code>和&lt;code>debug&lt;/code>功能进行跑单测，没有关注到具体执行的命令。&lt;/p></description></item></channel></rss>
